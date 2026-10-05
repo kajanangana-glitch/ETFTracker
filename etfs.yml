@@ -1,0 +1,39 @@
+# ETF watchlist — edit freely. Each ETF needs a ticker, a display name,
+# and a news query (what to search Google News for besides the ticker).
+groups:
+  Countries:
+    - { ticker: EWJ,  name: "Japan",          query: "Japan stock market economy" }
+    - { ticker: MCHI, name: "China",          query: "China stocks economy tariffs" }
+    - { ticker: INDA, name: "India",          query: "India stock market economy" }
+    - { ticker: EWG,  name: "Germany",        query: "Germany economy DAX" }
+    - { ticker: EWU,  name: "United Kingdom", query: "UK economy FTSE" }
+    - { ticker: EWZ,  name: "Brazil",         query: "Brazil economy stocks" }
+    - { ticker: EWY,  name: "South Korea",    query: "South Korea stocks KOSPI" }
+    - { ticker: EWT,  name: "Taiwan",         query: "Taiwan stocks semiconductors" }
+    - { ticker: EWC,  name: "Canada",         query: "Canada economy TSX" }
+    - { ticker: EWW,  name: "Mexico",         query: "Mexico economy peso stocks" }
+  Regions:
+    - { ticker: VGK,  name: "Europe",                query: "European stocks ECB economy" }
+    - { ticker: EFA,  name: "Developed ex-US",       query: "international developed markets stocks" }
+    - { ticker: EEM,  name: "Emerging Markets",      query: "emerging markets stocks" }
+    - { ticker: AAXJ, name: "Asia ex-Japan",         query: "Asia stock markets" }
+    - { ticker: ILF,  name: "Latin America",         query: "Latin America markets economy" }
+  Sectors:
+    - { ticker: XLK,  name: "Technology",       query: "technology stocks sector" }
+    - { ticker: XLF,  name: "Financials",       query: "bank stocks financial sector" }
+    - { ticker: XLE,  name: "Energy",           query: "oil prices energy stocks OPEC" }
+    - { ticker: XLV,  name: "Health Care",      query: "healthcare stocks drug pricing" }
+    - { ticker: XLY,  name: "Consumer Discr.",  query: "consumer spending retail stocks" }
+    - { ticker: XLP,  name: "Consumer Staples", query: "consumer staples stocks" }
+    - { ticker: XLI,  name: "Industrials",      query: "industrial stocks manufacturing" }
+    - { ticker: XLB,  name: "Materials",        query: "materials stocks commodities" }
+    - { ticker: XLU,  name: "Utilities",        query: "utilities stocks power demand" }
+    - { ticker: XLRE, name: "Real Estate",      query: "real estate REIT stocks" }
+    - { ticker: XLC,  name: "Communication",    query: "communication services stocks" }
+
+# Upcoming macro / political events shown in the "Upcoming" panel.
+# Past dates are hidden automatically — add your own (elections, central banks, summits).
+events:
+  - { date: 2026-10-28, title: "FOMC rate decision (US Fed)", tags: [US, Rates] }
+  - { date: 2026-12-09, title: "FOMC rate decision + projections (US Fed)", tags: [US, Rates] }
+  - { date: 2026-11-03, title: "US midterm elections", tags: [US, Politics] }
