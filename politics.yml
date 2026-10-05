@@ -1,0 +1,155 @@
+# Political events that can move the ETFs you track.
+#
+# For each event the data script:
+#   - overlays this cycle's ETF price path on past election cycles (aligned to election day)
+#   - charts polls (if given) against the ETF price
+#   - pulls recent headlines for `news_query`
+#
+# Fields
+#   date         decisive date (election day / runoff). Day 0 on the cycle chart.
+#   milestones   other dates to mark (first round, debates, results certification...)
+#   etfs         tickers to analyse (first one is the default view)
+#   past         earlier comparable dates — the "analog" cycles
+#   drivers      what market commentary commonly cites as pushing the ETFs up / down
+#   polls        optional: date + numbers for two candidates (append new polls as they come)
+#
+# Driver lists describe how markets have tended to react — they are not predictions or advice.
+
+events:
+  - id: brazil-2026
+    title: Brazil presidential runoff
+    country: Brazil
+    date: 2026-10-25
+    milestones:
+      - { date: 2026-10-04, label: "1st round" }
+      - { date: 2027-01-01, label: "Inauguration" }
+    etfs: [EWZ, ILF, EEM]
+    news_query: "Brazil election Lula Flávio Bolsonaro market"
+    status: >-
+      First round (Oct 4): Flávio Bolsonaro 47.0%, Lula 45.2%. On Oct 5 the Ibovespa jumped 8.7% to a
+      record, the real gained ~4% and EWZ rose ~12.6% as markets priced tighter fiscal policy and rate cuts.
+    past:
+      - { date: 2022-10-30, label: "2022 · Lula beat J. Bolsonaro" }
+      - { date: 2018-10-28, label: "2018 · J. Bolsonaro won" }
+      - { date: 2014-10-26, label: "2014 · Rousseff re-elected" }
+      - { date: 2010-10-31, label: "2010 · Rousseff won" }
+    drivers:
+      bullish:
+        - "Credible fiscal rules and spending restraint — lowers Brazil's risk premium and long-term rates (DI futures fell ~1pt on Oct 5)"
+        - "Selic rate cuts (Copom: Nov 4, Dec 9) — helps banks, retailers and other rate-sensitive stocks"
+        - "Market-based Petrobras policy: fuel prices near import parity, steady dividends (Petrobras is a top EWZ holding)"
+        - "Privatisations and infrastructure concessions"
+        - "Negotiated relief from the 25% US Section 301 tariff on many Brazilian goods"
+        - "A stronger real — boosts dollar returns on EWZ"
+      bearish:
+        - "Expansionary spending or loosening the fiscal framework — pushes rates up and the real down (the late-2022 sell-off followed spending worries)"
+        - "Government intervention in Petrobras pricing, dividends or investment plans"
+        - "A disputed result or institutional conflict after the runoff"
+        - "Escalating trade tensions with the US"
+        - "Reversal of the first-round 'election trade' if the runoff goes the other way"
+        - "Non-political: weaker China demand / iron ore prices (Vale is a top EWZ holding)"
+    polls:
+      labels: ["Lula", "F. Bolsonaro"]
+      note: "Runoff polls (fieldwork end date), plus the actual first-round result. Append new polls here."
+      rows:
+        - { date: 2026-06-18, a: 47,   b: 43,   src: Datafolha }
+        - { date: 2026-06-24, a: 46,   b: 43,   src: PoderData }
+        - { date: 2026-06-28, a: 47,   b: 44,   src: Nexus }
+        - { date: 2026-06-30, a: 48.8, b: 42.3, src: AtlasIntel }
+        - { date: 2026-07-06, a: 45,   b: 40,   src: Ideia }
+        - { date: 2026-07-12, a: 47,   b: 44,   src: Nexus }
+        - { date: 2026-07-15, a: 45,   b: 43,   src: PoderData }
+        - { date: 2026-07-19, a: 46,   b: 39,   src: Indexa }
+        - { date: 2026-07-23, a: 48,   b: 43,   src: Datafolha }
+        - { date: 2026-07-26, a: 47,   b: 43,   src: Nexus }
+        - { date: 2026-07-27, a: 49.2, b: 42.9, src: AtlasIntel }
+        - { date: 2026-08-09, a: 47,   b: 44,   src: Nexus }
+        - { date: 2026-08-12, a: 46,   b: 45,   src: PoderData }
+        - { date: 2026-08-13, a: 43,   b: 40,   src: Quaest }
+        - { date: 2026-08-16, a: 47,   b: 44,   src: Nexus }
+        - { date: 2026-08-20, a: 47,   b: 43,   src: Datafolha }
+        - { date: 2026-08-23, a: 46,   b: 41,   src: Indexa }
+        - { date: 2026-08-23, a: 46,   b: 45,   src: Nexus }
+        - { date: 2026-08-26, a: 45,   b: 44,   src: PoderData }
+        - { date: 2026-08-27, a: 44.5, b: 45.1, src: "Vox Brasil" }
+        - { date: 2026-08-30, a: 47.1, b: 42.6, src: AtlasIntel }
+        - { date: 2026-08-30, a: 46,   b: 45,   src: Nexus }
+        - { date: 2026-10-04, a: 45.16, b: 47.03, src: "1st-round result", actual: true }
+
+  - id: israel-2026
+    title: Israel Knesset election
+    country: Israel
+    date: 2026-10-27
+    etfs: [EIS]
+    news_query: "Israel election Knesset coalition shekel"
+    status: "Legislative election; markets watch which coalition can form a government and how long it takes."
+    past:
+      - { date: 2022-11-01, label: "2022 election" }
+      - { date: 2021-03-23, label: "2021 election" }
+      - { date: 2019-04-09, label: "2019 (Apr) election" }
+      - { date: 2015-03-17, label: "2015 election" }
+    drivers:
+      bullish:
+        - "Quick formation of a stable coalition — less policy uncertainty"
+        - "Fiscal discipline and a stable shekel"
+        - "Easing regional security risk"
+        - "Bank of Israel rate cuts"
+      bearish:
+        - "Prolonged deadlock or a repeat election (Israel held five elections in 2019–2022)"
+        - "Institutional conflict like the 2023 judicial-overhaul dispute, which weighed on the shekel"
+        - "Higher deficits from defence spending; credit-rating pressure"
+        - "Regional escalation"
+
+  - id: us-midterms-2026
+    title: US midterm elections
+    country: United States
+    date: 2026-11-03
+    etfs: [XLV, XLE, XLF, XLI, XLK]
+    news_query: "midterm elections markets stocks Congress"
+    status: "All House seats and about a third of the Senate are up. The main market question is unified vs divided government."
+    past:
+      - { date: 2022-11-08, label: "2022 midterms" }
+      - { date: 2018-11-06, label: "2018 midterms" }
+      - { date: 2014-11-04, label: "2014 midterms" }
+      - { date: 2010-11-02, label: "2010 midterms" }
+    drivers:
+      bullish:
+        - "Uncertainty fading after the vote — US stocks have historically tended to do well in the months after midterms"
+        - "Divided government / gridlock — limits big tax or regulatory changes"
+        - "Tax-cut extensions or deregulation (financials, energy)"
+        - "Trade deals that lower tariffs (industrials, materials)"
+      bearish:
+        - "Drug-pricing legislation (health care, XLV)"
+        - "Tariff escalation (industrials, consumer discretionary)"
+        - "Debt-ceiling or government-shutdown standoffs"
+        - "Tighter tech or antitrust regulation (XLK, XLC)"
+        - "Energy policy shifts on permits and subsidies (XLE, clean energy)"
+
+  - id: france-2027
+    title: France presidential election
+    country: France
+    date: 2027-05-02
+    milestones:
+      - { date: 2027-04-18, label: "1st round" }
+    etfs: [EWQ, VGK]
+    news_query: "France presidential election 2027 polls OAT spread"
+    status: "First round April 18, runoff May 2, 2027. Macron cannot run again; bond spreads track fiscal-policy risk."
+    past:
+      - { date: 2022-04-24, label: "2022 · Macron re-elected" }
+      - { date: 2017-05-07, label: "2017 · Macron elected" }
+      - { date: 2012-05-06, label: "2012 · Hollande elected" }
+    drivers:
+      bullish:
+        - "A credible deficit-reduction plan — narrower French-German (OAT-Bund) bond spread"
+        - "Pro-business, pro-EU outcome (2017's first round sparked a relief rally)"
+        - "Stable parliamentary majority after the vote"
+      bearish:
+        - "Large unfunded spending pledges or pension-reform reversal"
+        - "Conflict with EU fiscal rules; credit-rating downgrades"
+        - "Hung parliament or a government that can't pass a budget"
+        - "Taxes aimed at banks or large companies"
+
+# Rate decisions and other dated catalysts shown in the Upcoming panel.
+calendar:
+  - { date: 2026-11-04, title: "Brazil Copom rate decision", tags: [Brazil, Rates], etfs: [EWZ] }
+  - { date: 2026-12-09, title: "Brazil Copom rate decision", tags: [Brazil, Rates], etfs: [EWZ] }

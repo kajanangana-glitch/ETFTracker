@@ -14,6 +14,18 @@ news headlines (with a political/geopolitical tag) and upcoming macro events.
 4. **Settings → Pages** → Source: *Deploy from a branch* → Branch `main`, folder **`/docs`** → Save.
 5. After ~1 minute your dashboard is live at `https://<your-username>.github.io/<repo>/`.
 
+## Political events view
+
+Switch to **Political events** in the header, or open `…/ETFTracker/#politics`. For each election in `politics.yml` you get:
+
+- **This cycle vs past elections**: the ETF's price path around election day, rebased to 100 at 90 trading days before the vote and overlaid on earlier cycles (e.g. EWZ around Brazil's 2010, 2014, 2018 and 2022 elections). "Today" marks where this cycle is.
+- **Past cycles in numbers**: run-up into the vote, the day-after reaction, the week after and the 3 months after.
+- **Polls vs ETF** (when polls are listed): candidate poll averages plotted against the ETF price, so you can see whether the price followed the polls.
+- **What tends to push it higher / lower**: the policy outcomes markets have reacted to.
+- **Election news** from Google News.
+
+To add an election, copy one block in `politics.yml` and change the date, ETFs, past election dates and drivers. To update polls, append a row under `polls.rows`.
+
 ## Customising
 
 Edit **`etfs.yml`**:

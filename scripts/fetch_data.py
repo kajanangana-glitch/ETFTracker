@@ -128,6 +128,100 @@ def google_news(query: str, limit: int) -> list[dict]:
     return items
 
 
+PRE, POST = 90, 60  # trading days shown before / after election day
+
+
+def _d(x) -> dt.date:
+    return x if isinstance(x, dt.date) else dt.date.fromisoformat(str(x))
+
+
+def cycle_path(close: pd.Series, anchor: dt.date) -> dict | None:
+    """Price path around `anchor`, rebased to 100 at the start of the window.
+
+    Offsets are trading days relative to election day (day 0 = first session on/after it).
+    For an upcoming election the path stops today, at a negative offset.
+    """
+    close = close.dropna()
+    if close.empty:
+        return None
+    last = close.index[-1].date()
+    if anchor <= last:  # past (or just happened)
+        pos = int(close.index.searchsorted(pd.Timestamp(anchor)))
+        if pos - PRE < 0:
+            return None
+        win = close.iloc[pos - PRE: pos + POST + 1]
+        offsets = list(range(-PRE, -PRE + len(win)))
+    else:  # upcoming: today is `n` sessions before day 0
+        day0 = pd.Timestamp(anchor) + pd.offsets.BDay(0)  # roll weekend election to Monday
+        n = int(pd.bdate_range(last, day0).size) - 1
+        if n >= PRE:
+            return {"points": [], "days_to_go": n}
+        win = close.iloc[-(PRE - n + 1):]
+        offsets = list(range(-n - len(win) + 1, -n + 1))
+    base = float(win.iloc[0])
+    pts = [[o, round(float(v) / base * 100, 2)] for o, v in zip(offsets, win)]
+    lookup = dict(pts)
+
+    def ret(a, b):
+        return round((lookup[b] / lookup[a] - 1) * 100, 2) if a in lookup and b in lookup else None
+
+    end = max(lookup)
+    return {
+        "points": pts,
+        "run_up": ret(-PRE, 0 if 0 in lookup else end),   # into the vote
+        "reaction": ret(-1, 0),                            # first session after the vote
+        "week_after": ret(-1, 5),
+        "after": ret(0, POST) if POST in lookup else None,  # 3 months after
+    }
+
+
+def build_politics(cfg: dict, today: dt.date) -> tuple[list, list]:
+    """Event-study data for politics.yml. Returns (events, calendar items)."""
+    events = cfg.get("events", [])
+    tickers = sorted({t for e in events for t in e.get("etfs", [])})
+    hist = yf.download(tickers, start="2009-06-01", interval="1d", auto_adjust=True,
+                       progress=False, group_by="ticker", threads=True) if tickers else None
+
+    def closes(t):
+        try:
+            return hist[t]["Close"] if isinstance(hist.columns, pd.MultiIndex) else hist["Close"]
+        except Exception:
+            return pd.Series(dtype=float)
+
+    out, cal = [], []
+    for e in events:
+        date = _d(e["date"])
+        ev = {k: e.get(k) for k in ("id", "title", "country", "status", "etfs", "drivers")}
+        ev["date"] = date.isoformat()
+        ev["milestones"] = [{"date": _d(m["date"]).isoformat(), "label": m["label"]} for m in e.get("milestones", [])]
+        ev["cycles"] = {}
+        for t in e.get("etfs", []):
+            c = closes(t)
+            ev["cycles"][t] = {
+                "current": cycle_path(c, date),
+                "past": [dict(label=p["label"], date=_d(p["date"]).isoformat(), **(cycle_path(c, _d(p["date"])) or {}))
+                         for p in e.get("past", [])],
+            }
+        if e.get("polls"):
+            p = e["polls"]
+            ev["polls"] = {"labels": p["labels"], "note": p.get("note", ""),
+                           "rows": sorted([{**r, "date": _d(r["date"]).isoformat()} for r in p["rows"]],
+                                          key=lambda r: r["date"])}
+        ev["news"] = google_news(e.get("news_query", e["title"]), 10) if e.get("news_query") else []
+        out.append(ev)
+
+        for when, label in [(date, e["title"])] + [(_d(m["date"]), f'{e["country"]}: {m["label"]}') for m in e.get("milestones", [])]:
+            if when >= today:
+                cal.append({"date": when.isoformat(), "title": label, "tags": [e["country"], "Politics"],
+                            "etfs": e.get("etfs", []), "event_id": e["id"]})
+    for c in cfg.get("calendar", []):
+        if _d(c["date"]) >= today:
+            cal.append({"date": _d(c["date"]).isoformat(), "title": c["title"],
+                        "tags": c.get("tags", []), "etfs": c.get("etfs", [])})
+    out.sort(key=lambda x: x["date"])
+    return out, cal
+
+
 def ex_dividend(ticker: yf.Ticker) -> str | None:
     try:
         cal = ticker.calendar or {}
@@ -173,6 +267,14 @@ def main() -> None:
         d = ev["date"] if isinstance(ev["date"], dt.date) else dt.date.fromisoformat(str(ev["date"]))
         if d >= today:
             events.append({"date": d.isoformat(), "title": ev["title"], "tags": ev.get("tags", [])})
+    political, pol_cal = [], []
+    pol_file = ROOT / "politics.yml"
+    if pol_file.exists():
+        try:
+            political, pol_cal = build_politics(yaml.safe_load(pol_file.read_text()) or {}, today)
+        except Exception as exc:
+            print(f"politics section failed: {exc}")
+    events.extend(pol_cal)
     for r in out_etfs:
         if r.get("ex_dividend") and r["ex_dividend"] >= today.isoformat():
             events.append({"date": r["ex_dividend"], "title": f'{r["ticker"]} ex-dividend', "tags": ["Dividend"]})
@@ -196,6 +298,8 @@ def main() -> None:
         "macro_news": macro,
         "news_feed": feed[:60],
         "events": events[:25],
+        "political": political,
+        "cycle_window": [-PRE, POST],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, indent=1))

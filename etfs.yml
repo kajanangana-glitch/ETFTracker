@@ -12,6 +12,8 @@ groups:
     - { ticker: EWT,  name: "Taiwan",         query: "Taiwan stocks semiconductors" }
     - { ticker: EWC,  name: "Canada",         query: "Canada economy TSX" }
     - { ticker: EWW,  name: "Mexico",         query: "Mexico economy peso stocks" }
+    - { ticker: EIS,  name: "Israel",         query: "Israel economy stocks shekel" }
+    - { ticker: EWQ,  name: "France",         query: "France economy CAC 40" }
   Regions:
     - { ticker: VGK,  name: "Europe",                query: "European stocks ECB economy" }
     - { ticker: EFA,  name: "Developed ex-US",       query: "international developed markets stocks" }
@@ -36,4 +38,4 @@ groups:
 events:
   - { date: 2026-10-28, title: "FOMC rate decision (US Fed)", tags: [US, Rates] }
   - { date: 2026-12-09, title: "FOMC rate decision + projections (US Fed)", tags: [US, Rates] }
-  - { date: 2026-11-03, title: "US midterm elections", tags: [US, Politics] }
+# Elections and other political events live in politics.yml.
