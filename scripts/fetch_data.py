@@ -68,7 +68,9 @@ def rsi(close: pd.Series, n: int = 14) -> float | None:
 
 def classify(m: dict, close: pd.Series) -> dict:
     """Rules-based trend signal. Leader = strong uptrend near highs.
-    Turnaround = beaten down but showing at least 2 of 4 early recovery signs. Falling = beaten down, no signs yet."""
+    Pullback = long-term uptrend (up on the year, above 200-day avg) dipping below its 50-day avg.
+    Turnaround = beaten down (down on the year or 15%+ off its high) but showing at least 2 of 4 early
+    recovery signs. Falling = beaten down, fewer than 2 signs."""
     price, sma50, sma200 = m["price"], m["sma50"], m["sma200"]
     s50 = close.rolling(50).mean()
     slope = pct(float(s50.iloc[-1]), float(s50.iloc[-11])) if len(close) >= 61 else None
@@ -82,8 +84,9 @@ def classify(m: dict, close: pd.Series) -> dict:
          "ok": bool(rsi_low is not None and rsi_low < 35 and (m["rsi14"] or 0) > 45)},
     ]
     beaten = ((m["chg_1y"] is not None and m["chg_1y"] < 0)
-              or (m["off_52w_high"] is not None and m["off_52w_high"] <= -15)
-              or bool(sma200 and price < sma200))
+              or (m["off_52w_high"] is not None and m["off_52w_high"] <= -15))
+    pullback = (not beaten and (m["chg_1y"] or 0) > 0 and bool(sma200 and price > sma200)
+                and bool(sma50 and price < sma50))
     leader = (m["trend"] == "Uptrend" and (m["chg_3m"] or 0) > 0
               and m["off_52w_high"] is not None and m["off_52w_high"] >= -7)
     passed = sum(c["ok"] for c in checks)
@@ -91,6 +94,8 @@ def classify(m: dict, close: pd.Series) -> dict:
         signal = "Turnaround" if passed >= 2 else "Falling"
     elif leader:
         signal = "Leader"
+    elif pullback:
+        signal = "Pullback"
     else:
         signal = "Neutral"
     return {"signal": signal, "recovery_checks": checks, "recovery_score": passed,

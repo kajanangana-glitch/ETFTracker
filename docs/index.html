@@ -106,7 +106,7 @@ svg text{fill:var(--muted);font:10px "IBM Plex Mono",monospace}
 .chk{list-style:none;margin:8px 0 0;padding:0;font-size:12px}.chk li{margin:3px 0}.chk .y{color:var(--up)}.chk .n{color:var(--muted)}
 .note{font-size:12.5px;line-height:1.45;margin-top:8px}.note .lbl{font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-top:6px}
 .note ul{margin:2px 0 0;padding-left:16px}
-.sig-Leader{background:var(--up-bg);color:var(--up)}.sig-Turnaround{background:rgba(212,137,42,.15);color:#c27a1c}.sig-Falling{background:var(--down-bg);color:var(--down)}.sig-Neutral{background:var(--chip);color:var(--muted)}
+.sig-Leader{background:var(--up-bg);color:var(--up)}.sig-Turnaround{background:rgba(212,137,42,.15);color:#c27a1c}.sig-Falling{background:var(--down-bg);color:var(--down)}.sig-Pullback{background:rgba(43,91,215,.12);color:var(--accent)}.sig-Neutral{background:var(--chip);color:var(--muted)}
 .theme{margin-bottom:14px}.theme h4{margin:0 0 4px;font-size:15px}.theme .sum{font-size:13px;line-height:1.55;margin:0 0 10px}
 .scen{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}@media (max-width:760px){.scen{grid-template-columns:1fr}}
 .scen>div{background:var(--chip);border-radius:8px;padding:8px 10px}.scen .sl{font-size:12px;font-weight:600;margin-bottom:4px}
@@ -132,8 +132,9 @@ footer{grid-column:1/-1;color:var(--muted);font-size:11.5px;text-align:center}
 <main>
   <section id="trView" hidden>
     <div class="card mb intro"><h2>How to read this page</h2>
-      <p><b class="up">Leaders</b> are in a strong uptrend (price above its 50- and 200-day averages) and within 7% of their 52-week high. <b>Turnaround watch</b> lists markets that are down over the year or well below their high, but already show at least 2 of 4 early recovery signs. <b class="down">Still falling</b> are beaten-down markets with fewer than 2 signs. Signals update every weekday. They describe what prices are doing, not what they will do.</p></div>
+      <p><b class="up">Leaders</b> are in a strong uptrend (price above its 50- and 200-day averages) and within 7% of their 52-week high. <b>Pullbacks</b> are up on the year and above their 200-day average but have dipped below their 50-day average. <b>Turnaround watch</b> lists markets that are down over the year or 15%+ below their high, but already show at least 2 of 4 early recovery signs. <b class="down">Still falling</b> are beaten-down markets with fewer than 2 signs. Signals update every weekday. They describe what prices are doing, not what they will do.</p></div>
     <h3 class="sec">Leaders: riding the trend</h3><div class="tgrid" id="leaders"></div>
+    <h3 class="sec">Pullbacks in long-term uptrends</h3><div class="tgrid" id="pull"></div>
     <h3 class="sec">Turnaround watch: down, but showing recovery signs</h3><div class="tgrid" id="turn"></div>
     <h3 class="sec">Still falling: no recovery signs yet</h3><div class="tgrid" id="falling"></div>
     <h3 class="sec">Event-driven ideas</h3><div id="themes"></div>
@@ -261,7 +262,7 @@ function openDetail(t){const e=S.data.etfs.find(x=>x.ticker===t);if(!e)return;
 function closeDetail(){$("drawer").classList.remove("open")}
 
 /* ---------- Trends view ---------- */
-const SIGL={Leader:"Leader",Turnaround:"Turnaround watch",Falling:"Still falling",Neutral:"Neutral"};
+const SIGL={Leader:"Leader",Pullback:"Pullback in uptrend",Turnaround:"Turnaround watch",Falling:"Still falling",Neutral:"Neutral"};
 const N=t=>S.data.ideas?.notes?.[t];
 function noteHtml(t){const n=N(t);if(!n)return"";const L=(l,a)=>a?.length?`<div class="lbl">${l}</div><ul>${a.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"";
   return `<div class="note">${n.why?`<div>${esc(n.why)}</div>`:""}${L("Could push it higher",n.upside)}${L("Risks",n.risks)}</div>`}
@@ -274,6 +275,8 @@ function renderTrends(){const E=S.data.etfs.filter(e=>e.signal);
   const by=s=>E.filter(e=>e.signal===s);
   const lead=by("Leader").sort((a,b)=>(b.momentum??-1e9)-(a.momentum??-1e9));
   const turn=by("Turnaround").sort((a,b)=>b.recovery_score-a.recovery_score||(b.chg_1m??0)-(a.chg_1m??0));
+  const pull=by("Pullback").sort((a,b)=>(b.chg_1y??0)-(a.chg_1y??0));
+  $("pull").innerHTML=pull.map(e=>tcard(e,"lead")).join("")||empty("No pullbacks today.");
   const fall=by("Falling").sort((a,b)=>(b.chg_1m??0)-(a.chg_1m??0));
   const empty=m=>`<div class="flat" style="font-size:13px">${m}</div>`;
   $("leaders").innerHTML=lead.map(e=>tcard(e,"lead")).join("")||empty("No ETFs meet the leader rules today.");
