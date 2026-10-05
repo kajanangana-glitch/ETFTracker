@@ -14,6 +14,16 @@ news headlines (with a political/geopolitical tag) and upcoming macro events.
 4. **Settings → Pages** → Source: *Deploy from a branch* → Branch `main`, folder **`/docs`** → Save.
 5. After ~1 minute your dashboard is live at `https://<your-username>.github.io/<repo>/`.
 
+## Trends view
+
+Open **Trends** in the header (or `…/ETFTracker/#trends`). Every ETF is classified daily from its prices:
+
+- **Leader**: price above its 50- and 200-day averages, up over 3 months, and within 7% of its 52-week high.
+- **Turnaround watch**: down over the past year, 15%+ below its high, or below its 200-day average, *and* showing at least 2 of 4 recovery signs: price back above the 50-day average, 50-day average turning up, up over the last month, RSI bounced from oversold.
+- **Still falling**: beaten down with fewer than 2 signs.
+
+`ideas.yml` adds the human context: why each market is moving, what could push it higher, the risks, and event-driven themes (oil and Hormuz, global rate hikes, AI chips, emerging-market turnaround, gold and defence). Each theme shows which ETFs have tended to gain or lose in each scenario.
+
 ## Political events view
 
 Switch to **Political events** in the header, or open `…/ETFTracker/#politics`. For each election in `politics.yml` you get:

@@ -14,6 +14,15 @@ groups:
     - { ticker: EWW,  name: "Mexico",         query: "Mexico economy peso stocks" }
     - { ticker: EIS,  name: "Israel",         query: "Israel economy stocks shekel" }
     - { ticker: EWQ,  name: "France",         query: "France economy CAC 40" }
+    - { ticker: TUR,  name: "Turkey",         query: "Turkey stocks lira inflation BIST" }
+    - { ticker: EIDO, name: "Indonesia",      query: "Indonesia stocks rupiah economy" }
+    - { ticker: EZA,  name: "South Africa",   query: "South Africa JSE rand economy" }
+    - { ticker: EPOL, name: "Poland",         query: "Poland stocks economy zloty" }
+    - { ticker: VNM,  name: "Vietnam",        query: "Vietnam stocks economy upgrade" }
+    - { ticker: KSA,  name: "Saudi Arabia",   query: "Saudi Arabia stocks Tadawul oil" }
+    - { ticker: ARGT, name: "Argentina",      query: "Argentina stocks Milei peso" }
+    - { ticker: ECH,  name: "Chile",          query: "Chile stocks copper peso" }
+    - { ticker: NORW, name: "Norway",         query: "Norway stocks oil krone" }
   Regions:
     - { ticker: VGK,  name: "Europe",                query: "European stocks ECB economy" }
     - { ticker: EFA,  name: "Developed ex-US",       query: "international developed markets stocks" }
@@ -32,10 +41,19 @@ groups:
     - { ticker: XLU,  name: "Utilities",        query: "utilities stocks power demand" }
     - { ticker: XLRE, name: "Real Estate",      query: "real estate REIT stocks" }
     - { ticker: XLC,  name: "Communication",    query: "communication services stocks" }
+  Themes:
+    - { ticker: SMH,  name: "Semiconductors / AI", query: "semiconductor stocks AI chips demand" }
+    - { ticker: ITA,  name: "Defense",             query: "defense stocks military spending" }
+    - { ticker: GLD,  name: "Gold",                query: "gold price central banks geopolitics" }
+    - { ticker: USO,  name: "Crude oil",           query: "oil price Brent Strait of Hormuz" }
+    - { ticker: URA,  name: "Uranium / nuclear",   query: "uranium nuclear power stocks" }
+    - { ticker: COPX, name: "Copper miners",       query: "copper price mining stocks" }
 
 # Upcoming macro / political events shown in the "Upcoming" panel.
 # Past dates are hidden automatically — add your own (elections, central banks, summits).
 events:
   - { date: 2026-10-28, title: "FOMC rate decision (US Fed)", tags: [US, Rates] }
   - { date: 2026-12-09, title: "FOMC rate decision + projections (US Fed)", tags: [US, Rates] }
+  - { date: 2026-10-21, title: "Bank Indonesia rate decision", tags: [Indonesia, Rates] }
+  - { date: 2026-10-22, title: "Turkey central bank (CBRT) rate decision", tags: [Turkey, Rates] }
 # Elections and other political events live in politics.yml.

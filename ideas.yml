@@ -1,0 +1,107 @@
+# Ideas shown on the Trends page.
+#
+# The dashboard decides which ETFs are "leaders" and which are "turnaround candidates" from price data
+# every day (see README). This file adds the human context: why a market is moving, what could change it,
+# and which dated events to watch. Edit freely. Nothing here is a recommendation.
+#
+# notes:   per-ETF context, shown on that ETF's card wherever it appears
+# themes:  event-driven ideas; each scenario lists ETFs that have tended to gain (up) or lose (down) if it plays out
+
+updated: 2026-10-05
+
+notes:
+  EWJ:
+    why: "Nikkei at records (~65,000 in mid-September) led by AI and chip-equipment names (Advantest, Tokyo Electron, SoftBank)."
+    upside: ["AI and chip-equipment demand", "Corporate reforms: buybacks, higher dividends", "A weak yen (~157/$) lifts exporters' profits"]
+    risks: ["Further BoJ hikes (raised to 1.25% in Sept, a 31-year high) or a sharp yen rebound", "An AI spending pullback", "High oil prices — Japan imports almost all its energy"]
+  EWT:
+    why: "Taiex at record highs on AI demand; Taiwan stocks rose nearly 60% in the first half of 2026."
+    upside: ["AI server and chip orders", "TSMC earnings beats"]
+    risks: ["Heavy concentration in TSMC", "Cross-strait tension (local elections Nov 28)", "US chip export rules or tariffs", "Rising global rates hitting tech valuations"]
+  TUR:
+    why: "BIST 100 was ~17% below its May peak in late September after a fund-sector crisis (130 funds ordered liquidated) and a lira at record lows (~49/$)."
+    upside: ["Inflation falling: 29.7% in September, below 30% and below forecasts", "Rate cuts — economists see a possible 1-point cut at the Oct 22 CBRT meeting (policy rate 37%)", "Cheaper oil if Hormuz shipping normalises — Turkey imports most of its energy"]
+    risks: ["Lira depreciation eats dollar returns even when local stocks rise", "Inflation stalls and cuts are paused", "More fallout from the fund-sector crisis", "Political or legal shocks"]
+  EIDO:
+    why: "The rupiah is near record lows (~17,900/$) and foreigners have been selling; Bank Indonesia raised its rate 1 point to 5.75% in Q2 to defend the currency."
+    upside: ["The rupiah stabilising and foreign money returning", "Easing global rates — Fed/ECB/BoJ all hiked in September, so a pause would help", "Confidence in fiscal discipline and central-bank independence", "Inflation is low (3.2%), leaving room to cut later"]
+    risks: ["Concerns over large spending programmes (e.g. the free-meals plan) and the deficit", "Questions over central-bank independence", "More global rate hikes widening outflows", "BI meets Oct 20–21; analysts expect no change"]
+  EZA:
+    why: "Mixed: the rand has been relatively firm (~16/$ in September) helped by gold and platinum, but SARB hiked to 7% in May and municipal elections on Nov 4 are a test of the coalition."
+    upside: ["A calm Nov 4 vote and a stable national coalition", "High gold and platinum prices (big index weight)", "Rate cuts once inflation is back under the 4% ceiling"]
+    risks: ["Coalition fights in big metros", "Power and logistics problems returning", "High oil import costs", "Further rate hikes"]
+  EWZ:
+    why: "Jumped ~12.6% on Oct 5 after Flávio Bolsonaro led the first round; the runoff is Oct 25."
+    upside: ["See the Brazil runoff in Political events"]
+    risks: ["A reversal if the runoff goes the other way", "Fiscal loosening"]
+
+themes:
+  - id: hormuz
+    title: "Strait of Hormuz and the oil shock"
+    summary: >-
+      Attacks on shipping around the Strait of Hormuz have kept oil high (Brent ~$102 on Sep 24). High oil
+      helps energy producers and hurts countries that import most of their fuel. A ceasefire or reliable
+      reopening would likely flip that: importers rally, energy names give back gains.
+    scenarios:
+      - { label: "Disruption continues", up: [XLE, USO, NORW, EWZ, EWC], down: [TUR, INDA, EIDO, EZA, EWJ, EWT] }
+      - { label: "Ceasefire / shipping reopens", up: [TUR, INDA, EIDO, EZA, EWJ, XLY], down: [XLE, USO, NORW] }
+    watch: ["Tanker traffic through Hormuz", "Repairs to Saudi Arabia's East-West pipeline", "Ceasefire talks"]
+    news_query: "Strait of Hormuz oil tankers ceasefire"
+
+  - id: rates
+    title: "Global rate-hike cycle"
+    summary: >-
+      In September the Fed (to 3.75–4.00%), the ECB and the Bank of Japan all raised rates, citing energy-driven
+      inflation. Higher rates usually help banks and hurt rate-sensitive and high-valuation assets; they also pull
+      money out of emerging markets. A pause or a turn back to cuts would favour the beaten-down EM markets.
+    scenarios:
+      - { label: "More hikes", up: [XLF, EWJ], down: [XLRE, XLU, EIDO, TUR, EEM] }
+      - { label: "Pause, then cuts", up: [EEM, EIDO, TUR, EZA, XLRE, GLD], down: [] }
+    catalysts:
+      - { date: 2026-10-21, label: "Bank Indonesia" }
+      - { date: 2026-10-22, label: "Turkey CBRT" }
+      - { date: 2026-10-28, label: "Fed (FOMC)" }
+      - { date: 2026-12-09, label: "Fed (FOMC) + projections" }
+    watch: ["US inflation prints", "Oil prices (main driver of the hikes)", "Fed guidance on further hikes"]
+    news_query: "Fed rate hike inflation energy emerging markets"
+
+  - id: ai-chips
+    title: "AI chip boom"
+    summary: >-
+      AI spending is driving record highs in Taiwan, Japanese chip-equipment makers and Korea's memory makers.
+      Momentum is strong but concentrated — a few companies drive these ETFs.
+    scenarios:
+      - { label: "AI spending keeps growing", up: [SMH, EWT, EWY, EWJ, XLK], down: [] }
+      - { label: "AI spending slows", up: [XLP, XLV, GLD], down: [SMH, EWT, EWY] }
+    catalysts:
+      - { date: 2026-11-28, label: "Taiwan local elections" }
+    watch: ["TSMC monthly sales and quarterly results", "Big-tech AI capex guidance", "US chip export rules"]
+    news_query: "AI chip demand TSMC semiconductor stocks"
+
+  - id: emerging-turnaround
+    title: "Emerging-market turnaround: Turkey, Indonesia, South Africa"
+    summary: >-
+      These markets have lagged on weak currencies, high rates and expensive oil. What typically turns them is
+      some combination of falling inflation, rate cuts, a weaker US dollar and cheaper oil. Turkey has the most
+      visible near-term trigger (inflation below 30%, possible cut Oct 22); Indonesia needs its currency to
+      stabilise first; South Africa hinges on a calm Nov 4 election.
+    scenarios:
+      - { label: "Inflation falls, rates and oil ease", up: [TUR, EIDO, EZA, EEM], down: [] }
+      - { label: "Strong dollar, high oil persist", up: [], down: [TUR, EIDO, EZA] }
+    catalysts:
+      - { date: 2026-10-21, label: "Bank Indonesia" }
+      - { date: 2026-10-22, label: "Turkey CBRT" }
+      - { date: 2026-11-04, label: "South Africa elections" }
+    watch: ["Currencies: lira, rupiah, rand", "Foreign fund flows", "The Turnaround watch signals on this page"]
+    news_query: "emerging markets Turkey Indonesia South Africa stocks"
+
+  - id: gold-defense
+    title: "Geopolitics: gold and defence"
+    summary: >-
+      Conflict in the Middle East and higher defence budgets support gold and defence stocks. Gold also tends
+      to benefit if real interest rates fall. South Africa's index has a large gold-mining weight.
+    scenarios:
+      - { label: "Tensions stay high", up: [GLD, ITA, EZA], down: [] }
+      - { label: "De-escalation", up: [], down: [GLD, ITA] }
+    watch: ["Ceasefire news", "Central-bank gold buying", "NATO and European defence budgets"]
+    news_query: "gold price defense stocks geopolitics"

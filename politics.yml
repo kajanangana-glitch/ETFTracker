@@ -100,6 +100,57 @@ events:
         - "Higher deficits from defence spending; credit-rating pressure"
         - "Regional escalation"
 
+  - id: south-africa-local-2026
+    title: South Africa municipal elections
+    country: South Africa
+    date: 2026-11-04
+    etfs: [EZA]
+    news_query: "South Africa local elections ANC DA coalition rand"
+    status: >-
+      First local vote since the 2024 Government of National Unity formed. Markets watch big metros like
+      Johannesburg — a calm result would likely reassure investors, a messy coalition fight could hit the rand.
+      SARB raised its repo rate to 7% in May.
+    past:
+      - { date: 2021-11-01, label: "2021 local elections" }
+      - { date: 2016-08-03, label: "2016 local elections" }
+      - { date: 2011-05-18, label: "2011 local elections" }
+    drivers:
+      bullish:
+        - "A calm vote that keeps the national coalition (GNU) stable"
+        - "Reform-minded coalitions running big metros — better services and infrastructure"
+        - "Higher gold and platinum prices (miners are a large part of EZA)"
+        - "SARB rate cuts once inflation is back near its 4% ceiling"
+        - "A weaker US dollar"
+      bearish:
+        - "Coalition breakdowns in Johannesburg or other metros; tension inside the GNU"
+        - "Power cuts (load-shedding) or logistics problems at ports and rail returning"
+        - "Further SARB hikes if inflation stays above target"
+        - "High oil prices — South Africa imports most of its fuel"
+
+  - id: taiwan-local-2026
+    title: Taiwan local elections
+    country: Taiwan
+    date: 2026-11-28
+    etfs: [EWT, SMH]
+    news_query: "Taiwan local elections KMT DPP cross-strait stocks"
+    status: >-
+      Mayors and councils across Taiwan are elected. A local vote, but markets read it as a test of the
+      ruling party ahead of 2028 and of cross-strait tension. Taiwan stocks are at records on AI chip demand.
+    past:
+      - { date: 2022-11-26, label: "2022 local elections" }
+      - { date: 2018-11-24, label: "2018 local elections" }
+      - { date: 2014-11-29, label: "2014 local elections" }
+    drivers:
+      bullish:
+        - "Continued AI chip demand — TSMC is roughly a fifth of EWT, so its results matter most"
+        - "Calm cross-strait relations around the vote"
+        - "Strong export orders and a firm Taiwan dollar"
+      bearish:
+        - "Cross-strait military tension or trade restrictions"
+        - "US chip export rules or tariffs on semiconductors"
+        - "An AI spending slowdown — the market is heavily concentrated in chip stocks"
+        - "Rising global interest rates hitting richly valued tech stocks"
+
   - id: us-midterms-2026
     title: US midterm elections
     country: United States

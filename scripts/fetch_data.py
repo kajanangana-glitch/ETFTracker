@@ -52,15 +52,49 @@ def pct(a: float, b: float) -> float | None:
     return round((a / b - 1) * 100, 2)
 
 
-def rsi(close: pd.Series, n: int = 14) -> float | None:
-    if len(close) <= n:
-        return None
+def rsi_series(close: pd.Series, n: int = 14) -> pd.Series:
     delta = close.diff()
     gain = delta.clip(lower=0).ewm(alpha=1 / n, adjust=False).mean()
     loss = (-delta.clip(upper=0)).ewm(alpha=1 / n, adjust=False).mean()
-    rs = gain / loss.replace(0, float("nan"))
-    val = 100 - 100 / (1 + rs.iloc[-1])
-    return None if math.isnan(val) else round(float(val), 1)
+    return 100 - 100 / (1 + gain / loss.replace(0, float("nan")))
+
+
+def rsi(close: pd.Series, n: int = 14) -> float | None:
+    if len(close) <= n:
+        return None
+    val = float(rsi_series(close, n).iloc[-1])
+    return None if math.isnan(val) else round(val, 1)
+
+
+def classify(m: dict, close: pd.Series) -> dict:
+    """Rules-based trend signal. Leader = strong uptrend near highs.
+    Turnaround = beaten down but showing at least 2 of 4 early recovery signs. Falling = beaten down, no signs yet."""
+    price, sma50, sma200 = m["price"], m["sma50"], m["sma200"]
+    s50 = close.rolling(50).mean()
+    slope = pct(float(s50.iloc[-1]), float(s50.iloc[-11])) if len(close) >= 61 else None
+    rs = rsi_series(close).tail(63)
+    rsi_low = float(rs.min()) if len(rs) else None
+    checks = [
+        {"label": "Price back above its 50-day average", "ok": bool(sma50 and price > sma50)},
+        {"label": "50-day average turning up", "ok": bool(slope is not None and slope > 0)},
+        {"label": "Up over the last month", "ok": bool(m["chg_1m"] is not None and m["chg_1m"] > 0)},
+        {"label": "Bounced from oversold (RSI was below 35, now above 45)",
+         "ok": bool(rsi_low is not None and rsi_low < 35 and (m["rsi14"] or 0) > 45)},
+    ]
+    beaten = ((m["chg_1y"] is not None and m["chg_1y"] < 0)
+              or (m["off_52w_high"] is not None and m["off_52w_high"] <= -15)
+              or bool(sma200 and price < sma200))
+    leader = (m["trend"] == "Uptrend" and (m["chg_3m"] or 0) > 0
+              and m["off_52w_high"] is not None and m["off_52w_high"] >= -7)
+    passed = sum(c["ok"] for c in checks)
+    if beaten:
+        signal = "Turnaround" if passed >= 2 else "Falling"
+    elif leader:
+        signal = "Leader"
+    else:
+        signal = "Neutral"
+    return {"signal": signal, "recovery_checks": checks, "recovery_score": passed,
+            "sma50_slope": slope, "rsi_low_3m": round(rsi_low, 1) if rsi_low is not None else None}
 
 
 def metrics(close: pd.Series) -> dict:
@@ -89,13 +123,14 @@ def metrics(close: pd.Series) -> dict:
     r1m, r3m = pct(last, back(21)), pct(last, back(63))
     momentum = None if r1m is None or r3m is None else round(0.5 * r1m + 0.5 * r3m, 2)
 
-    return {
+    out = {
         "price": round(last, 2),
         "chg_1d": pct(last, back(1)),
         "chg_1w": pct(last, back(5)),
         "chg_1m": r1m,
         "chg_3m": r3m,
         "chg_ytd": pct(last, float(year_start.iloc[0])) if len(year_start) else None,
+        "chg_6m": pct(last, back(126)),
         "chg_1y": pct(last, back(252)),
         "sma50": round(sma50, 2) if sma50 else None,
         "sma200": round(sma200, 2) if sma200 else None,
@@ -106,6 +141,8 @@ def metrics(close: pd.Series) -> dict:
         # ~6 months of closes for the sparkline / detail chart
         "history": [[d.strftime("%Y-%m-%d"), round(float(v), 2)] for d, v in close.tail(126).items()],
     }
+    out.update(classify(out, close))
+    return out
 
 
 def google_news(query: str, limit: int) -> list[dict]:
@@ -275,6 +312,19 @@ def main() -> None:
         except Exception as exc:
             print(f"politics section failed: {exc}")
     events.extend(pol_cal)
+
+    ideas = {}
+    ideas_file = ROOT / "ideas.yml"
+    if ideas_file.exists():
+        try:
+            ideas = yaml.safe_load(ideas_file.read_text()) or {}
+            for th in ideas.get("themes", []):
+                th["news"] = google_news(th["news_query"], 6) if th.get("news_query") else []
+                th["catalysts"] = [{"date": _d(c["date"]).isoformat(), "label": c["label"]}
+                                   for c in th.get("catalysts", []) if _d(c["date"]) >= today]
+            ideas["updated"] = str(ideas.get("updated", ""))
+        except Exception as exc:
+            print(f"ideas section failed: {exc}")
     for r in out_etfs:
         if r.get("ex_dividend") and r["ex_dividend"] >= today.isoformat():
             events.append({"date": r["ex_dividend"], "title": f'{r["ticker"]} ex-dividend', "tags": ["Dividend"]})
@@ -299,6 +349,7 @@ def main() -> None:
         "news_feed": feed[:60],
         "events": events[:25],
         "political": political,
+        "ideas": ideas,
         "cycle_window": [-PRE, POST],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)

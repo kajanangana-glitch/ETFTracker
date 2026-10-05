@@ -93,6 +93,25 @@ svg text{fill:var(--muted);font:10px "IBM Plex Mono",monospace}
 .drv.b li::marker{color:var(--up)}.drv.s li::marker{color:var(--down)}
 .mb{margin-bottom:20px}.hint{font-size:12px;color:var(--muted);margin:6px 0 0}
 .ev.click{cursor:pointer}.ev.click:hover .ttl{color:var(--accent)}
+.sec{font-size:15px;font-weight:600;margin:22px 0 10px}
+.intro p{margin:0;font-size:13px;line-height:1.55;color:var(--muted)}.intro b{color:var(--ink)}.intro b.up{color:var(--up)}.intro b.down{color:var(--down)}
+.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.tc{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer}
+.tc:hover{border-color:var(--muted)}
+.tc .top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.tc .tk{font-weight:600;font-size:15px}.tc .nm{font-size:12px;color:var(--muted)}
+.tc .nums{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-top:8px;font-size:12px}
+.tc .nums .k{color:var(--muted);font-size:10.5px}
+.tc .why{font-size:12.5px;margin-top:8px;line-height:1.45}
+.chk{list-style:none;margin:8px 0 0;padding:0;font-size:12px}.chk li{margin:3px 0}.chk .y{color:var(--up)}.chk .n{color:var(--muted)}
+.note{font-size:12.5px;line-height:1.45;margin-top:8px}.note .lbl{font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-top:6px}
+.note ul{margin:2px 0 0;padding-left:16px}
+.sig-Leader{background:var(--up-bg);color:var(--up)}.sig-Turnaround{background:rgba(212,137,42,.15);color:#c27a1c}.sig-Falling{background:var(--down-bg);color:var(--down)}.sig-Neutral{background:var(--chip);color:var(--muted)}
+.theme{margin-bottom:14px}.theme h4{margin:0 0 4px;font-size:15px}.theme .sum{font-size:13px;line-height:1.55;margin:0 0 10px}
+.scen{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}@media (max-width:760px){.scen{grid-template-columns:1fr}}
+.scen>div{background:var(--chip);border-radius:8px;padding:8px 10px}.scen .sl{font-size:12px;font-weight:600;margin-bottom:4px}
+.tchip{display:inline-flex;gap:5px;align-items:center;font:500 11.5px "IBM Plex Mono",monospace;padding:2px 7px;border-radius:5px;background:var(--panel);margin:3px 4px 0 0;cursor:pointer;border:1px solid var(--line)}
+.arrow-up{color:var(--up)}.arrow-dn{color:var(--down)}
 footer{grid-column:1/-1;color:var(--muted);font-size:11.5px;text-align:center}
 </style>
 </head>
@@ -111,6 +130,15 @@ footer{grid-column:1/-1;color:var(--muted);font-size:11.5px;text-align:center}
 </header>
 
 <main>
+  <section id="trView" hidden>
+    <div class="card mb intro"><h2>How to read this page</h2>
+      <p><b class="up">Leaders</b> are in a strong uptrend (price above its 50- and 200-day averages) and within 7% of their 52-week high. <b>Turnaround watch</b> lists markets that are down over the year or well below their high, but already show at least 2 of 4 early recovery signs. <b class="down">Still falling</b> are beaten-down markets with fewer than 2 signs. Signals update every weekday. They describe what prices are doing, not what they will do.</p></div>
+    <h3 class="sec">Leaders: riding the trend</h3><div class="tgrid" id="leaders"></div>
+    <h3 class="sec">Turnaround watch: down, but showing recovery signs</h3><div class="tgrid" id="turn"></div>
+    <h3 class="sec">Still falling: no recovery signs yet</h3><div class="tgrid" id="falling"></div>
+    <h3 class="sec">Event-driven ideas</h3><div id="themes"></div>
+    <p class="hint" id="ideasUpd"></p>
+  </section>
   <section id="polView" hidden>
     <div class="evcards" id="evCards"></div>
     <div id="evDetail"></div>
@@ -142,7 +170,7 @@ footer{grid-column:1/-1;color:var(--muted);font-size:11.5px;text-align:center}
 
 <script>
 const PERIODS={chg_1d:"1D",chg_1w:"1W",chg_1m:"1M",chg_3m:"3M",chg_ytd:"YTD",chg_1y:"1Y"};
-const S={data:null,view:location.hash==="#politics"?"pol":"mkt",ev:null,evEtf:null,group:"All",period:"chg_1m",q:"",sort:"chg_1m",dir:-1,newsFilter:"All"};
+const S={data:null,view:{"#politics":"pol","#trends":"tr"}[location.hash]||"mkt",ev:null,evEtf:null,group:"All",period:"chg_1m",q:"",sort:"chg_1m",dir:-1,newsFilter:"All"};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const cls=v=>v==null?"flat":v>0?"up":v<0?"down":"flat";
@@ -178,15 +206,15 @@ function renderHeat(r){$("heatTitle").textContent=`Performance map · ${PERIODS[
   $("heat").innerHTML=[...r].sort((a,b)=>(b[S.period]??-1e9)-(a[S.period]??-1e9)).map(e=>
   `<div class="tile" data-t="${e.ticker}" style="background:${heatColor(e[S.period])}"><div class="t">${e.ticker}</div><div class="n">${esc(e.name)}</div><div class="p mono">${fmt(e[S.period])}</div></div>`).join("")}
 
-const COLS=[["ticker","Ticker"],["name","Name"],["price","Price"],["chg_1d","1D"],["chg_1w","1W"],["chg_1m","1M"],["chg_3m","3M"],["chg_ytd","YTD"],["trend","Trend"],["rsi14","RSI"],["off_52w_high","vs 52w hi"],["spark","6M"],["news_tone","News"]];
+const COLS=[["ticker","Ticker"],["name","Name"],["price","Price"],["chg_1d","1D"],["chg_1w","1W"],["chg_1m","1M"],["chg_3m","3M"],["chg_ytd","YTD"],["trend","Trend"],["signal","Signal"],["rsi14","RSI"],["off_52w_high","vs 52w hi"],["spark","6M"],["news_tone","News"]];
 function renderTable(r){
   $("tbl").tHead.innerHTML="<tr>"+COLS.map(([k,l])=>`<th data-k="${k}" class="${S.sort===k?"sorted":""}">${l}${S.sort===k?(S.dir>0?" ↑":" ↓"):""}</th>`).join("")+"</tr>";
   const s=[...r].sort((a,b)=>{const x=a[S.sort],y=b[S.sort];if(x==null)return 1;if(y==null)return -1;return(typeof x==="string"?x.localeCompare(y):x-y)*S.dir});
-  $("tbl").tBodies[0].innerHTML=s.map(e=>e.error&&e.price==null?`<tr data-t="${e.ticker}"><td><b>${e.ticker}</b></td><td>${esc(e.name)}</td><td colspan="11" class="flat" style="text-align:left">no price data this run</td></tr>`:
+  $("tbl").tBodies[0].innerHTML=s.map(e=>e.error&&e.price==null?`<tr data-t="${e.ticker}"><td><b>${e.ticker}</b></td><td>${esc(e.name)}</td><td colspan="12" class="flat" style="text-align:left">no price data this run</td></tr>`:
   `<tr data-t="${e.ticker}"><td><b>${e.ticker}</b></td><td>${esc(e.name)} <span class="grp">${esc(e.group)}</span></td>
    <td class="mono">${e.price?.toFixed(2)??"—"}</td>
    ${["chg_1d","chg_1w","chg_1m","chg_3m","chg_ytd"].map(k=>`<td class="mono ${cls(e[k])}">${fmt(e[k])}</td>`).join("")}
-   <td><span class="badge b-${e.trend}">${e.trend}</span></td>
+   <td><span class="badge b-${e.trend}">${e.trend}</span></td><td><span class="badge sig-${e.signal}">${SIGL[e.signal]||"—"}</span></td>
    <td class="mono ${e.rsi14>70?"down":e.rsi14<30?"up":""}" title="${e.rsi14>70?"overbought":e.rsi14<30?"oversold":""}">${e.rsi14??"—"}</td>
    <td class="mono ${cls(e.off_52w_high)}">${fmt(e.off_52w_high,1)}</td>
    <td>${spark(e.history)}</td><td>${toneDot(e.news_tone)} <span class="mono flat">${e.news?.length||0}</span></td></tr>`).join("");
@@ -225,11 +253,40 @@ function openDetail(t){const e=S.data.etfs.find(x=>x.ticker===t);if(!e)return;
     ["50-day avg",e.sma50??"—"],["200-day avg",e.sma200??"—"],["RSI(14)",e.rsi14??"—"],["Trend",e.trend],["Momentum",fmt(e.momentum,1,"")],["Ex-dividend",e.ex_dividend??"—"]]
     .map(([k,v])=>`<div><div class="k">${k}</div><div class="v mono">${v}</div></div>`).join("")}</div>
   ${(S.data.political||[]).filter(p=>p.etfs.includes(e.ticker)).map(p=>`<div class="card ev click" style="margin-bottom:12px;padding:10px 14px" data-ev-open="${p.id}"><div><div class="ttl"><b>${esc(p.title)}</b> · ${daysTo(p.date)>0?"in "+daysTo(p.date)+" days":"recent"} →</div><div class="in">See how ${e.ticker} moved around past elections</div></div></div>`).join("")}
+  ${e.signal?`<div class="card" style="margin-bottom:12px;padding:12px 14px"><div><span class="badge sig-${e.signal}">${SIGL[e.signal]}</span></div>${noteHtml(e.ticker)}${["Turnaround","Falling"].includes(e.signal)?checksHtml(e):""}</div>`:""}
   <h2 style="font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)">News</h2>
   <ul class="news">${(e.news||[]).map(n=>newsItem(n,false)).join("")||'<li class="flat">No recent headlines</li>'}</ul>
   <p class="meta"><a href="https://finance.yahoo.com/quote/${e.ticker}" target="_blank" rel="noopener">Open on Yahoo Finance ↗</a></p>`;
   $("drawer").classList.add("open")}
 function closeDetail(){$("drawer").classList.remove("open")}
+
+/* ---------- Trends view ---------- */
+const SIGL={Leader:"Leader",Turnaround:"Turnaround watch",Falling:"Still falling",Neutral:"Neutral"};
+const N=t=>S.data.ideas?.notes?.[t];
+function noteHtml(t){const n=N(t);if(!n)return"";const L=(l,a)=>a?.length?`<div class="lbl">${l}</div><ul>${a.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"";
+  return `<div class="note">${n.why?`<div>${esc(n.why)}</div>`:""}${L("Could push it higher",n.upside)}${L("Risks",n.risks)}</div>`}
+function checksHtml(e){return `<ul class="chk">${(e.recovery_checks||[]).map(c=>`<li class="${c.ok?"y":"n"}">${c.ok?"✓":"○"} ${esc(c.label)}</li>`).join("")}</ul>`}
+function tcard(e,mode){const n=N(e.ticker);
+  return `<div class="tc" data-t="${e.ticker}"><div class="top"><div><div class="tk">${e.ticker} <span class="badge sig-${e.signal}" style="vertical-align:2px">${SIGL[e.signal]}</span></div><div class="nm">${esc(e.name)} · ${esc(e.group)}</div></div>${spark(e.history,80,28)}</div>
+  <div class="nums mono">${[["1M",e.chg_1m],["3M",e.chg_3m],[mode==="lead"?"6M":"1Y",mode==="lead"?e.chg_6m:e.chg_1y],["vs high",e.off_52w_high]].map(([k,v])=>`<div><div class="k">${k}</div><div class="${cls(v)}">${fmt(v,1)}</div></div>`).join("")}</div>
+  ${mode==="lead"?(n?.why?`<div class="why">${esc(n.why)}</div>`:""):checksHtml(e)+(n?.why?`<div class="why">${esc(n.why)}</div>`:"")}</div>`}
+function renderTrends(){const E=S.data.etfs.filter(e=>e.signal);
+  const by=s=>E.filter(e=>e.signal===s);
+  const lead=by("Leader").sort((a,b)=>(b.momentum??-1e9)-(a.momentum??-1e9));
+  const turn=by("Turnaround").sort((a,b)=>b.recovery_score-a.recovery_score||(b.chg_1m??0)-(a.chg_1m??0));
+  const fall=by("Falling").sort((a,b)=>(b.chg_1m??0)-(a.chg_1m??0));
+  const empty=m=>`<div class="flat" style="font-size:13px">${m}</div>`;
+  $("leaders").innerHTML=lead.map(e=>tcard(e,"lead")).join("")||empty("No ETFs meet the leader rules today.");
+  $("turn").innerHTML=turn.map(e=>tcard(e,"turn")).join("")||empty("No beaten-down ETFs show 2+ recovery signs today.");
+  $("falling").innerHTML=fall.map(e=>tcard(e,"turn")).join("")||empty("None.");
+  const chip=(t,dir)=>{const e=S.data.etfs.find(x=>x.ticker===t);return `<span class="tchip" data-t="${t}"><span class="${dir==="up"?"arrow-up":"arrow-dn"}">${dir==="up"?"▲":"▼"}</span>${t}${e?` <span class="${cls(e.chg_1m)}">${fmt(e.chg_1m,1)}</span>`:""}</span>`};
+  const th=S.data.ideas?.themes||[];
+  $("themes").innerHTML=th.map(t=>`<div class="card theme"><h4>${esc(t.title)}</h4><p class="sum">${esc(t.summary)}</p>
+    <div class="scen">${(t.scenarios||[]).map(sc=>`<div><div class="sl">If: ${esc(sc.label)}</div>${(sc.up||[]).map(x=>chip(x,"up")).join("")}${(sc.down||[]).map(x=>chip(x,"down")).join("")}${!(sc.up||[]).length&&!(sc.down||[]).length?'<span class="flat" style="font-size:12px">—</span>':""}</div>`).join("")}</div>
+    ${t.catalysts?.length?`<div class="meta" style="margin-bottom:6px"><b>Dates:</b>${t.catalysts.map(c=>`<span class="tag">${esc(c.label)} · ${new Date(c.date+"T12:00:00").toLocaleDateString("en",{day:"numeric",month:"short"})} (${daysTo(c.date)}d)</span>`).join("")}</div>`:""}
+    ${t.watch?.length?`<div class="meta"><b>Watch:</b> ${t.watch.map(esc).join(" · ")}</div>`:""}
+    ${t.news?.length?`<ul class="news" style="margin-top:8px">${t.news.slice(0,3).map(n=>newsItem(n,false)).join("")}</ul>`:""}</div>`).join("")||empty("Add themes in ideas.yml");
+  $("ideasUpd").textContent=`▲/▼ = ETFs that have tended to gain/lose in that scenario; the % is the last month's move. Ideas last edited ${S.data.ideas?.updated||"—"} (ideas.yml). Not investment advice.`}
 
 /* ---------- Political events view ---------- */
 const CYC=["#7c5cd6","#d4892a","#2a9cb3","#c4577f","#5f9e3a"];
@@ -316,8 +373,9 @@ function showEvent(id){S.view="pol";S.ev=id;closeDetail();render();window.scroll
 $("evCards").onclick=e=>{const b=e.target.closest("[data-ev]");if(b){S.ev=b.dataset.ev;renderEvCards();renderEvDetail()}};
 
 function render(){const r=rows();
-  seg($("viewSeg"),[["mkt","Markets"],["pol","Political events"]],S.view,v=>{S.view=v;render()});
-  const pol=S.view==="pol";$("polView").hidden=!pol;$("mktView").hidden=pol;document.querySelectorAll(".mk").forEach(el=>el.style.display=pol?"none":"");
+  seg($("viewSeg"),[["mkt","Markets"],["tr","Trends"],["pol","Political events"]],S.view,v=>{S.view=v;history.replaceState(null,"",{tr:"#trends",pol:"#politics"}[v]||" ");render()});
+  const pol=S.view==="pol",tr=S.view==="tr";$("polView").hidden=!pol;$("trView").hidden=!tr;$("mktView").hidden=pol||tr;document.querySelectorAll(".mk").forEach(el=>el.style.display=pol||tr?"none":"");
+  if(tr)renderTrends();
   if(pol){if(!S.ev)S.ev=S.data.political?.[0]?.id;renderEvCards();renderEvDetail()}
   seg($("groupSeg"),[["All","All"],...S.data.groups.map(g=>[g,g])],S.group,v=>{S.group=v;render()});
   seg($("periodSeg"),Object.entries(PERIODS),S.period,v=>{S.period=v;S.sort=v;S.dir=-1;render()});
