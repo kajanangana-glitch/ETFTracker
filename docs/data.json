@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T20:52+00:00",
+ "generated_at": "2026-11-20T02:33+00:00",
  "groups": [
   "Countries",
   "Regions",
@@ -11,20 +11,20 @@
    "ticker": "EWJ",
    "name": "Japan",
    "group": "Countries",
-   "price": 87.18,
-   "chg_1d": -0.98,
-   "chg_1w": -4.7,
-   "chg_1m": -8.93,
-   "chg_3m": -8.41,
-   "chg_ytd": 7.77,
-   "chg_6m": -4.07,
-   "chg_1y": 12.56,
+   "price": 87.01,
+   "chg_1d": -1.17,
+   "chg_1w": -4.88,
+   "chg_1m": -9.1,
+   "chg_3m": -8.58,
+   "chg_ytd": 7.57,
+   "chg_6m": -4.25,
+   "chg_1y": 12.35,
    "sma50": 94.93,
    "sma200": 91.93,
-   "rsi14": 32.3,
-   "off_52w_high": -12.23,
+   "rsi14": 32.0,
+   "off_52w_high": -12.39,
    "trend": "Mixed",
-   "momentum": -8.67,
+   "momentum": -8.84,
    "history": [
     [
      "2026-05-22",
@@ -528,7 +528,7 @@
     ],
     [
      "2026-11-19",
-     87.18
+     87.01
     ]
    ],
    "signal": "Neutral",
@@ -553,85 +553,28 @@
    "recovery_score": 0,
    "sma50_slope": -1.4,
    "rsi_low_3m": 25.7,
-   "news": [
-    {
-     "title": "If Japan's Stock Market Rally Returns, These 3 ETFs Could Benefit",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMmRGVVh1VzRLeXYzUXJ2aEMyN0d4bnJtZVVrQmVkZmxOSjBwdHR4RkpCUF9sR0ctOG5JWVpPZUhaMGpZakdueGlzZWpQajJkYXNtV0dTX2g1ZTdwSXhzLXZyU043RFoxYXFlZFROaXBvT19zdEZnWE1nVGhub1JtYXJpcjZKNUY4bUc3X0czQXRFS2VtNEJJNWVfaGJQWVRERml0dUtEUDg?oc=5",
-     "source": "Yahoo Finance",
-     "published": "2026-11-12T16:35:00+00:00",
-     "tone": 1,
-     "political": false
-    },
-    {
-     "title": "Morgan Stanley Sees 22% Upside for Japan ETFs in 2027 - iShares MSCI Japan Index Fund (ARCA:EWJ)",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOb00wa2FRNUcxMm9oNVBjbUV0c2c2X0RnX3pua0sxWi1CMFVWcmNfMkkzVGIybkhheXM5Rkg2NTRDNzdUNFRNUEhKS190b2NrOC1OYWlHeWE3MEtCTjcza2VHSkpTcm1XcGZreDRFbURhMC13dXBDNmV3X2xuWGNmYlA2c0kyZFNHaTNLa1ZvQzV6WU9NZ0Y0TE5NWVRLaVV2X29lR0VUVGxZLWJhTlJ2NHpYX3BiNnJJRVNzeG9TMEhSSXVZX0plT2xiOF82UFhRR3FWUXZvb2xiYWRleExYLVlYMk5oZk51TWc?oc=5",
-     "source": "Benzinga",
-     "published": "2026-11-17T15:33:06+00:00",
-     "tone": 0,
-     "political": false
-    },
-    {
-     "title": "FLJP: Reasonable Low-Fee ETF Trading At A Discount To Developed Markets (NYSEARCA:FLJP)",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV1Rqd3AxaktlM0Nna0pYZTUtLVBRUTZLU2pvUkJXZlB6cGltNkgwcmgxamNUQ0RUMEFBaVhLRDAyaV9WVVdqdVpyYUJZUU01a2FzSXRwbHA2bkVHSThBZVVhRU1JdGo3SnRubm8tbERGcUFlN0E3b2tQYm1vNHVMY19mNVVaTXlPZzBlcGhaMzEwMWdZY19lZWFmeVNPZDd5Q1hrTDRMTEU3a1c0bUJmUQ?oc=5",
-     "source": "Seeking Alpha",
-     "published": "2026-11-18T06:39:53+00:00",
-     "tone": 0,
-     "political": false
-    },
-    {
-     "title": "Japan's Q3 GDP Shrinks 0.1%: A Blip or Warning for ETF Investors?",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNekVFbjRQNGk1ZUVVdjJ3RXdzSm1YYi1RRUJpODFaY01ZQm5GQ2YwTVBMa2ttenZhX2k0dk9DR2xBX3JkYm5sLTZlVVI1bHRlS0FxTXdvNEZDREtFa2RDbDdkbWR3MmduYkVrLVdGSVZ6MUhQdkdyNllWWWxQeDRrelVlRjBmUGhxUDRBWVpPOWs1cWViOTk4MElSYXVMcEFrTFdZakxwY05lanlyOTlyM21PbEs5NXd2?oc=5",
-     "source": "TradingView",
-     "published": "2026-11-16T15:02:00+00:00",
-     "tone": 0,
-     "political": false
-    },
-    {
-     "title": "What Lies Behind Japan's 0.1% Q3 Economic Contraction, and How Does It Affect iShares MSCI Japan ETF (NYSEARCA:EWJ)?",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYlVYY1ZJMy11UzBjZVo5NU1ad3NDdktTNmpndHR3d2h2SzJKaDBnQUxrdVZMQllsa242cC10azFFaG1BMHNtTnBWZWNFWm9jR1ptZEFTc212aEM3MzJFUDU5TENxcTN1X2F3WjhSTkdqQXYtWTJZUWxtWGJfLS1VbW9CUHBJM080UDNTLVZwbmdOdFdxdWY5N3FnX1k2NEhzMGpaUVFZbHdIRjJfZm9QemVrSm1KX0tycUFTb2VORjkzU3k4YmNLaVl3dEcxUFlscEdEV2RvWkczQnhET0pF?oc=5",
-     "source": "kalkine.ca",
-     "published": "2026-11-17T18:21:00+00:00",
-     "tone": 0,
-     "political": false
-    },
-    {
-     "title": "Pictet raises Japan allocation as it looks beyond AI stocks (EWJ:NYSEARCA)",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMkh0Qm5LWlc5ZjdrUGJENVdYX0I5MjdBUVRGNmZIRk12QldnN0VnTVJKMTE0cGpFWmZTdXVwRlBvUm15UGx6SWZRcnBxTmRHWTFVTWxsdlNncVZ0LWttQ0NiODNtaFZ4Y080b3ktaXpwcVVmdHp0WlpReUszYzU3eHlDSFU3S3daNUlRTmtKVS1JNkNhTEw1MmV6NU1jZw?oc=5",
-     "source": "Seeking Alpha",
-     "published": "2026-11-15T22:20:36+00:00",
-     "tone": 0,
-     "political": false
-    },
-    {
-     "title": "2027 the year to \u2018embrace risk,\u2019 to maximize on stocks \u2013 Morgan Stanley",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZVA0U1N5Q1RjN3hVMVVpQ1NHcHljYm1MMzJsRlRNOXRjTHQ3VE9SOEpZbXpkXzJielF0M1E4TmUwdmUyMENHSUtBczZWQ01ha3hmNS13MDdBX0tMMEVNRmFHeE9oTlpkRGNCd3J2ei0zUHpPSHNVNjRTbHlQMGI2ZEhQSlRkdDlyZUwzcFF1amlwVldNR3BOdE9HN3kzZ1FWZTlydVZ5MGhLNmlXY1Rzb3lLd0trZENXTnc0VWcxYWY2WmJvdmtiTg?oc=5",
-     "source": "TradingView",
-     "published": "2026-11-16T14:34:13+00:00",
-     "tone": -1,
-     "political": false
-    }
-   ],
-   "news_tone": 0.0,
+   "news": [],
+   "news_tone": 0,
    "ex_dividend": null
   },
   {
    "ticker": "MCHI",
    "name": "China",
    "group": "Countries",
-   "price": 47.07,
-   "chg_1d": -1.52,
-   "chg_1w": -5.4,
-   "chg_1m": -5.96,
-   "chg_3m": -15.44,
-   "chg_ytd": -23.88,
-   "chg_6m": -15.34,
-   "chg_1y": -23.17,
+   "price": 47.02,
+   "chg_1d": -1.61,
+   "chg_1w": -5.49,
+   "chg_1m": -6.05,
+   "chg_3m": -15.52,
+   "chg_ytd": -23.95,
+   "chg_6m": -15.42,
+   "chg_1y": -23.25,
    "sma50": 51.15,
    "sma200": 54.68,
-   "rsi14": 27.0,
-   "off_52w_high": -26.27,
+   "rsi14": 26.8,
+   "off_52w_high": -26.34,
    "trend": "Downtrend",
-   "momentum": -10.7,
+   "momentum": -10.79,
    "history": [
     [
      "2026-05-22",
@@ -1135,7 +1078,7 @@
     ],
     [
      "2026-11-19",
-     47.07
+     47.02
     ]
    ],
    "signal": "Falling",
@@ -1159,7 +1102,7 @@
    ],
    "recovery_score": 0,
    "sma50_slope": -1.78,
-   "rsi_low_3m": 27.0,
+   "rsi_low_3m": 26.8,
    "news": [
     {
      "title": "Higher rates are the \u2018only pin that pricks a bubble\u2019 \u2013 Rockefeller International\u2019s Ruchir Sharma",
@@ -1177,21 +1120,25 @@
    "ticker": "INDA",
    "name": "India",
    "group": "Countries",
-   "price": 52.01,
-   "chg_1d": 1.06,
-   "chg_1w": 0.88,
-   "chg_1m": 10.02,
-   "chg_3m": 4.76,
-   "chg_ytd": -4.68,
-   "chg_6m": 8.28,
-   "chg_1y": -4.77,
-   "sma50": 48.27,
+   "price": 51.46,
+   "chg_1d": -0.85,
+   "chg_1w": -0.25,
+   "chg_1m": 7.7,
+   "chg_3m": 3.85,
+   "chg_ytd": -5.68,
+   "chg_6m": 7.16,
+   "chg_1y": -5.84,
+   "sma50": 48.19,
    "sma200": 49.09,
-   "rsi14": 72.8,
-   "off_52w_high": -5.15,
+   "rsi14": 69.7,
+   "off_52w_high": -6.15,
    "trend": "Mixed",
-   "momentum": 7.39,
+   "momentum": 5.78,
    "history": [
+    [
+     "2026-05-21",
+     48.03
+    ],
     [
      "2026-05-22",
      48.39
@@ -1691,10 +1638,6 @@
     [
      "2026-11-18",
      51.46
-    ],
-    [
-     "2026-11-19",
-     52.01
     ]
    ],
    "signal": "Turnaround",
@@ -1717,7 +1660,7 @@
     }
    ],
    "recovery_score": 4,
-   "sma50_slope": 0.9,
+   "sma50_slope": 0.75,
    "rsi_low_3m": 26.8,
    "news": [
     {
@@ -1745,17 +1688,17 @@
      "political": false
     },
     {
-     "title": "Higher rates are the \u2018only pin that pricks a bubble\u2019 \u2013 Rockefeller International\u2019s Ruchir Sharma",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNlVYRE5ZNHdxN0F1TWs1dHJKQ2I0ZkFnOE10VkpMa29iQXIxZFZrMkxlQUh5NzR4UmlwX0dzbTNNVldjWUdJZ0ljT0hlNVExMzk2MlJYb28yT2lHMWM2Q1lFVGVEN2RjZWVmM0xwTE5PVWtneTlyTGl5UEZpZGR4MHFrWVl4Z2JJdU85enNCNWR6WFFjc0JnQ0hDcTVFSDBZQUg2S2RDWEI5MHlNV3dsM3lBaWRlbk16R1RONHV2U1ViYXRRc3k4WGxZeE55S3NfVUFkMnU4V3QyaGcxR3YxcXhtdURkd2tySWhV?oc=5",
-     "source": "TradingView",
-     "published": "2026-11-12T16:03:03+00:00",
+     "title": "Trading Systems Reacting to (INDA) Volatility",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdFlfUW1iRjQwX1IzYmFieV8tWmZWdGlzTTdxQ1VxUFZxWi1TM3pfWFk4Yy1lcDViWmVmV0tOeGF6bDY0VGZsTlpQTmwtcVBBWFROUDVOMUNhb20wWG9jU1VaSUstbVlDeHVUUUZXbUtraUtNTnVxZ2J1bWF0Y0lScFRJWWFXRDhSaEs5end1QThTMW54OHFDR3hzSW5ZTDUyc0hmQ0s5VF8zbll0RjA2ZlBGVGh2ZGNmanlsZjUxN2k?oc=5",
+     "source": "Stock Traders Daily",
+     "published": "2026-11-14T19:28:01+00:00",
      "tone": 0,
      "political": false
     },
     {
-     "title": "Ask India: Deutsche Bank says AI adoption outweighs model race",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNEJRT2VsMmx2eGF6QncxR0U4djhXZl9PSzBRZzNYUDNDVDlzVTdyUnU2b0g5ZXRTb29saUQ3djIxdlc0cW9YWUFsSmNFYTVsN3Y4MmpDSkE3NlVCa0NkNFNabF9VN0tiYWRuU2RVRjVIWEkyaUVoXzRRUTROUEpNbElVdk9YMDhJWFlDQnlfVUtOTkN5UUVqNk5qZVdmNXJZNFN0Q0c5ZWl1cUxrRm9ENUJFSEdMeVltZ1BMd19YNGhvdw?oc=5",
-     "source": "TradingView",
+     "title": "Ask India: Deutsche Bank says AI adoption outweighs model race (INDA:BATS)",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdHRWVFA0M1hhTDE1OUUxWUd3dXNxQlJPc0NILWhvRmN2ZzgyalFtR3g1SFdkcHZ1ZFVTa3M3X0hYV0VuMnVnRnJqcURTLWhqOGZra01vNlNXMEpmY2hYY3YyRjJCQ1hwbjBxV1J4X094UTJ3WXhSeEZBQ2Faa1g5SzlEbkpKYld1dHZTTXJhVjVxQ2lCdk9ycFc4M0hTY3Zs?oc=5",
+     "source": "Seeking Alpha",
      "published": "2026-11-19T17:17:39+00:00",
      "tone": 0,
      "political": false
@@ -1768,20 +1711,20 @@
    "ticker": "EWG",
    "name": "Germany",
    "group": "Countries",
-   "price": 40.26,
-   "chg_1d": -1.86,
-   "chg_1w": -5.94,
-   "chg_1m": -3.44,
-   "chg_3m": -8.9,
-   "chg_ytd": -3.49,
-   "chg_6m": -4.59,
-   "chg_1y": 3.9,
+   "price": 40.19,
+   "chg_1d": -2.05,
+   "chg_1w": -6.12,
+   "chg_1m": -3.62,
+   "chg_3m": -9.07,
+   "chg_ytd": -3.67,
+   "chg_6m": -4.77,
+   "chg_1y": 3.71,
    "sma50": 41.86,
    "sma200": 41.79,
-   "rsi14": 36.7,
-   "off_52w_high": -9.7,
+   "rsi14": 36.3,
+   "off_52w_high": -9.87,
    "trend": "Mixed",
-   "momentum": -6.17,
+   "momentum": -6.35,
    "history": [
     [
      "2026-05-22",
@@ -2285,7 +2228,7 @@
     ],
     [
      "2026-11-19",
-     40.26
+     40.19
     ]
    ],
    "signal": "Neutral",
@@ -2308,30 +2251,39 @@
     }
    ],
    "recovery_score": 0,
-   "sma50_slope": -0.75,
+   "sma50_slope": -0.76,
    "rsi_low_3m": 29.3,
-   "news": [],
-   "news_tone": 0,
+   "news": [
+    {
+     "title": "Germany, France And Italy: 3 Calls For The Eurozone Big 3",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbXkzc0gwWm9ESU4xamphUC1CV3J1a05VLXR0bVJPNWNocVFNTVQtVUhOb0hNR1hYTkFHeUZjaEdoQXNya3pYSlpiR2dvOTRCcThpQkswRGZLbm9NM0QxMTZ5eXpDS3k4ZmllMERnZko2SDFTOXlDTTRYbHRDUVMxaDBPMlNlTVRPV3VQVE1OakRRWGlfUnl2MWxzTkxlQTZKSW9QczVVWUprb3ZDTEVMeQ?oc=5",
+     "source": "Seeking Alpha",
+     "published": "2026-11-10T08:00:00+00:00",
+     "tone": 0,
+     "political": false
+    }
+   ],
+   "news_tone": 0.0,
    "ex_dividend": null
   },
   {
    "ticker": "EWU",
    "name": "United Kingdom",
    "group": "Countries",
-   "price": 45.49,
-   "chg_1d": -1.3,
-   "chg_1w": -4.75,
-   "chg_1m": -4.61,
-   "chg_3m": -7.05,
-   "chg_ytd": 3.78,
-   "chg_6m": -2.53,
-   "chg_1y": 11.48,
+   "price": 45.46,
+   "chg_1d": -1.37,
+   "chg_1w": -4.82,
+   "chg_1m": -4.68,
+   "chg_3m": -7.11,
+   "chg_ytd": 3.71,
+   "chg_6m": -2.6,
+   "chg_1y": 11.41,
    "sma50": 47.29,
    "sma200": 46.79,
-   "rsi14": 35.0,
-   "off_52w_high": -7.9,
+   "rsi14": 34.9,
+   "off_52w_high": -7.96,
    "trend": "Mixed",
-   "momentum": -5.83,
+   "momentum": -5.89,
    "history": [
     [
      "2026-05-22",
@@ -2835,7 +2787,7 @@
     ],
     [
      "2026-11-19",
-     45.49
+     45.46
     ]
    ],
    "signal": "Neutral",
@@ -2868,20 +2820,20 @@
    "ticker": "EWZ",
    "name": "Brazil",
    "group": "Countries",
-   "price": 29.52,
-   "chg_1d": -1.81,
-   "chg_1w": -7.1,
-   "chg_1m": -30.55,
-   "chg_3m": -15.79,
-   "chg_ytd": -7.43,
-   "chg_6m": -19.46,
-   "chg_1y": -5.68,
+   "price": 29.51,
+   "chg_1d": -1.86,
+   "chg_1w": -7.14,
+   "chg_1m": -30.58,
+   "chg_3m": -15.83,
+   "chg_ytd": -7.48,
+   "chg_6m": -19.51,
+   "chg_1y": -5.73,
    "sma50": 36.96,
    "sma200": 36.71,
    "rsi14": 26.3,
-   "off_52w_high": -32.19,
+   "off_52w_high": -32.22,
    "trend": "Mixed",
-   "momentum": -23.17,
+   "momentum": -23.2,
    "history": [
     [
      "2026-05-22",
@@ -3385,7 +3337,7 @@
     ],
     [
      "2026-11-19",
-     29.52
+     29.51
     ]
    ],
    "signal": "Falling",
@@ -3420,6 +3372,14 @@
      "political": false
     },
     {
+     "title": "iShares MSCI South Korea ETF (EWY) Stock Price, News, Quote & History",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zTjA1MWZiNmk0d0NuUmZqd0NlNDJFMHdMd0F2ZDJJOHZvaGRidnFsLXpTd29wM0M3WjRqcHV5Ny13VUQyWFJqeXNTYllUb1ZC?oc=5",
+     "source": "Yahoo! Finance Canada",
+     "published": "2026-11-19T04:03:35+00:00",
+     "tone": 0,
+     "political": false
+    },
+    {
      "title": "EWZ Top Holdings List & Exposure (iShares MSCI Brazil ETF)",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KcXBFZGVaRnNxdEM3UmhjY01ZenVsUVRqYW53QU1oS1d5RExwNW94TjUwZWpsejZ3Y01ZelEtb1pONW93RUowOE40RVFqUkNQbzJWUFdFWVpCb0hJbHZwOURCOWk1ZWc?oc=5",
      "source": "MarketBeat",
@@ -3443,20 +3403,20 @@
    "ticker": "EWY",
    "name": "South Korea",
    "group": "Countries",
-   "price": 135.1,
-   "chg_1d": -1.2,
-   "chg_1w": -7.07,
-   "chg_1m": -13.89,
-   "chg_3m": -24.25,
-   "chg_ytd": 32.16,
-   "chg_6m": -27.53,
-   "chg_1y": 50.81,
-   "sma50": 164.29,
+   "price": 134.59,
+   "chg_1d": -1.57,
+   "chg_1w": -7.42,
+   "chg_1m": -14.21,
+   "chg_3m": -24.53,
+   "chg_ytd": 31.67,
+   "chg_6m": -27.8,
+   "chg_1y": 50.25,
+   "sma50": 164.28,
    "sma200": 164.3,
-   "rsi14": 37.5,
-   "off_52w_high": -38.37,
+   "rsi14": 37.2,
+   "off_52w_high": -38.6,
    "trend": "Downtrend",
-   "momentum": -19.07,
+   "momentum": -19.37,
    "history": [
     [
      "2026-05-22",
@@ -3960,7 +3920,7 @@
     ],
     [
      "2026-11-19",
-     135.1
+     134.59
     ]
    ],
    "signal": "Falling",
@@ -3986,6 +3946,14 @@
    "sma50_slope": -5.01,
    "rsi_low_3m": 28.2,
    "news": [
+    {
+     "title": "iShares MSCI South Korea ETF (EWY) Stock Price, News, Quote & History",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zTjA1MWZiNmk0d0NuUmZqd0NlNDJFMHdMd0F2ZDJJOHZvaGRidnFsLXpTd29wM0M3WjRqcHV5Ny13VUQyWFJqeXNTYllUb1ZC?oc=5",
+     "source": "Yahoo! Finance Canada",
+     "published": "2026-11-19T04:03:35+00:00",
+     "tone": 0,
+     "political": false
+    },
     {
      "title": "South Korean stocks extend their losing streak amid AI conce",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9JeWZUbUtVbEZTdlNUNVNWUWhNc3NXeTQxVnAyR3BNMGpYRFBpbW96anFpVEVUNkJCZmJSSW1hOHVYeTFFN3F5UWtqRWxsM0FJVHFzWGFCYnBQc05oejllSmNOSFpvSUxrSlVEbHVjUDBYZw?oc=5",
@@ -4017,37 +3985,29 @@
      "published": "2026-11-19T06:19:43+00:00",
      "tone": 0,
      "political": false
-    },
-    {
-     "title": "Asian markets diverge as U.S. CPI elevates Fed rate hike expectations; Bitcoin drops below $73.5K",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd1M2NUIxUUdhaG93aUZ5SC1VLU9UZzROQXJtRG8xV0V6UXo4dEU5cDFGYmJpSUpnbXVJOURnbUpObENVM09LX013ZEU3RmViWHlTNkVkVGg0Ry1YUFd5eW9xang5aW1vX25pTTR5Qmo1NXVfNkJyNzR3X0NiMlE3UXc4TTRCNkpiMkZSUUNickZoSGlOLVRlTzRuZmRaY1FsdFJ4d0Iza1JTWU84Ni1YVl9xaktDcU13Vy0wY0NWM2xBRXFLU1hXQm1n?oc=5",
-     "source": "Seeking Alpha",
-     "published": "2026-11-11T05:57:30+00:00",
-     "tone": -2,
-     "political": false
     }
    ],
-   "news_tone": -0.6,
+   "news_tone": -0.2,
    "ex_dividend": null
   },
   {
    "ticker": "EWT",
    "name": "Taiwan",
    "group": "Countries",
-   "price": 84.2,
-   "chg_1d": -5.11,
-   "chg_1w": -13.42,
-   "chg_1m": -22.75,
-   "chg_3m": -19.27,
-   "chg_ytd": 30.0,
-   "chg_6m": -10.87,
-   "chg_1y": 40.53,
+   "price": 83.96,
+   "chg_1d": -5.38,
+   "chg_1w": -13.67,
+   "chg_1m": -22.97,
+   "chg_3m": -19.5,
+   "chg_ytd": 29.63,
+   "chg_6m": -11.13,
+   "chg_1y": 40.13,
    "sma50": 106.01,
    "sma200": 95.06,
-   "rsi14": 30.8,
-   "off_52w_high": -28.64,
+   "rsi14": 30.6,
+   "off_52w_high": -28.85,
    "trend": "Mixed",
-   "momentum": -21.01,
+   "momentum": -21.23,
    "history": [
     [
      "2026-05-22",
@@ -4551,7 +4511,7 @@
     ],
     [
      "2026-11-19",
-     84.2
+     83.96
     ]
    ],
    "signal": "Falling",
@@ -4574,7 +4534,7 @@
     }
    ],
    "recovery_score": 0,
-   "sma50_slope": -3.13,
+   "sma50_slope": -3.14,
    "rsi_low_3m": 19.8,
    "news": [
     {
@@ -4594,6 +4554,14 @@
      "political": false
     },
     {
+     "title": "EWT: Anthropic Sucking Up The AI Air, Taiwan's P/E Improves (NYSEARCA:EWT)",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbUxUUl9WUE9McUFxNWNfZjJIcUpaaWNEeFRhcW9md1hiQ1h2eWVkdW1xRVRScVZBTEFkWHRPSkJnMTBta21pSWNzMGtyWVh5TmJENV9YNW5VWC1sYjdSeWQzWEdlMzZ3bDRJMGt0T0xhNkNvT0ptajdPNTgxX0ZPQ1ptaVh5NjRuYVlTRkx1UUIyaDdkWHRSVWtoUWw?oc=5",
+     "source": "Seeking Alpha",
+     "published": "2026-11-19T15:40:54+00:00",
+     "tone": 0,
+     "political": false
+    },
+    {
      "title": "How $300,000 in EWT Ends Up With $60,924 in a Single Chipmaker",
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYnkyelB6TGNYTk1ZakNuQVV0VVgzS1h3YzY2OUtSZ1hERHlTbHpZMUlHVWFmbzJlVXRuWF96bzV1T3hHVXR6VlNHNkN2T0RKNmROOXRQYkxiUDdvTi1iZnU0Sm9PQkdxN0lJS3dpaG5YU0RUNTFkbHNMZm83NTBOY3hDQ0RwMXpZYm4wWg?oc=5",
      "source": "Yahoo Finance",
@@ -4602,16 +4570,8 @@
      "political": false
     },
     {
-     "title": "EWT: Anthropic Sucking Up The AI Air, Taiwan's P/E Improves (NYSEARCA:EWT)",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMEhRRTlmOENEWktBT0RDQTZkQWx5bFJ6NGloMzl3Q3hzdFYzQ05SVHRCa29kMlZLd2h6WVdnTjh0QWVDbF9vTDJoTU4xWlNDakFJNWlueVF0d05sN2hvNi02YjkzT3l3OHdfRGp2TW1QaFU5cnNESlo0SWhHV1laMTJ4VzJnQUhWRi13eXI2ZHdMb0tBc0VrSkxxS1JOcjlzLTdLZUsyQm9ZalV4SURwRlZCajMtUQ?oc=5",
-     "source": "Seeking Alpha",
-     "published": "2026-11-19T15:40:54+00:00",
-     "tone": 0,
-     "political": false
-    },
-    {
-     "title": "EIS - iShares, Inc. | News",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQk5od3pMVDBXYXlVUVJ3SjFFdFpkU3NieFpnRXFBMDFhZk85eEVaZjZMUm56M0NES3JjLWtQeVVBWEJTYm9uSEZPN2ZpRW9NbTY4ZThSRm0yVnN2Y3pOcmhiR0NBbElQV3M0QTFJSE9zTTlPNWNZWnNNX2tIZ1dYZG9jaWZUUDc2a2FYekozempzWElLTWN6Tng1WVBOeUo4VUhRemNIQWJ6YXVsQVRYMG5ldW51UQ?oc=5",
+     "title": "EWL - iShares, Inc. | News",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkRFbGQ2UVFMcURIOTlCZzlLS2tzU0ZTUmc1emd6V1NsZFFSWE84Y0FHRjhJcXJGeGxRZ3JuNFZVT2FfT25OOXE2QUxXRmEzcVVhSEszSUlHckRLenl0Y1VkQnd1Tk5rLWxNck9MX0gteXZwU0E4QlVreU85VDNkbDNlWlg2a04wbk4xRm13dlRTdVBja3pnNUJsWFV3bEJvdk1wcmRmM1ZLNFktMmVzUDNrYUdLdw?oc=5",
      "source": "OTC Markets",
      "published": "2026-11-13T08:00:00+00:00",
      "tone": 0,
@@ -4632,29 +4592,37 @@
      "published": "2026-11-16T16:43:07+00:00",
      "tone": 0,
      "political": false
+    },
+    {
+     "title": "iShares MSCI South Korea ETF (EWY) Stock Price, News, Quote & History",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zTjA1MWZiNmk0d0NuUmZqd0NlNDJFMHdMd0F2ZDJJOHZvaGRidnFsLXpTd29wM0M3WjRqcHV5Ny13VUQyWFJqeXNTYllUb1ZC?oc=5",
+     "source": "Yahoo! Finance Canada",
+     "published": "2026-11-19T04:03:35+00:00",
+     "tone": 0,
+     "political": false
     }
    ],
-   "news_tone": -0.14,
+   "news_tone": -0.12,
    "ex_dividend": null
   },
   {
    "ticker": "EWC",
    "name": "Canada",
    "group": "Countries",
-   "price": 56.29,
-   "chg_1d": -1.66,
-   "chg_1w": -6.39,
-   "chg_1m": -8.2,
-   "chg_3m": -9.73,
-   "chg_ytd": 4.36,
-   "chg_6m": -3.46,
-   "chg_1y": 12.92,
+   "price": 56.25,
+   "chg_1d": -1.73,
+   "chg_1w": -6.45,
+   "chg_1m": -8.27,
+   "chg_3m": -9.8,
+   "chg_ytd": 4.29,
+   "chg_6m": -3.53,
+   "chg_1y": 12.84,
    "sma50": 59.88,
    "sma200": 58.5,
-   "rsi14": 29.2,
-   "off_52w_high": -10.14,
+   "rsi14": 29.1,
+   "off_52w_high": -10.2,
    "trend": "Mixed",
-   "momentum": -8.96,
+   "momentum": -9.04,
    "history": [
     [
      "2026-05-22",
@@ -5158,7 +5126,7 @@
     ],
     [
      "2026-11-19",
-     56.29
+     56.25
     ]
    ],
    "signal": "Neutral",
@@ -5182,7 +5150,7 @@
    ],
    "recovery_score": 0,
    "sma50_slope": -0.7,
-   "rsi_low_3m": 29.2,
+   "rsi_low_3m": 29.1,
    "news": [
     {
      "title": "Strong Earnings Have Powered The TSX - What Comes Next?",
@@ -5200,20 +5168,20 @@
    "ticker": "EWW",
    "name": "Mexico",
    "group": "Countries",
-   "price": 72.59,
-   "chg_1d": -1.41,
-   "chg_1w": -6.48,
-   "chg_1m": -3.92,
-   "chg_3m": -6.19,
-   "chg_ytd": 5.74,
-   "chg_6m": -5.32,
-   "chg_1y": 12.6,
-   "sma50": 74.28,
+   "price": 72.52,
+   "chg_1d": -1.51,
+   "chg_1w": -6.57,
+   "chg_1m": -4.01,
+   "chg_3m": -6.28,
+   "chg_ytd": 5.64,
+   "chg_6m": -5.41,
+   "chg_1y": 12.49,
+   "sma50": 74.27,
    "sma200": 75.66,
-   "rsi14": 35.9,
-   "off_52w_high": -9.32,
+   "rsi14": 35.7,
+   "off_52w_high": -9.41,
    "trend": "Downtrend",
-   "momentum": -5.05,
+   "momentum": -5.14,
    "history": [
     [
      "2026-05-22",
@@ -5717,7 +5685,7 @@
     ],
     [
      "2026-11-19",
-     72.59
+     72.52
     ]
    ],
    "signal": "Neutral",
@@ -5750,20 +5718,20 @@
    "ticker": "EIS",
    "name": "Israel",
    "group": "Countries",
-   "price": 104.22,
-   "chg_1d": -3.69,
-   "chg_1w": -8.58,
-   "chg_1m": -14.63,
-   "chg_3m": -15.13,
-   "chg_ytd": -6.39,
-   "chg_6m": -21.0,
-   "chg_1y": 2.77,
-   "sma50": 118.53,
+   "price": 103.8,
+   "chg_1d": -4.08,
+   "chg_1w": -8.95,
+   "chg_1m": -14.97,
+   "chg_3m": -15.47,
+   "chg_ytd": -6.77,
+   "chg_6m": -21.32,
+   "chg_1y": 2.36,
+   "sma50": 118.52,
    "sma200": 122.31,
-   "rsi14": 29.7,
-   "off_52w_high": -23.86,
+   "rsi14": 29.2,
+   "off_52w_high": -24.16,
    "trend": "Downtrend",
-   "momentum": -14.88,
+   "momentum": -15.22,
    "history": [
     [
      "2026-05-22",
@@ -6267,7 +6235,7 @@
     ],
     [
      "2026-11-19",
-     104.22
+     103.8
     ]
    ],
    "signal": "Falling",
@@ -6300,20 +6268,20 @@
    "ticker": "EWQ",
    "name": "France",
    "group": "Countries",
-   "price": 41.9,
-   "chg_1d": -1.28,
-   "chg_1w": -4.37,
-   "chg_1m": -0.49,
-   "chg_3m": -10.84,
-   "chg_ytd": -5.31,
-   "chg_6m": -5.7,
-   "chg_1y": -1.16,
+   "price": 41.88,
+   "chg_1d": -1.34,
+   "chg_1w": -4.43,
+   "chg_1m": -0.55,
+   "chg_3m": -10.89,
+   "chg_ytd": -5.36,
+   "chg_6m": -5.76,
+   "chg_1y": -1.22,
    "sma50": 42.81,
    "sma200": 44.4,
-   "rsi14": 40.2,
-   "off_52w_high": -12.52,
+   "rsi14": 40.0,
+   "off_52w_high": -12.57,
    "trend": "Downtrend",
-   "momentum": -5.67,
+   "momentum": -5.72,
    "history": [
     [
      "2026-05-22",
@@ -6817,7 +6785,7 @@
     ],
     [
      "2026-11-19",
-     41.9
+     41.88
     ]
    ],
    "signal": "Falling",
@@ -6850,20 +6818,20 @@
    "ticker": "TUR",
    "name": "Turkey",
    "group": "Countries",
-   "price": 30.55,
-   "chg_1d": -1.93,
-   "chg_1w": -4.68,
-   "chg_1m": -5.04,
-   "chg_3m": -25.01,
-   "chg_ytd": -11.44,
-   "chg_6m": -15.76,
-   "chg_1y": -6.18,
+   "price": 30.56,
+   "chg_1d": -1.89,
+   "chg_1w": -4.65,
+   "chg_1m": -5.0,
+   "chg_3m": -24.99,
+   "chg_ytd": -11.41,
+   "chg_6m": -15.73,
+   "chg_1y": -6.15,
    "sma50": 33.54,
    "sma200": 38.19,
    "rsi14": 38.3,
-   "off_52w_high": -29.3,
+   "off_52w_high": -29.27,
    "trend": "Downtrend",
-   "momentum": -15.03,
+   "momentum": -14.99,
    "history": [
     [
      "2026-05-22",
@@ -7367,7 +7335,7 @@
     ],
     [
      "2026-11-19",
-     30.55
+     30.56
     ]
    ],
    "signal": "Falling",
@@ -7400,20 +7368,20 @@
    "ticker": "EIDO",
    "name": "Indonesia",
    "group": "Countries",
-   "price": 10.27,
-   "chg_1d": -2.1,
-   "chg_1w": -1.91,
-   "chg_1m": -2.47,
-   "chg_3m": -19.58,
-   "chg_ytd": -44.37,
-   "chg_6m": -20.01,
-   "chg_1y": -42.14,
+   "price": 10.28,
+   "chg_1d": -2.0,
+   "chg_1w": -1.81,
+   "chg_1m": -2.37,
+   "chg_3m": -19.5,
+   "chg_ytd": -44.32,
+   "chg_6m": -19.93,
+   "chg_1y": -42.09,
    "sma50": 11.16,
    "sma200": 13.28,
-   "rsi14": 43.5,
-   "off_52w_high": -45.56,
+   "rsi14": 43.7,
+   "off_52w_high": -45.51,
    "trend": "Downtrend",
-   "momentum": -11.02,
+   "momentum": -10.94,
    "history": [
     [
      "2026-05-22",
@@ -7917,7 +7885,7 @@
     ],
     [
      "2026-11-19",
-     10.27
+     10.28
     ]
    ],
    "signal": "Falling",
@@ -7967,20 +7935,20 @@
    "ticker": "EZA",
    "name": "South Africa",
    "group": "Countries",
-   "price": 58.01,
-   "chg_1d": -2.56,
-   "chg_1w": -11.24,
-   "chg_1m": -11.18,
-   "chg_3m": -19.99,
-   "chg_ytd": -14.57,
-   "chg_6m": -13.15,
-   "chg_1y": -5.49,
+   "price": 57.96,
+   "chg_1d": -2.65,
+   "chg_1w": -11.32,
+   "chg_1m": -11.27,
+   "chg_3m": -20.07,
+   "chg_ytd": -14.65,
+   "chg_6m": -13.23,
+   "chg_1y": -5.58,
    "sma50": 64.96,
    "sma200": 67.1,
-   "rsi14": 30.0,
-   "off_52w_high": -27.35,
+   "rsi14": 29.9,
+   "off_52w_high": -27.41,
    "trend": "Downtrend",
-   "momentum": -15.58,
+   "momentum": -15.67,
    "history": [
     [
      "2026-05-22",
@@ -8484,7 +8452,7 @@
     ],
     [
      "2026-11-19",
-     58.01
+     57.96
     ]
    ],
    "signal": "Falling",
@@ -8508,7 +8476,7 @@
    ],
    "recovery_score": 0,
    "sma50_slope": -1.92,
-   "rsi_low_3m": 30.0,
+   "rsi_low_3m": 29.9,
    "news": [],
    "news_tone": 0,
    "ex_dividend": null
@@ -8517,20 +8485,20 @@
    "ticker": "EPOL",
    "name": "Poland",
    "group": "Countries",
-   "price": 41.93,
-   "chg_1d": -1.85,
-   "chg_1w": -4.57,
-   "chg_1m": -6.99,
-   "chg_3m": -5.61,
-   "chg_ytd": 16.53,
-   "chg_6m": 6.24,
-   "chg_1y": 32.84,
+   "price": 41.89,
+   "chg_1d": -1.94,
+   "chg_1w": -4.67,
+   "chg_1m": -7.08,
+   "chg_3m": -5.7,
+   "chg_ytd": 16.42,
+   "chg_6m": 6.14,
+   "chg_1y": 32.71,
    "sma50": 44.03,
    "sma200": 40.67,
-   "rsi14": 37.4,
-   "off_52w_high": -8.37,
+   "rsi14": 37.2,
+   "off_52w_high": -8.46,
    "trend": "Mixed",
-   "momentum": -6.3,
+   "momentum": -6.39,
    "history": [
     [
      "2026-05-22",
@@ -9034,7 +9002,7 @@
     ],
     [
      "2026-11-19",
-     41.93
+     41.89
     ]
    ],
    "signal": "Pullback",
@@ -9058,7 +9026,7 @@
    ],
    "recovery_score": 0,
    "sma50_slope": -0.53,
-   "rsi_low_3m": 37.4,
+   "rsi_low_3m": 37.2,
    "news": [],
    "news_tone": 0,
    "ex_dividend": null
@@ -9067,20 +9035,20 @@
    "ticker": "VNM",
    "name": "Vietnam",
    "group": "Countries",
-   "price": 16.39,
-   "chg_1d": -1.86,
-   "chg_1w": -3.7,
-   "chg_1m": -3.47,
-   "chg_3m": -8.28,
-   "chg_ytd": -14.23,
-   "chg_6m": -13.65,
-   "chg_1y": -7.37,
+   "price": 16.38,
+   "chg_1d": -1.92,
+   "chg_1w": -3.76,
+   "chg_1m": -3.53,
+   "chg_3m": -8.34,
+   "chg_ytd": -14.29,
+   "chg_6m": -13.7,
+   "chg_1y": -7.42,
    "sma50": 16.95,
    "sma200": 17.78,
-   "rsi14": 38.0,
-   "off_52w_high": -17.22,
+   "rsi14": 37.8,
+   "off_52w_high": -17.27,
    "trend": "Downtrend",
-   "momentum": -5.88,
+   "momentum": -5.93,
    "history": [
     [
      "2026-05-22",
@@ -9584,7 +9552,7 @@
     ],
     [
      "2026-11-19",
-     16.39
+     16.38
     ]
    ],
    "signal": "Falling",
@@ -9607,7 +9575,7 @@
     }
    ],
    "recovery_score": 0,
-   "sma50_slope": -1.32,
+   "sma50_slope": -1.33,
    "rsi_low_3m": 31.0,
    "news": [
     {
@@ -9617,30 +9585,42 @@
      "published": "2026-11-15T00:12:01+00:00",
      "tone": 0,
      "political": false
+    },
+    {
+     "title": "Why does MBS forecast Vinamilk's revenue growth in 2027 to be almost flat compared to 2026?",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZWxoZU8tZlBlQTRmX3hnZnl5emROdVpaR1V6czhPajE3UEw2cWprQjdzVmVVYk5jOENDRjVoS0hKYUJZN2NqQm9tN055MXNIZGp6eTV3YnRBNHBXUnNhQ0tyc0haLV95Umx2ZVlHMFh5Q2F0ekFCVTRoTnFTQ1diTG1XblY5OTM1b2ctZEdEZ2dYSFZSbk1lZnVZZEVPWTN2M0c4RGowUDI?oc=5",
+     "source": "Vietnam.vn",
+     "published": "2026-11-16T18:59:49+00:00",
+     "tone": 1,
+     "political": false
     }
    ],
-   "news_tone": 0.0,
+   "news_tone": 0.5,
    "ex_dividend": null
   },
   {
    "ticker": "KSA",
    "name": "Saudi Arabia",
    "group": "Countries",
-   "price": 35.19,
-   "chg_1d": -1.17,
-   "chg_1w": -2.62,
-   "chg_1m": 1.84,
-   "chg_3m": -8.16,
-   "chg_ytd": -2.85,
-   "chg_6m": -7.62,
-   "chg_1y": -6.79,
-   "sma50": 35.83,
-   "sma200": 37.44,
-   "rsi14": 45.8,
-   "off_52w_high": -12.08,
+   "price": 35.6,
+   "chg_1d": -0.89,
+   "chg_1w": -1.22,
+   "chg_1m": 2.36,
+   "chg_3m": -6.93,
+   "chg_ytd": -1.7,
+   "chg_6m": -5.7,
+   "chg_1y": -4.86,
+   "sma50": 35.89,
+   "sma200": 37.46,
+   "rsi14": 51.9,
+   "off_52w_high": -11.04,
    "trend": "Downtrend",
-   "momentum": -3.16,
+   "momentum": -2.29,
    "history": [
+    [
+     "2026-05-21",
+     38.09
+    ],
     [
      "2026-05-22",
      38.06
@@ -10140,10 +10120,6 @@
     [
      "2026-11-18",
      35.6
-    ],
-    [
-     "2026-11-19",
-     35.19
     ]
    ],
    "signal": "Turnaround",
@@ -10166,7 +10142,7 @@
     }
    ],
    "recovery_score": 2,
-   "sma50_slope": -1.63,
+   "sma50_slope": -1.7,
    "rsi_low_3m": 17.2,
    "news": [
     {
@@ -10193,20 +10169,20 @@
    "ticker": "ARGT",
    "name": "Argentina",
    "group": "Countries",
-   "price": 66.6,
-   "chg_1d": -3.72,
-   "chg_1w": -8.29,
-   "chg_1m": -23.81,
-   "chg_3m": -28.24,
-   "chg_ytd": -26.65,
-   "chg_6m": -27.39,
-   "chg_1y": -25.37,
+   "price": 66.56,
+   "chg_1d": -3.77,
+   "chg_1w": -8.34,
+   "chg_1m": -23.85,
+   "chg_3m": -28.28,
+   "chg_ytd": -26.7,
+   "chg_6m": -27.44,
+   "chg_1y": -25.42,
    "sma50": 84.08,
    "sma200": 90.19,
    "rsi14": 19.1,
-   "off_52w_high": -35.07,
+   "off_52w_high": -35.11,
    "trend": "Downtrend",
-   "momentum": -26.02,
+   "momentum": -26.07,
    "history": [
     [
      "2026-05-22",
@@ -10710,7 +10686,7 @@
     ],
     [
      "2026-11-19",
-     66.6
+     66.56
     ]
    ],
    "signal": "Falling",
@@ -10743,20 +10719,20 @@
    "ticker": "ECH",
    "name": "Chile",
    "group": "Countries",
-   "price": 33.88,
-   "chg_1d": -1.05,
-   "chg_1w": -4.51,
-   "chg_1m": -8.83,
-   "chg_3m": -18.24,
-   "chg_ytd": -14.75,
-   "chg_6m": -15.55,
-   "chg_1y": -6.22,
+   "price": 33.8,
+   "chg_1d": -1.29,
+   "chg_1w": -4.74,
+   "chg_1m": -9.04,
+   "chg_3m": -18.44,
+   "chg_ytd": -14.95,
+   "chg_6m": -15.75,
+   "chg_1y": -6.45,
    "sma50": 37.1,
    "sma200": 39.66,
-   "rsi14": 33.8,
-   "off_52w_high": -27.35,
+   "rsi14": 33.4,
+   "off_52w_high": -27.52,
    "trend": "Downtrend",
-   "momentum": -13.54,
+   "momentum": -13.74,
    "history": [
     [
      "2026-05-22",
@@ -11260,7 +11236,7 @@
     ],
     [
      "2026-11-19",
-     33.88
+     33.8
     ]
    ],
    "signal": "Falling",
@@ -11283,7 +11259,7 @@
     }
    ],
    "recovery_score": 0,
-   "sma50_slope": -2.85,
+   "sma50_slope": -2.86,
    "rsi_low_3m": 26.7,
    "news": [],
    "news_tone": 0,
@@ -11293,20 +11269,20 @@
    "ticker": "NORW",
    "name": "Norway",
    "group": "Countries",
-   "price": 34.6,
-   "chg_1d": -1.54,
-   "chg_1w": -4.84,
-   "chg_1m": -6.79,
-   "chg_3m": -7.26,
-   "chg_ytd": 21.37,
-   "chg_6m": -6.18,
-   "chg_1y": 30.67,
+   "price": 34.59,
+   "chg_1d": -1.57,
+   "chg_1w": -4.87,
+   "chg_1m": -6.82,
+   "chg_3m": -7.29,
+   "chg_ytd": 21.34,
+   "chg_6m": -6.21,
+   "chg_1y": 30.64,
    "sma50": 36.51,
    "sma200": 35.23,
    "rsi14": 31.5,
-   "off_52w_high": -9.73,
+   "off_52w_high": -9.76,
    "trend": "Mixed",
-   "momentum": -7.03,
+   "momentum": -7.05,
    "history": [
     [
      "2026-05-22",
@@ -11810,7 +11786,7 @@
     ],
     [
      "2026-11-19",
-     34.6
+     34.59
     ]
    ],
    "signal": "Neutral",
@@ -11843,20 +11819,20 @@
    "ticker": "VGK",
    "name": "Europe",
    "group": "Regions",
-   "price": 84.64,
-   "chg_1d": -1.41,
-   "chg_1w": -4.8,
-   "chg_1m": -3.36,
-   "chg_3m": -8.49,
-   "chg_ytd": 2.19,
-   "chg_6m": -3.1,
-   "chg_1y": 10.01,
+   "price": 84.57,
+   "chg_1d": -1.49,
+   "chg_1w": -4.88,
+   "chg_1m": -3.44,
+   "chg_3m": -8.56,
+   "chg_ytd": 2.1,
+   "chg_6m": -3.18,
+   "chg_1y": 9.92,
    "sma50": 87.58,
    "sma200": 87.17,
-   "rsi14": 36.5,
-   "off_52w_high": -8.95,
+   "rsi14": 36.2,
+   "off_52w_high": -9.02,
    "trend": "Mixed",
-   "momentum": -5.92,
+   "momentum": -6.0,
    "history": [
     [
      "2026-05-22",
@@ -12360,7 +12336,7 @@
     ],
     [
      "2026-11-19",
-     84.64
+     84.57
     ]
    ],
    "signal": "Neutral",
@@ -12393,20 +12369,20 @@
    "ticker": "EFA",
    "name": "Developed ex-US",
    "group": "Regions",
-   "price": 98.89,
-   "chg_1d": -1.37,
-   "chg_1w": -4.93,
-   "chg_1m": -4.97,
-   "chg_3m": -8.64,
-   "chg_ytd": 3.51,
-   "chg_6m": -3.59,
-   "chg_1y": 10.2,
-   "sma50": 103.85,
+   "price": 98.78,
+   "chg_1d": -1.48,
+   "chg_1w": -5.03,
+   "chg_1m": -5.07,
+   "chg_3m": -8.74,
+   "chg_ytd": 3.4,
+   "chg_6m": -3.69,
+   "chg_1y": 10.09,
+   "sma50": 103.84,
    "sma200": 102.72,
-   "rsi14": 33.8,
-   "off_52w_high": -9.12,
+   "rsi14": 33.5,
+   "off_52w_high": -9.22,
    "trend": "Mixed",
-   "momentum": -6.8,
+   "momentum": -6.91,
    "history": [
     [
      "2026-05-22",
@@ -12910,7 +12886,7 @@
     ],
     [
      "2026-11-19",
-     98.89
+     98.78
     ]
    ],
    "signal": "Neutral",
@@ -12934,7 +12910,7 @@
    ],
    "recovery_score": 0,
    "sma50_slope": -0.88,
-   "rsi_low_3m": 33.8,
+   "rsi_low_3m": 33.5,
    "news": [
     {
      "title": "EFA Vs. DBEF: Better Rating Still Goes To The Hedging ETF (NYSEARCA:EFA)",
@@ -12959,14 +12935,6 @@
      "published": "2026-11-19T20:10:59+00:00",
      "tone": 0,
      "political": false
-    },
-    {
-     "title": "Celestica Inc. (CLS) Stock Price, News, Quote & History",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBkbUkzUkpIeC0xRU5Hbk1INWxQaXZ5WkhJLU1rdmJtTDltVVFkQWxOYndQcXBUSkdHVUlKRFRZai12cVI3SHBhVHV5RUQ1MGlX?oc=5",
-     "source": "Yahoo! Finance Canada",
-     "published": "2026-11-17T18:00:32+00:00",
-     "tone": 0,
-     "political": false
     }
    ],
    "news_tone": 0.0,
@@ -12976,20 +12944,20 @@
    "ticker": "EEM",
    "name": "Emerging Markets",
    "group": "Regions",
-   "price": 56.85,
-   "chg_1d": -1.77,
-   "chg_1w": -7.01,
-   "chg_1m": -10.56,
-   "chg_3m": -15.29,
-   "chg_ytd": 1.62,
-   "chg_6m": -13.45,
-   "chg_1y": 7.27,
+   "price": 56.75,
+   "chg_1d": -1.95,
+   "chg_1w": -7.18,
+   "chg_1m": -10.73,
+   "chg_3m": -15.45,
+   "chg_ytd": 1.43,
+   "chg_6m": -13.61,
+   "chg_1y": 7.07,
    "sma50": 64.01,
    "sma200": 63.8,
-   "rsi14": 31.5,
-   "off_52w_high": -20.16,
+   "rsi14": 31.3,
+   "off_52w_high": -20.31,
    "trend": "Mixed",
-   "momentum": -12.93,
+   "momentum": -13.09,
    "history": [
     [
      "2026-05-22",
@@ -13493,7 +13461,7 @@
     ],
     [
      "2026-11-19",
-     56.85
+     56.75
     ]
    ],
    "signal": "Falling",
@@ -13583,20 +13551,20 @@
    "ticker": "AAXJ",
    "name": "Asia ex-Japan",
    "group": "Regions",
-   "price": 98.33,
-   "chg_1d": -1.69,
-   "chg_1w": -7.03,
-   "chg_1m": -10.11,
-   "chg_3m": -15.47,
-   "chg_ytd": 2.76,
-   "chg_6m": -13.62,
-   "chg_1y": 8.35,
+   "price": 98.01,
+   "chg_1d": -2.01,
+   "chg_1w": -7.33,
+   "chg_1m": -10.4,
+   "chg_3m": -15.74,
+   "chg_ytd": 2.43,
+   "chg_6m": -13.9,
+   "chg_1y": 8.0,
    "sma50": 110.91,
    "sma200": 110.2,
-   "rsi14": 32.5,
-   "off_52w_high": -20.84,
+   "rsi14": 32.0,
+   "off_52w_high": -21.09,
    "trend": "Mixed",
-   "momentum": -12.79,
+   "momentum": -13.07,
    "history": [
     [
      "2026-05-22",
@@ -14100,7 +14068,7 @@
     ],
     [
      "2026-11-19",
-     98.33
+     98.01
     ]
    ],
    "signal": "Falling",
@@ -14133,20 +14101,20 @@
    "ticker": "ILF",
    "name": "Latin America",
    "group": "Regions",
-   "price": 29.7,
-   "chg_1d": -1.77,
-   "chg_1w": -7.17,
-   "chg_1m": -21.52,
-   "chg_3m": -14.35,
-   "chg_ytd": -2.42,
-   "chg_6m": -14.61,
-   "chg_1y": 2.19,
+   "price": 29.66,
+   "chg_1d": -1.92,
+   "chg_1w": -7.31,
+   "chg_1m": -21.64,
+   "chg_3m": -14.48,
+   "chg_ytd": -2.57,
+   "chg_6m": -14.74,
+   "chg_1y": 2.03,
    "sma50": 34.72,
    "sma200": 34.81,
-   "rsi14": 25.7,
-   "off_52w_high": -22.26,
+   "rsi14": 25.6,
+   "off_52w_high": -22.38,
    "trend": "Downtrend",
-   "momentum": -17.93,
+   "momentum": -18.06,
    "history": [
     [
      "2026-05-22",
@@ -14650,7 +14618,7 @@
     ],
     [
      "2026-11-19",
-     29.7
+     29.66
     ]
    ],
    "signal": "Falling",
@@ -14674,7 +14642,7 @@
    ],
    "recovery_score": 0,
    "sma50_slope": -2.28,
-   "rsi_low_3m": 25.7,
+   "rsi_low_3m": 25.6,
    "news": [
     {
      "title": "ETFs Investing in Banco Bradesco SA Sponsored ADR Pfd Stocks",
@@ -14692,20 +14660,20 @@
    "ticker": "XLK",
    "name": "Technology",
    "group": "Sectors",
-   "price": 161.07,
-   "chg_1d": -1.67,
-   "chg_1w": -7.31,
-   "chg_1m": -14.57,
-   "chg_3m": -12.03,
-   "chg_ytd": 12.02,
-   "chg_6m": -9.6,
-   "chg_1y": 16.04,
-   "sma50": 185.17,
+   "price": 160.69,
+   "chg_1d": -1.9,
+   "chg_1w": -7.53,
+   "chg_1m": -14.77,
+   "chg_3m": -12.24,
+   "chg_ytd": 11.76,
+   "chg_6m": -9.82,
+   "chg_1y": 15.77,
+   "sma50": 185.16,
    "sma200": 170.97,
-   "rsi14": 32.8,
-   "off_52w_high": -20.26,
+   "rsi14": 32.5,
+   "off_52w_high": -20.45,
    "trend": "Mixed",
-   "momentum": -13.3,
+   "momentum": -13.5,
    "history": [
     [
      "2026-05-22",
@@ -15209,7 +15177,7 @@
     ],
     [
      "2026-11-19",
-     161.07
+     160.69
     ]
    ],
    "signal": "Falling",
@@ -15232,7 +15200,7 @@
     }
    ],
    "recovery_score": 0,
-   "sma50_slope": -1.95,
+   "sma50_slope": -1.96,
    "rsi_low_3m": 25.8,
    "news": [
     {
@@ -15245,9 +15213,9 @@
     },
     {
      "title": "Better Tech ETF for 2027: State Street's XLK vs. Fidelity's FTEC",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYkVIbUw0YTV0NmRHU0ozX18tSjZWQm9mSWxLZV9kTHNRcG9lc1h3U3U1Yk1icU95bHU0d0k1WThzZUdXZWVDVU45bXpVZnJmOUVwRXVsUUhDek5XWWN3bUhiRmxLMklSTjNoWU8yaUUyTVJ0S1h1WHBQZkxoREN2UFZIT3Z3Q1lYdWEzZTZ3YmpMdW04dEkwMWlrVUlPMlV6TzYxeThWQkZYanhBZmNuQ3ZMbl9ucllZbGNGeWViak9XRUF5U05aUWVNLTVkY0lxak9JQ05qUlZkSndYMUE?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaGxTYUVaUmowREFMTl9HMW5raGZlUzUwUndyUDlhbC0wSXd1YzJqYUVxaVU3d2x1MnIwcmFCOHpaX3EweXVEcW9va0c1RkpVUlgxY1ZYMldYMlZtWEJNdVpVdzM4R3A0UE9JRnQxek5wazJPUmVoa1JvWnZNWlI5R09Md1BQcGxxd2JRTlczN3VTRmxNdnVNN0dnMW5ySlhxVnA2TGFzejdRUnJQVk1fTXNfeEc5cUFzNUhfc3hYWjQ0VWJjcHo4Nm9hYjE0XzhaYTVRZnJiX0NJelox?oc=5",
      "source": "The Globe and Mail",
-     "published": "2026-11-12T08:55:09+00:00",
+     "published": "2026-11-12T09:29:15+00:00",
      "tone": 0,
      "political": false
     },
@@ -15260,10 +15228,10 @@
      "political": false
     },
     {
-     "title": "State Street Financial Select Sector SPDR ETF (XLF) stock price, news, quote and history",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzMkJGNDJNOTVmNzl0cXJkcnNGZHlYSGZXMXpubWNUcGh4ZkktWjFiTGtNZG9JcUt4ZjhnNkM0eU1reUlORDhTWkc1ZGFnU012?oc=5",
-     "source": "Yahoo Finance Singapore",
-     "published": "2026-11-19T11:30:53+00:00",
+     "title": "Are Wall Street Analysts Bullish on Trimble Stock?",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWVdKc3o2R2VJRHIzd09wNm5oTXVPY1hIT2RyQW5MNEh3TGlreXYxcXp4SmpTQXc1MGVoZnZLRWh5SlhDaDZJN1huWU44aEF6eXZ4UlhOaFYxMzBWdlpYY0V0MnplNTdESDlueTZ5dUFxVVUxamFEZkdVWGZJTWtmdkNYVm9CYkNtdzhOMkF4TElXS2hxQW54bl9ETXZyRHpYNGdn?oc=5",
+     "source": "Yahoo Finance",
+     "published": "2026-11-13T13:37:23+00:00",
      "tone": 0,
      "political": false
     },
@@ -15307,20 +15275,20 @@
    "ticker": "XLF",
    "name": "Financials",
    "group": "Sectors",
-   "price": 55.61,
-   "chg_1d": -1.44,
-   "chg_1w": -4.47,
-   "chg_1m": -0.77,
-   "chg_3m": -2.91,
-   "chg_ytd": 2.48,
-   "chg_6m": 8.26,
-   "chg_1y": 9.96,
+   "price": 55.58,
+   "chg_1d": -1.49,
+   "chg_1w": -4.52,
+   "chg_1m": -0.82,
+   "chg_3m": -2.96,
+   "chg_ytd": 2.42,
+   "chg_6m": 8.2,
+   "chg_1y": 9.9,
    "sma50": 55.9,
    "sma200": 53.74,
-   "rsi14": 42.1,
-   "off_52w_high": -6.06,
+   "rsi14": 42.0,
+   "off_52w_high": -6.11,
    "trend": "Mixed",
-   "momentum": -1.84,
+   "momentum": -1.89,
    "history": [
     [
      "2026-05-22",
@@ -15824,7 +15792,7 @@
     ],
     [
      "2026-11-19",
-     55.61
+     55.58
     ]
    ],
    "signal": "Pullback",
@@ -15847,7 +15815,7 @@
     }
    ],
    "recovery_score": 1,
-   "sma50_slope": 0.07,
+   "sma50_slope": 0.06,
    "rsi_low_3m": 26.2,
    "news": [
     {
@@ -15855,6 +15823,14 @@
      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TVkxpZkcyeXptYTBXazNTTDdHUGo5Vlh4U093NFYzLXIyOGJ3a3BYdVhyd1ZVVzh0aUVVUjhydG1qaFFvLURSb0EwSDB6LVpv?oc=5",
      "source": "Yahoo Finance UK",
      "published": "2026-11-19T00:32:01+00:00",
+     "tone": 0,
+     "political": false
+    },
+    {
+     "title": "If the Fed Raises Rates Again in December, Here's the 1 ETF I'm Buying Without Any Hesitation",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZUFZWkNhQ3lhRE05VTJsVmRhZXNndnd1N1YyMS1GRkk5akFGWkZvdlpGZThLZmVLT3JJQk40TVFSdE5OcTJVMGhTV0ZVdzNFd2VEdWlnMFFQRGxHekQtd0FzRlhTSi1wanBlRlFiX3owdU44bFZyQW1ZZE1rTXg4bFdxMU5QcEcyUjFPMmtYbi1NOGlLVnNZUXF3OHVfVVZlMG1KZ0FkcjBXaTNKcjRaNVRJbW5ITVNYdVlZWHBOcGZoQXpNWXVjcnNhWDNUZw?oc=5",
+     "source": "The Motley Fool",
+     "published": "2026-11-19T13:45:02+00:00",
      "tone": 0,
      "political": false
     },
@@ -15867,10 +15843,10 @@
      "political": false
     },
     {
-     "title": "If the Fed Raises Rates Again in December, Here's the 1 ETF I'm Buying Without Any Hesitation",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZUFZWkNhQ3lhRE05VTJsVmRhZXNndnd1N1YyMS1GRkk5akFGWkZvdlpGZThLZmVLT3JJQk40TVFSdE5OcTJVMGhTV0ZVdzNFd2VEdWlnMFFQRGxHekQtd0FzRlhTSi1wanBlRlFiX3owdU44bFZyQW1ZZE1rTXg4bFdxMU5QcEcyUjFPMmtYbi1NOGlLVnNZUXF3OHVfVVZlMG1KZ0FkcjBXaTNKcjRaNVRJbW5ITVNYdVlZWHBOcGZoQXpNWXVjcnNhWDNUZw?oc=5",
-     "source": "The Motley Fool",
-     "published": "2026-11-19T13:45:02+00:00",
+     "title": "Sector Update: Financial Stocks Lower in Afternoon Trading",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSjBSN0U3blVIbzZYTzBwdldKRmpIeHRJbXNVd2hFLTZCc3R2WlZWeFZfUzMzNHlGZWNhM09QNlMtVFJCNGk1V2xNT0IwQlRIbDcyc21ZQnUtV1BTME9VQjhUbmpWVFR4YWNvTG44aVpnSTBRNV9WVVZJTkhldWJrTS1HRFh1R2RYRTI4S2VLd3ZFZFlSWXh4Y0dnaUNoNkpmLXFR?oc=5",
+     "source": "Moomoo",
+     "published": "2026-11-19T23:35:22+00:00",
      "tone": 0,
      "political": false
     },
@@ -15905,14 +15881,6 @@
      "published": "2026-11-19T11:49:11+00:00",
      "tone": 0,
      "political": false
-    },
-    {
-     "title": "Where These 4 Sector ETFs Stand Heading Into Year-End",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OMTc5Uks3UGFnT2tQVDlZbGhTRW95dzJqRVRqZEV0VnhLaUx4ZFpCUm5lRmd2NmNscW5taGhDYkctQzRLZk1zY25CS1dxSnVGdzJjQzY4Njd4TDRYamFGcEY0WU9uZkpDWXJLUlBxNVoyVldQVlNoUA?oc=5",
-     "source": "AOL.com",
-     "published": "2026-11-13T16:03:00+00:00",
-     "tone": 0,
-     "political": false
     }
    ],
    "news_tone": 0.0,
@@ -15922,20 +15890,20 @@
    "ticker": "XLE",
    "name": "Energy",
    "group": "Sectors",
-   "price": 60.94,
-   "chg_1d": -0.58,
-   "chg_1w": -5.28,
-   "chg_1m": -10.6,
-   "chg_3m": -3.68,
-   "chg_ytd": 36.13,
-   "chg_6m": 4.41,
-   "chg_1y": 37.65,
+   "price": 60.89,
+   "chg_1d": -0.65,
+   "chg_1w": -5.35,
+   "chg_1m": -10.67,
+   "chg_3m": -3.75,
+   "chg_ytd": 36.03,
+   "chg_6m": 4.34,
+   "chg_1y": 37.55,
    "sma50": 64.74,
    "sma200": 59.18,
-   "rsi14": 35.9,
-   "off_52w_high": -12.97,
+   "rsi14": 35.8,
+   "off_52w_high": -13.04,
    "trend": "Mixed",
-   "momentum": -7.14,
+   "momentum": -7.21,
    "history": [
     [
      "2026-05-22",
@@ -16439,7 +16407,7 @@
     ],
     [
      "2026-11-19",
-     60.94
+     60.89
     ]
    ],
    "signal": "Pullback",
@@ -16513,20 +16481,20 @@
    "ticker": "XLV",
    "name": "Health Care",
    "group": "Sectors",
-   "price": 177.72,
-   "chg_1d": -1.9,
-   "chg_1w": -5.38,
-   "chg_1m": -0.68,
-   "chg_3m": 2.16,
-   "chg_ytd": 15.7,
-   "chg_6m": 20.95,
-   "chg_1y": 18.42,
+   "price": 177.46,
+   "chg_1d": -2.05,
+   "chg_1w": -5.52,
+   "chg_1m": -0.83,
+   "chg_3m": 2.02,
+   "chg_ytd": 15.53,
+   "chg_6m": 20.77,
+   "chg_1y": 18.24,
    "sma50": 176.19,
-   "sma200": 159.9,
-   "rsi14": 41.5,
-   "off_52w_high": -6.3,
+   "sma200": 159.89,
+   "rsi14": 41.1,
+   "off_52w_high": -6.43,
    "trend": "Uptrend",
-   "momentum": 0.74,
+   "momentum": 0.59,
    "history": [
     [
      "2026-05-22",
@@ -17030,7 +16998,7 @@
     ],
     [
      "2026-11-19",
-     177.72
+     177.46
     ]
    ],
    "signal": "Leader",
@@ -17073,6 +17041,14 @@
      "political": false
     },
     {
+     "title": "Healthcare ETFs Shine as Investors Rotate Out of Tech",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2tQSGx3S2tPZVBCSGNBZjVBSzl4WkZtOEpsVkljTnQ4YV9wckVZZTFDcnZYM0I4MnhxUUs3ZTM1RXdkOWlqYUgzSTc0QV9PaHlNOUhQQ1U5OGwwbkZIQVA0RDVIdU4yMHBPcDlldnpXTXJrSnZjaHE1aEdPRGR0eDg4V0p3Mk1qTDNwNkhKWFBwRE44Zk9aVTFTeHk4WE9WdUhyLTVjWTE0MEU3Z0E?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-19T20:47:00+00:00",
+     "tone": 0,
+     "political": false
+    },
+    {
      "title": "Healthcare Stocks Inched Up While Biotech Fell Behind",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOU3lHcTUwSTVTNlNYWDBkS1NZRUVvN0tJdnprTE45T1RPNHR3WFV3dzc2NG1mRzhkQWNpUDk0MUh5VjQ2MHlOcUJDZDUwMlFaVFo1a1pfRmRQMkgxekdvTl9pdzVSU3FaVk9RZXVuZWpPWExHbDBSczZoT21vWnpFSHhqbTJZQ2VGbnc?oc=5",
      "source": "Finimize",
@@ -17086,14 +17062,6 @@
      "source": "24/7 Wall St.",
      "published": "2026-11-17T16:47:00+00:00",
      "tone": 0,
-     "political": false
-    },
-    {
-     "title": "ETFs in Spotlight as FDA Vision Loss Warning Meets Lilly's Sleep Apnea Win",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYTZCSVRJZE1wWXV2NFYzWWY1Mmd1aVV5UmRwR1E3SS16Y2tydmxhVm1ZRGN4V3RWSW1hdm9zbG1sUDFmYmVVVHZWbERyLXdZSGU4bTRBSW1HYVRkU3JJb05JcnVacVFleDJrYTZMWkFCNkpqZWlJMllQQ0tlbnZLTUp5X09fazVzMVQ3WnhDeWZxdktiMTIwRDE4QmdvTjgtYVVac0xsZW9wRm5tb2dfUEV4ckhNckY2U2VZLXZhQlV3X3JnemtxM2N3?oc=5",
-     "source": "TradingView",
-     "published": "2026-11-11T16:35:00+00:00",
-     "tone": -1,
      "political": false
     },
     {
@@ -17113,35 +17081,35 @@
      "political": false
     },
     {
-     "title": "Healthcare equipment undervalued; pharma/biotec...",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMOGxtMndYaUtJTTF2dGFkNm5uSTJaaGlPWVhBekNDdHFpYWcyTVpVd3VobWkzaEdXTjV0cm1Wb2pRZDZ2b0Rqa3d2UVJVR3hwMkMxNnQtdWVRZUpwZGY4THFZMGhmOThYTVFJNzVfNEI3cDhMaDhBaEZsNA?oc=5",
-     "source": "Pluang",
-     "published": "2026-11-17T13:27:31+00:00",
+     "title": "Healthcare Stocks Slid As Biotech Headlines Spooked Traders",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ1hfLU1kdjd0WWRTbmRGTXNzc1pCU0lvSWptaUgxRS1JQjhqajVMMjJaQ0M5VXFZWTJ6eUVlQ3p3TDRxQzlseWVuM0plcE9walNQeGhBT3JxWWE4MDdEY1pEVUh6eDZ4cFlOVTNIOEZfTWdpMDlxUUVZUkdVbGpWSV9rdTdIN09BcmRtVlktU2xpQQ?oc=5",
+     "source": "Finimize",
+     "published": "2026-11-19T21:03:00+00:00",
      "tone": 0,
      "political": false
     }
    ],
-   "news_tone": -0.12,
+   "news_tone": 0.0,
    "ex_dividend": null
   },
   {
    "ticker": "XLY",
    "name": "Consumer Discr.",
    "group": "Sectors",
-   "price": 116.12,
-   "chg_1d": -2.58,
-   "chg_1w": -3.6,
-   "chg_1m": 0.51,
-   "chg_3m": -1.39,
-   "chg_ytd": -1.27,
-   "chg_6m": -1.76,
-   "chg_1y": 4.3,
+   "price": 115.88,
+   "chg_1d": -2.79,
+   "chg_1w": -3.8,
+   "chg_1m": 0.3,
+   "chg_3m": -1.6,
+   "chg_ytd": -1.48,
+   "chg_6m": -1.97,
+   "chg_1y": 4.08,
    "sma50": 114.14,
    "sma200": 115.03,
-   "rsi14": 47.5,
-   "off_52w_high": -6.17,
+   "rsi14": 47.0,
+   "off_52w_high": -6.36,
    "trend": "Mixed",
-   "momentum": -0.44,
+   "momentum": -0.65,
    "history": [
     [
      "2026-05-22",
@@ -17645,7 +17613,7 @@
     ],
     [
      "2026-11-19",
-     116.12
+     115.88
     ]
    ],
    "signal": "Neutral",
@@ -17718,29 +17686,37 @@
      "published": "2026-11-13T12:24:37+00:00",
      "tone": 0,
      "political": false
+    },
+    {
+     "title": "These ten consumer discretionary stocks have held Strong Buy ratings for weeks (XLY:NYSEARCA)",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUDItOHhUb1hSaTFERVVkSjNWWGZEQVg1VGVuUmFOdEpXOWxOVFhKY0pieXZSRjM5V2tEeTFGcWNjY1hQYnIxLWlTTElEQlpjWXo3elpWbUhkRG5yX01lSlhDWFhlRVNVSHNrblhvSjkzdTd3YmVISHFXd2dxcHRuTEdRWmt1Q2FmNHFkaUtDTzJTZElFYVJnakM0N0FTT3p4ZGFRWVV4b2x5SWd6WkNFODZyYktTb0E?oc=5",
+     "source": "Seeking Alpha",
+     "published": "2026-11-11T18:49:19+00:00",
+     "tone": 1,
+     "political": false
     }
    ],
-   "news_tone": -0.17,
+   "news_tone": 0.0,
    "ex_dividend": null
   },
   {
    "ticker": "XLP",
    "name": "Consumer Staples",
    "group": "Sectors",
-   "price": 89.96,
-   "chg_1d": -1.33,
-   "chg_1w": -1.2,
-   "chg_1m": 3.28,
-   "chg_3m": 5.31,
-   "chg_ytd": 18.03,
-   "chg_6m": 7.71,
-   "chg_1y": 19.89,
+   "price": 89.86,
+   "chg_1d": -1.45,
+   "chg_1w": -1.32,
+   "chg_1m": 3.16,
+   "chg_3m": 5.19,
+   "chg_ytd": 17.89,
+   "chg_6m": 7.58,
+   "chg_1y": 19.75,
    "sma50": 86.19,
    "sma200": 84.23,
-   "rsi14": 52.9,
-   "off_52w_high": -2.85,
+   "rsi14": 52.5,
+   "off_52w_high": -2.96,
    "trend": "Uptrend",
-   "momentum": 4.29,
+   "momentum": 4.18,
    "history": [
     [
      "2026-05-22",
@@ -18244,7 +18220,7 @@
     ],
     [
      "2026-11-19",
-     89.96
+     89.86
     ]
    ],
    "signal": "Leader",
@@ -18342,20 +18318,20 @@
    "ticker": "XLI",
    "name": "Industrials",
    "group": "Sectors",
-   "price": 161.68,
-   "chg_1d": -1.81,
-   "chg_1w": -4.58,
-   "chg_1m": -3.94,
-   "chg_3m": -10.06,
-   "chg_ytd": 3.16,
-   "chg_6m": -4.7,
-   "chg_1y": 9.13,
-   "sma50": 168.2,
+   "price": 161.36,
+   "chg_1d": -2.0,
+   "chg_1w": -4.77,
+   "chg_1m": -4.13,
+   "chg_3m": -10.24,
+   "chg_ytd": 2.95,
+   "chg_6m": -4.89,
+   "chg_1y": 8.91,
+   "sma50": 168.19,
    "sma200": 172.75,
-   "rsi14": 37.8,
-   "off_52w_high": -13.08,
+   "rsi14": 37.3,
+   "off_52w_high": -13.25,
    "trend": "Downtrend",
-   "momentum": -7.0,
+   "momentum": -7.19,
    "history": [
     [
      "2026-05-22",
@@ -18859,7 +18835,7 @@
     ],
     [
      "2026-11-19",
-     161.68
+     161.36
     ]
    ],
    "signal": "Neutral",
@@ -18882,7 +18858,7 @@
     }
    ],
    "recovery_score": 0,
-   "sma50_slope": -0.85,
+   "sma50_slope": -0.86,
    "rsi_low_3m": 30.0,
    "news": [
     {
@@ -18894,11 +18870,11 @@
      "political": false
     },
     {
-     "title": "MADE Vs. WELD: The Best ETF For America's Factory Boom (NYSEARCA:MADE)",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ1NWTmxhaUhFb0JnUHdRc2tFakRtcXZCQUptLV9aWkpKNDQtVjJaOUdZNlpfMjZuUEtHd29nRkpMTTRXSUljVGd3d3A4REVDWDZ6WVZpbWhXSnV0bFRXX3pGTm5md1NINFB4Q3FDUGo3bm0tQ2p4SVd6SDJ0NWhqYS1RWDBlZS1hSU5uU1ZBb21PZ0tSbGww?oc=5",
+     "title": "Only three industrial stocks carry longer period Sell or Strong Sell Quant ratings (XLI:NYSEARCA)",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWTVkcGxjV2h1a1lLem1YZ1dFb1luYVkxMGlfaEFVMXpPOHNtdW1LNTVrdUZtdExSd25ieXRQNl9Qb29nR3Bob3U3ZTBrd0N6Nm1nYUhzNmRjUlV4SkZvdkxmQng5emRUMXhXaFliMFVoTFg0azBzYWdSSzFaYzA0cWF4NEhka1dObWJZb2VsTzBYVU1DeGJPOTJQTlV4bVROcV9mU0tTOVNmRnpmZXZ5UVZJTjFOQWNyTFN6Xw?oc=5",
      "source": "Seeking Alpha",
-     "published": "2026-11-10T08:00:00+00:00",
-     "tone": 0,
+     "published": "2026-11-13T11:58:45+00:00",
+     "tone": 1,
      "political": false
     },
     {
@@ -18918,11 +18894,11 @@
      "political": false
     },
     {
-     "title": "Only three industrial stocks carry longer period Sell or Strong Sell Quant ratings (XLI:NYSEARCA)",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWTVkcGxjV2h1a1lLem1YZ1dFb1luYVkxMGlfaEFVMXpPOHNtdW1LNTVrdUZtdExSd25ieXRQNl9Qb29nR3Bob3U3ZTBrd0N6Nm1nYUhzNmRjUlV4SkZvdkxmQng5emRUMXhXaFliMFVoTFg0azBzYWdSSzFaYzA0cWF4NEhka1dObWJZb2VsTzBYVU1DeGJPOTJQTlV4bVROcV9mU0tTOVNmRnpmZXZ5UVZJTjFOQWNyTFN6Xw?oc=5",
+     "title": "MADE Vs. WELD: The Best ETF For America's Factory Boom (NYSEARCA:MADE)",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ1NWTmxhaUhFb0JnUHdRc2tFakRtcXZCQUptLV9aWkpKNDQtVjJaOUdZNlpfMjZuUEtHd29nRkpMTTRXSUljVGd3d3A4REVDWDZ6WVZpbWhXSnV0bFRXX3pGTm5md1NINFB4Q3FDUGo3bm0tQ2p4SVd6SDJ0NWhqYS1RWDBlZS1hSU5uU1ZBb21PZ0tSbGww?oc=5",
      "source": "Seeking Alpha",
-     "published": "2026-11-13T11:58:45+00:00",
-     "tone": 1,
+     "published": "2026-11-10T08:00:00+00:00",
+     "tone": 0,
      "political": false
     },
     {
@@ -18957,20 +18933,20 @@
    "ticker": "XLB",
    "name": "Materials",
    "group": "Sectors",
-   "price": 49.52,
-   "chg_1d": -1.86,
-   "chg_1w": -5.39,
-   "chg_1m": -3.51,
-   "chg_3m": -7.08,
-   "chg_ytd": 8.75,
-   "chg_6m": -0.17,
-   "chg_1y": 17.9,
+   "price": 49.42,
+   "chg_1d": -2.06,
+   "chg_1w": -5.58,
+   "chg_1m": -3.7,
+   "chg_3m": -7.27,
+   "chg_ytd": 8.53,
+   "chg_6m": -0.37,
+   "chg_1y": 17.66,
    "sma50": 50.81,
    "sma200": 50.94,
-   "rsi14": 35.8,
-   "off_52w_high": -8.13,
+   "rsi14": 35.3,
+   "off_52w_high": -8.31,
    "trend": "Downtrend",
-   "momentum": -5.29,
+   "momentum": -5.48,
    "history": [
     [
      "2026-05-22",
@@ -19474,7 +19450,7 @@
     ],
     [
      "2026-11-19",
-     49.52
+     49.42
     ]
    ],
    "signal": "Neutral",
@@ -19517,10 +19493,10 @@
      "political": false
     },
     {
-     "title": "Materials Finds Strength In Numbers; Can It Break Resistance?",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONVY5Nmt2cUNhcE1HM25hTHloaDRUU3VkQUdsSUJ6WUlxZ2VhUy1yOU1FV2lCNmZjRkdTcFg0UDFxTzRVeW8tZE9uR1pYM21YU3ZuTG0xWjUwWXJMejQ4YlV0OFR1cDNSZmg1aTByb2lnZ2FiRUhyRkdsSGxZeWU1SlJoV3diNm4zY0ozRWg0azNIMFcybkJvY0dn?oc=5",
+     "title": "Reliance leads materials stocks with biggest Q3 earnings surprise (XLB:NYSEARCA)",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSWJ4TXZiQzR2UF94UVpGakVCRDg4OERxbGN5X044ZkhEWkVzWU5zYzJFd21JWjNRb2Uwc3Z0Uksyd3FLNnA2b1ZpOElLLXJFLWFzLWhCbkllLXdqd3lhV25ScW5BWUtENWVFSHltWXlsWHdqODl0YmxDcVF0c0xuRXJrQUR1N0R2ZlhLTDVuYUhRbU9zSFRteWY3b2hDNDl3U3I4b01B?oc=5",
      "source": "Seeking Alpha",
-     "published": "2026-11-12T19:24:00+00:00",
+     "published": "2026-11-16T11:17:27+00:00",
      "tone": 0,
      "political": false
     },
@@ -19533,10 +19509,18 @@
      "political": false
     },
     {
-     "title": "Reliance leads materials stocks with biggest Q3 earnings surprise (XLB:NYSEARCA)",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSWJ4TXZiQzR2UF94UVpGakVCRDg4OERxbGN5X044ZkhEWkVzWU5zYzJFd21JWjNRb2Uwc3Z0Uksyd3FLNnA2b1ZpOElLLXJFLWFzLWhCbkllLXdqd3lhV25ScW5BWUtENWVFSHltWXlsWHdqODl0YmxDcVF0c0xuRXJrQUR1N0R2ZlhLTDVuYUhRbU9zSFRteWY3b2hDNDl3U3I4b01B?oc=5",
+     "title": "Materials Finds Strength In Numbers; Can It Break Resistance?",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONVY5Nmt2cUNhcE1HM25hTHloaDRUU3VkQUdsSUJ6WUlxZ2VhUy1yOU1FV2lCNmZjRkdTcFg0UDFxTzRVeW8tZE9uR1pYM21YU3ZuTG0xWjUwWXJMejQ4YlV0OFR1cDNSZmg1aTByb2lnZ2FiRUhyRkdsSGxZeWU1SlJoV3diNm4zY0ozRWg0azNIMFcybkJvY0dn?oc=5",
      "source": "Seeking Alpha",
-     "published": "2026-11-16T11:17:27+00:00",
+     "published": "2026-11-12T19:24:00+00:00",
+     "tone": 0,
+     "political": false
+    },
+    {
+     "title": "Is Wall Street Bullish or Bearish on Vylor Stock?",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOXdyREgwZGdFVEg0d19pX3lSZE1yOEtXNk5QRFF1ekZpNkxnS2l3bUpRR1Jla3d3M2R1QUNyMXhOeE40SnF6TUh4Q3FoeG1yZ2hqRmFKQXVLX1M1Z3JLbzdyODFXVmN4dnhieTZqNHBDRm9BNXpqaWFBclZjSUlBZ0pIZ0hzRlI5LXNEQzB0akJ5bW9qaHZiX1N5THRwX1E?oc=5",
+     "source": "Yahoo Finance",
+     "published": "2026-11-11T08:00:00+00:00",
      "tone": 0,
      "political": false
     },
@@ -19547,29 +19531,37 @@
      "published": "2026-11-12T18:06:49+00:00",
      "tone": 1,
      "political": false
+    },
+    {
+     "title": "What Are Wall Street Analysts' Target Price for Linde Stock?",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcnp3dVROdHJYSWI1OUI4M1U1VWZTUDN5b3FqWmhraFpCM0pZc3dIY2lXVGdZdzFseUNpeHNnMmVKUDFNSXRWODFxRjNHMWRtTDduWHU1V215UEUwTWNWRU1yYnpyTnhsSk1JbzJDWWtaY1ZQM2Y5akZsLUlzajMwTFlKcFpTM21QNnhnWTVvQTFQX0l5TzNqNHNYRW82cWM?oc=5",
+     "source": "Yahoo Finance",
+     "published": "2026-11-13T13:18:37+00:00",
+     "tone": 0,
+     "political": false
     }
    ],
-   "news_tone": 0.17,
+   "news_tone": 0.12,
    "ex_dividend": null
   },
   {
    "ticker": "XLU",
    "name": "Utilities",
    "group": "Sectors",
-   "price": 43.08,
-   "chg_1d": -1.09,
-   "chg_1w": -1.68,
-   "chg_1m": 2.56,
-   "chg_3m": 1.45,
-   "chg_ytd": 1.84,
-   "chg_6m": -2.96,
-   "chg_1y": -0.69,
+   "price": 43.01,
+   "chg_1d": -1.24,
+   "chg_1w": -1.83,
+   "chg_1m": 2.4,
+   "chg_3m": 1.3,
+   "chg_ytd": 1.69,
+   "chg_6m": -3.1,
+   "chg_1y": -0.84,
    "sma50": 41.9,
    "sma200": 43.9,
-   "rsi14": 50.6,
-   "off_52w_high": -7.87,
+   "rsi14": 49.8,
+   "off_52w_high": -8.01,
    "trend": "Mixed",
-   "momentum": 2.0,
+   "momentum": 1.85,
    "history": [
     [
      "2026-05-22",
@@ -20073,7 +20065,7 @@
     ],
     [
      "2026-11-19",
-     43.08
+     43.01
     ]
    ],
    "signal": "Turnaround",
@@ -20140,10 +20132,10 @@
      "political": false
     },
     {
-     "title": "The Southern Company (SO) stock price, news, quote and history",
-     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTNVNMNGhnQWVRdUdVdWpBYmhxZ2JBVGVDVFFBTUJCVk5FenNxMEpPRUxSNE55YWF2b3lOYldoQW43d3pUUnZTeDZmaklzOVE?oc=5",
-     "source": "Yahoo Finance UK",
-     "published": "2026-11-18T01:52:02+00:00",
+     "title": "The Southern Company (SO) Stock Price, News, Quote & History",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9md1RFbjUxQmJYRnY4YWozMjhiNkFXb1ljNmd4N0t5SHZfOTBqS2dFeWZ2dlUxclYzdFh1OUFkdDdQQmZ6SktBT3dJWkVyYmM?oc=5",
+     "source": "Yahoo! Finance Canada",
+     "published": "2026-11-17T22:54:22+00:00",
      "tone": 0,
      "political": false
     }
@@ -20155,21 +20147,25 @@
    "ticker": "XLRE",
    "name": "Real Estate",
    "group": "Sectors",
-   "price": 42.9,
-   "chg_1d": -1.65,
-   "chg_1w": -3.29,
-   "chg_1m": 2.0,
-   "chg_3m": -4.03,
-   "chg_ytd": 8.8,
-   "chg_6m": -1.93,
-   "chg_1y": 8.78,
+   "price": 43.62,
+   "chg_1d": 0.07,
+   "chg_1w": -2.18,
+   "chg_1m": 2.93,
+   "chg_3m": -2.42,
+   "chg_ytd": 10.63,
+   "chg_6m": -0.13,
+   "chg_1y": 11.01,
    "sma50": 42.55,
-   "sma200": 43.03,
-   "rsi14": 44.6,
-   "off_52w_high": -5.97,
+   "sma200": 43.02,
+   "rsi14": 52.0,
+   "off_52w_high": -4.4,
    "trend": "Mixed",
-   "momentum": -1.02,
+   "momentum": 0.26,
    "history": [
+    [
+     "2026-05-21",
+     43.75
+    ],
     [
      "2026-05-22",
      43.8
@@ -20669,10 +20665,6 @@
     [
      "2026-11-18",
      43.62
-    ],
-    [
-     "2026-11-19",
-     42.9
     ]
    ],
    "signal": "Neutral",
@@ -20691,11 +20683,11 @@
     },
     {
      "label": "Bounced from oversold (RSI was below 35, now above 45)",
-     "ok": false
+     "ok": true
     }
    ],
-   "recovery_score": 3,
-   "sma50_slope": 0.24,
+   "recovery_score": 4,
+   "sma50_slope": 0.21,
    "rsi_low_3m": 22.9,
    "news": [
     {
@@ -20770,21 +20762,25 @@
    "ticker": "XLC",
    "name": "Communication",
    "group": "Sectors",
-   "price": 102.84,
-   "chg_1d": -2.6,
-   "chg_1w": -4.39,
-   "chg_1m": -5.63,
-   "chg_3m": -7.38,
-   "chg_ytd": -11.23,
-   "chg_6m": -10.9,
-   "chg_1y": -6.88,
-   "sma50": 108.83,
-   "sma200": 111.61,
-   "rsi14": 39.1,
-   "off_52w_high": -13.58,
+   "price": 105.58,
+   "chg_1d": 0.3,
+   "chg_1w": -2.78,
+   "chg_1m": -4.18,
+   "chg_3m": -4.29,
+   "chg_ytd": -8.86,
+   "chg_6m": -8.52,
+   "chg_1y": -3.86,
+   "sma50": 109.0,
+   "sma200": 111.68,
+   "rsi14": 46.1,
+   "off_52w_high": -11.27,
    "trend": "Downtrend",
-   "momentum": -6.5,
+   "momentum": -4.23,
    "history": [
+    [
+     "2026-05-21",
+     115.42
+    ],
     [
      "2026-05-22",
      114.78
@@ -21284,10 +21280,6 @@
     [
      "2026-11-18",
      105.58
-    ],
-    [
-     "2026-11-19",
-     102.84
     ]
    ],
    "signal": "Falling",
@@ -21306,11 +21298,11 @@
     },
     {
      "label": "Bounced from oversold (RSI was below 35, now above 45)",
-     "ok": false
+     "ok": true
     }
    ],
-   "recovery_score": 0,
-   "sma50_slope": -0.9,
+   "recovery_score": 1,
+   "sma50_slope": -0.89,
    "rsi_low_3m": 22.9,
    "news": [
     {
@@ -21330,11 +21322,19 @@
      "political": false
     },
     {
-     "title": "These communication services stocks slump YTD, but Quant ratings stay positive (XLC:NYSEARCA)",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc0R4aW9saEhDbHdja05lamlPTk5ha19FazFtVDNrN25NeGhueVhRakUxV29Cb3pPa2J5OFN1WlpQb3hPb0lTSFotVENEQi1kanliLWt6NThqalJGUUttM2I3VU5OWTlJY1NDMzhTbWxrNmFjM3ZKLWEtckc3Nmp0OEF3aDQ0ZDh0X0VEWlByX0dWSkM1UzZDdG9QanNyNDlDbGdWRWdjeE02Y25paDBfMW9sOGZTZw?oc=5",
+     "title": "Communication Services sector performance - S&P 500 communication services stocks",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0RWoyY3ppanhnV05Xb3VZX0ljNE9NVHd0WVo1Z2YyeFRhNUpiZFo3b3M0RVRRSjIwS2FlZU1UTDlnY1gzX2tYN0d5eU1FN2xuOXkzdy1IM0dMUk9uR1NwTzd0X0o3T2VRTVdiRmtTX0E1dWdzTWZr?oc=5",
+     "source": "Quantisnow",
+     "published": "2026-11-16T23:14:57+00:00",
+     "tone": 0,
+     "political": false
+    },
+    {
+     "title": "These four communication services stocks have stayed Strong Buys for weeks (XLC:NYSEARCA)",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN3d6WmV6Q184ZzhIdUF5SEtVT3V5eUlBZzAzUjdxT1RIaFBSUVlRUkdiQzd6dXBveHhwYXVXN3ZPdnNfc1lPaVpqcFMtTGc4UDBkblY3YzV4WVZZbTRXRHFSTW44cXRuVmg1YzA2a1EzNm53UVRPNmFMbk5VdHZRSXEzVU9qM2RTd0JxWldaTU5mSjUza1g3SHhFWUxqVHhqVS1Ea19hRmw1VktPWEIzZVh3?oc=5",
      "source": "Seeking Alpha",
-     "published": "2026-11-11T12:31:30+00:00",
-     "tone": -1,
+     "published": "2026-11-12T17:52:32+00:00",
+     "tone": 1,
      "political": false
     },
     {
@@ -21346,11 +21346,11 @@
      "political": false
     },
     {
-     "title": "What State Street Comm Services SPDR (XLC) Bought: No Buys, META Sold on Tuesday",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX21sY3YwQUZxWk9adk1DSTdXdjljdnFqYnhnZThQTXVQVk52a18xZzM3d0RYRmltZ3hxVV9vclNWLXJRMVpfYzR0c29wNDZndzZqaHhVbWNSY01LVmlqc0ZXYXFySnRKSEhjY0FoZ3ZvRXpDYllkdmZwSWpENDRmX3lTNzhkeFU?oc=5",
-     "source": "Yahoo! Finance Canada",
-     "published": "2026-11-12T11:04:45+00:00",
-     "tone": 0,
+     "title": "Technology Only Sector Higher Thursday As Defensives Fall",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc2FiS1hkVzdUdnpLX2RpTFFaWGVYOGJ3cHZvbS04bGVyZkR4OXA4TkJpV1ZMZGtzdURjZFo1bDNzTS1acDU1UlIyTHBIdHpBSlRzdWhxbk16elVmcnBySVhIOU1zZVZKN0hRN19mSGJGMENtZUlvLXZiOUNGb3BPMUJ2NW1Wa0pQLURVSExSMGg5U0lFM3JqYWVfMUp0WURMdENRUUpValJpdFFlamI2VnN5cHU?oc=5",
+     "source": "Benzinga",
+     "published": "2026-11-19T16:00:20+00:00",
+     "tone": -1,
      "political": false
     },
     {
@@ -21362,43 +21362,35 @@
      "political": false
     },
     {
-     "title": "What Is Going on With Alphabet Stock on Thursday?",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMzhJZS01TjVTR1hTOUs5TTVxYzcwT1hOZ2xvV1ZMczBtTGpyRHVVaFFadG9mLUxPN1NGSW9sSl8xNHZDeWdUVFdheVZiQktxMXQ0bThsU2lpSjdUU0VUM1lHTTl0ZGFEVGp1LU1RcUtuTkZBcWR5SERfR2pIMUxCSWVScnc2cXZ6el9uQWdXaG4wdC1mUUluUmxGdmt4R0JTOTVhMlVR?oc=5",
-     "source": "Benzinga",
-     "published": "2026-11-19T16:30:54+00:00",
-     "tone": 0,
-     "political": false
-    },
-    {
-     "title": "11/16/2026 ValuEngine Weekly Market Commentary with Strategy Notes",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQLW5tOWw3bUhFYmh5djA3ZlBsc0c1Y0Z6aE5fLVJEU2NOMmxEMGxCa0JBN1hYZ09hSVFiYkp6WmJOR0JVS0FOclc3U2NpZlp6RjlZNzF5Z0pYalZQNWdnbWFELVFrYkNfSlJwd2dzLXZ1dlVJbU52dWZlbTJUV0c5cVh3c0VzUlprUEQ0MUxvUDJiakFGZnQ2UFA4ZXNnWnR3YzVSRlJrTVJsLVZsZUhNdE1odExfOGZTVGozOXpxNVdZU29feHBiTFROTEVCQm1IazZ0amNBUDhCLUVma1EtQVFPSi13dw?oc=5",
-     "source": "The Globe and Mail",
-     "published": "2026-11-16T08:00:00+00:00",
+     "title": "What Moved Take-Two Stock?",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcWYwdWxDM2VmUXNNdkZqaWtucnU2ZkVTMEkxczlLOTZPYjNLcG1fRUNpVzEwQ1Z2NlVQZEtQZ216VndPSDNqeXpRU0NNSWczcEhCVGlWRTEtdXhrMHhMSktMSU1uOEF5SzZaTWZDQTJlaFUzNFBGd0pRS2czWnM0eXJxYUFDZXRHbks4S1Nadw?oc=5",
+     "source": "Trefis",
+     "published": "2026-11-19T12:20:16+00:00",
      "tone": 0,
      "political": false
     }
    ],
-   "news_tone": -0.12,
+   "news_tone": 0.0,
    "ex_dividend": null
   },
   {
    "ticker": "SMH",
    "name": "Semiconductors / AI",
    "group": "Themes",
-   "price": 449.62,
-   "chg_1d": -2.16,
-   "chg_1w": -10.39,
-   "chg_1m": -19.23,
-   "chg_3m": -19.77,
-   "chg_ytd": 20.45,
-   "chg_6m": -20.82,
-   "chg_1y": 35.32,
-   "sma50": 550.92,
-   "sma200": 525.09,
-   "rsi14": 33.4,
-   "off_52w_high": -32.78,
+   "price": 447.48,
+   "chg_1d": -2.62,
+   "chg_1w": -10.81,
+   "chg_1m": -19.62,
+   "chg_3m": -20.15,
+   "chg_ytd": 19.87,
+   "chg_6m": -21.2,
+   "chg_1y": 34.68,
+   "sma50": 550.88,
+   "sma200": 525.08,
+   "rsi14": 33.0,
+   "off_52w_high": -33.1,
    "trend": "Mixed",
-   "momentum": -19.5,
+   "momentum": -19.88,
    "history": [
     [
      "2026-05-22",
@@ -21902,7 +21894,7 @@
     ],
     [
      "2026-11-19",
-     449.62
+     447.48
     ]
    ],
    "signal": "Falling",
@@ -21953,14 +21945,6 @@
      "political": false
     },
     {
-     "title": "SMH News | VANECK SEMICONDUCTOR ETF (NASDAQ:SMH)",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84a2Q0RHNkR1BiTXVqLWZtakFxY285NTA4emZzQkNhZjVnTjFjRFRmcE94bW45cVBPbEdZczIxT1lmcHoxblJLSWtCS0hwY0ZWdlJyNUNoYzFlQQ?oc=5",
-     "source": "ChartMill",
-     "published": "2026-11-18T01:05:23+00:00",
-     "tone": 0,
-     "political": false
-    },
-    {
      "title": "Forget Nvidia Stock at $160 per Share. Buy This Semiconductor ETF Instead.",
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY2pwSXJRQ3d4ZHljRTZTaERpNkRleUZMM2VUa0NJYnREOUREaU85UHA5bFdITVNDMGVTUXVqVTZIaXh2RkRjcl8xdjJ3QkhrSnJGZ1ZkVzd5ajhUNHlSNmVqeEJDSzgydzR6WVR2YS1Xd0p1bUNzSjVOVk5DTVJndkVfMkhMTXNudzhScXBEZGFnLUU1U1pZVERDSEdqTnlTUGlxMFBFLWlCcjljQmhLcmFUVG0?oc=5",
      "source": "The Motley Fool",
@@ -21991,6 +21975,14 @@
      "published": "2026-11-16T12:00:00+00:00",
      "tone": 0,
      "political": false
+    },
+    {
+     "title": "TSMC Is Sliding Before Nvidia Reports. Your Chip ETF Is Taking the Hit",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNEpVRGhUb1FiUFMtMmJkMHg5b1VhWENfdFNGMmVuVGxmYjYyOE9qcEVzZFVpbFFTX0U2eWlPdEJnRnUweDByNWh4OC10UEZkTmlMb3NwWWVJMG9yc1hxNVhEQ1I5SDVyeWlXY25obnl3SURqSWQ3YlVNRXpBcmVNS0NrM0tSVjg4bXdfeVJ0WVZkai1uenFwallCbmZQQ2RlakNpUGluUVkzNExqdW5GVkZRUEowUVZK?oc=5",
+     "source": "24/7 Wall St.",
+     "published": "2026-11-17T19:14:00+00:00",
+     "tone": 0,
+     "political": false
     }
    ],
    "news_tone": 0.0,
@@ -22000,20 +21992,20 @@
    "ticker": "ITA",
    "name": "Defense",
    "group": "Themes",
-   "price": 68.41,
-   "chg_1d": -1.41,
-   "chg_1w": -4.63,
-   "chg_1m": -0.27,
-   "chg_3m": -13.43,
-   "chg_ytd": -7.33,
-   "chg_6m": -7.86,
-   "chg_1y": 1.47,
+   "price": 68.2,
+   "chg_1d": -1.71,
+   "chg_1w": -4.92,
+   "chg_1m": -0.58,
+   "chg_3m": -13.69,
+   "chg_ytd": -7.61,
+   "chg_6m": -8.14,
+   "chg_1y": 1.16,
    "sma50": 70.03,
    "sma200": 75.66,
-   "rsi14": 42.5,
-   "off_52w_high": -18.86,
+   "rsi14": 41.8,
+   "off_52w_high": -19.11,
    "trend": "Downtrend",
-   "momentum": -6.85,
+   "momentum": -7.13,
    "history": [
     [
      "2026-05-22",
@@ -22517,7 +22509,7 @@
     ],
     [
      "2026-11-19",
-     68.41
+     68.2
     ]
    ],
    "signal": "Falling",
@@ -22591,20 +22583,20 @@
    "ticker": "GLD",
    "name": "Gold",
    "group": "Themes",
-   "price": 335.68,
-   "chg_1d": -1.61,
-   "chg_1w": -5.41,
-   "chg_1m": -11.42,
-   "chg_3m": -20.71,
-   "chg_ytd": -15.72,
-   "chg_6m": -19.5,
-   "chg_1y": -10.33,
-   "sma50": 376.43,
-   "sma200": 406.43,
-   "rsi14": 28.2,
-   "off_52w_high": -32.31,
+   "price": 335.18,
+   "chg_1d": -1.76,
+   "chg_1w": -5.55,
+   "chg_1m": -11.55,
+   "chg_3m": -20.83,
+   "chg_ytd": -15.84,
+   "chg_6m": -19.62,
+   "chg_1y": -10.46,
+   "sma50": 376.42,
+   "sma200": 406.42,
+   "rsi14": 28.0,
+   "off_52w_high": -32.41,
    "trend": "Downtrend",
-   "momentum": -16.07,
+   "momentum": -16.19,
    "history": [
     [
      "2026-05-22",
@@ -23108,7 +23100,7 @@
     ],
     [
      "2026-11-19",
-     335.68
+     335.18
     ]
    ],
    "signal": "Falling",
@@ -23132,7 +23124,7 @@
    ],
    "recovery_score": 0,
    "sma50_slope": -2.47,
-   "rsi_low_3m": 28.2,
+   "rsi_low_3m": 28.0,
    "news": [
     {
      "title": "Gold: The Bubble Is Bursting And $2,500 Should Not Be Ruled Out (Commodity:XAUUSD:CUR)",
@@ -23158,20 +23150,20 @@
    "ticker": "USO",
    "name": "Crude oil",
    "group": "Themes",
-   "price": 138.21,
-   "chg_1d": 1.54,
-   "chg_1w": -5.38,
-   "chg_1m": -13.51,
-   "chg_3m": 2.65,
-   "chg_ytd": 100.42,
-   "chg_6m": -3.04,
-   "chg_1y": 90.63,
-   "sma50": 151.98,
+   "price": 138.09,
+   "chg_1d": 1.45,
+   "chg_1w": -5.46,
+   "chg_1m": -13.59,
+   "chg_3m": 2.56,
+   "chg_ytd": 100.25,
+   "chg_6m": -3.12,
+   "chg_1y": 90.47,
+   "sma50": 151.97,
    "sma200": 128.88,
-   "rsi14": 37.3,
-   "off_52w_high": -18.47,
+   "rsi14": 37.1,
+   "off_52w_high": -18.55,
    "trend": "Mixed",
-   "momentum": -5.43,
+   "momentum": -5.51,
    "history": [
     [
      "2026-05-22",
@@ -23675,7 +23667,7 @@
     ],
     [
      "2026-11-19",
-     138.21
+     138.09
     ]
    ],
    "signal": "Falling",
@@ -23749,20 +23741,20 @@
    "ticker": "URA",
    "name": "Uranium / nuclear",
    "group": "Themes",
-   "price": 28.7,
-   "chg_1d": -2.45,
-   "chg_1w": -11.31,
-   "chg_1m": -19.27,
-   "chg_3m": -37.7,
-   "chg_ytd": -37.69,
-   "chg_6m": -41.26,
-   "chg_1y": -31.24,
+   "price": 28.67,
+   "chg_1d": -2.55,
+   "chg_1w": -11.4,
+   "chg_1m": -19.35,
+   "chg_3m": -37.77,
+   "chg_ytd": -37.76,
+   "chg_6m": -41.32,
+   "chg_1y": -31.31,
    "sma50": 36.82,
    "sma200": 45.43,
    "rsi14": 28.9,
-   "off_52w_high": -53.57,
+   "off_52w_high": -53.62,
    "trend": "Downtrend",
-   "momentum": -28.48,
+   "momentum": -28.56,
    "history": [
     [
      "2026-05-22",
@@ -24266,7 +24258,7 @@
     ],
     [
      "2026-11-19",
-     28.7
+     28.67
     ]
    ],
    "signal": "Falling",
@@ -24333,14 +24325,6 @@
      "political": false
     },
     {
-     "title": "Global X Uranium ETF (ARCA:URA) Price, Holdings, Fees & Analysis",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rU05fcExuVE5raEE2emd5bGk3MjNJZURaeWZRS29WMzZPTV9zR2IycWRRdFdCb3ZQVEJzS0pCUTNDNkg5cV82UTJpejN3Nks1SGsyVg?oc=5",
-     "source": "Simply Wall St",
-     "published": "2026-11-15T19:11:33+00:00",
-     "tone": 0,
-     "political": false
-    },
-    {
      "title": "Why Uranium Miners Are Falling While Uranium Prices Hold Firm",
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS2hGaXpveWRpUkZCb3lTak1QbTNpR05xSFRXd3NkcXREV0lGR3c1eTY5LU4tRldrN2ZLRDl5bXV5VFNHYjFkdkFOUUtDcGRpV0xzU2syclN3ZjU4eEc4b0E2TkkzRU1MYk4wQzlUemY4bm1RQklFZFlTVGRZY2pEaHFQNFZBSEhTRGVDQkp4TENudw?oc=5",
      "source": "Discovery Alert",
@@ -24357,27 +24341,27 @@
      "political": false
     }
    ],
-   "news_tone": 0.25,
+   "news_tone": 0.29,
    "ex_dividend": null
   },
   {
    "ticker": "COPX",
    "name": "Copper miners",
    "group": "Themes",
-   "price": 59.49,
-   "chg_1d": -2.78,
-   "chg_1w": -16.22,
-   "chg_1m": -23.75,
-   "chg_3m": -37.11,
-   "chg_ytd": -18.3,
-   "chg_6m": -28.1,
-   "chg_1y": 4.0,
+   "price": 59.28,
+   "chg_1d": -3.12,
+   "chg_1w": -16.52,
+   "chg_1m": -24.02,
+   "chg_3m": -37.33,
+   "chg_ytd": -18.59,
+   "chg_6m": -28.35,
+   "chg_1y": 3.64,
    "sma50": 78.93,
    "sma200": 82.13,
-   "rsi14": 25.0,
-   "off_52w_high": -38.32,
+   "rsi14": 24.8,
+   "off_52w_high": -38.54,
    "trend": "Downtrend",
-   "momentum": -30.43,
+   "momentum": -30.67,
    "history": [
     [
      "2026-05-22",
@@ -24881,7 +24865,7 @@
     ],
     [
      "2026-11-19",
-     59.49
+     59.28
     ]
    ],
    "signal": "Falling",
@@ -24905,7 +24889,7 @@
    ],
    "recovery_score": 0,
    "sma50_slope": -5.7,
-   "rsi_low_3m": 25.0,
+   "rsi_low_3m": 24.8,
    "news": [
     {
      "title": "The Best Copper Stocks to Buy and Hold for Decades",
@@ -24978,12 +24962,20 @@
    "political": false
   },
   {
-   "title": "New Zealand central bank warns of rising global risks, growing private credit exposure",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObGsyYWg2QTJlR3F6d1MxMWdPNjN1X24teFVVVURsdnNIUVVDTEZqREZOcmhCVF9WMnZLdUdsOEsxMllRMXhGMXVQMHhIb2JFdjRHUmpEZ3g4WHVlWlV6MTFvRDkxcDVRNjZVLXYxUzhWTXpWbWF1eC1PRHFNRlVrRy1fV3Q2WTZyajJtZXh3em5WNDFFT2tGZGJraDh1MXpWMjFzbTREUXVDOHJHdnY1eFpWT29oQnhVRGxoTkpsbXAtc1hxUlFLSDBISQ?oc=5",
-   "source": "Reuters",
-   "published": "2026-11-16T21:26:00+00:00",
-   "tone": -1,
+   "title": "What\u2019s happening this week in economics?",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+   "source": "Deloitte",
+   "published": "2026-11-10T08:00:00+00:00",
+   "tone": 0,
    "political": false
+  },
+  {
+   "title": "China's central bank vows to step up policy support for the economy",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNncxU3NCdkhlZnJiY0psUGxYalpGa1FLS1BlNkpoYWpQSlg0T3A3VEFMN1RHbVBMaDROSUpSNFpoUktITUxBemhjSVNSR2dRWV9IamNIcHdfc3FxLTlQZnB4T3kzbTIxVnJpYUJWbnlKXzVSVGtJck92RDZHdlV0YnVreGlDWmI3OXU1RGo2LUdpZE9kd1kyVDdLQ0I0X3drN0V0UlFBbmxxbTBIY1JJ?oc=5",
+   "source": "Reuters",
+   "published": "2026-11-11T08:00:00+00:00",
+   "tone": 0,
+   "political": true
   },
   {
    "title": "Financial Stability Review, November 2026",
@@ -24994,43 +24986,11 @@
    "political": false
   },
   {
-   "title": "Safest Emerging Markets Banks 2026: Tariffs and Upgrades",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBLWGR5NkF3c1BnbWFPM1NXUGZ1ZTFQM2JuXzZua1JkVllLWHl4LU84X1M5QTF6X3pFTzZ4aXRaeXZ5UlBrUDdzZzk3MEdGWnNMZGRMSWtSTE5UdnRBbENobnVCcURZRncxTDZDTUFGbVpOX3gxVDJfWDFPRQ?oc=5",
-   "source": "Global Finance Magazine",
-   "published": "2026-11-13T12:32:10+00:00",
-   "tone": -1,
-   "political": true
-  },
-  {
-   "title": "Stable Growth in 2027 Economic Outlook",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQR18tLWpEQUhEVXNjR2VRZ2xrc180R0hvclR2QjBqRXRmenBhb0QzVG9SQzgwNlY5Y3ltbkEyc2Q1X3REZGFudWZMSHBmcDBYTDZzS04xWl9aV0lsUkNPa3lld3UydVJqWDN1RnN5ZEEtbllXdWluYmlXa1pqVFh2emZ3?oc=5",
-   "source": "Morgan Stanley",
-   "published": "2026-11-18T18:35:14+00:00",
-   "tone": 1,
-   "political": false
-  },
-  {
-   "title": "Why Trust, Not Tariffs, Will Define ASEAN's Competitiveness: Tariffs redirect trade; trust decides where capital takes root",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWWxYZmFBSkNla2NJYmxBYWZKcDBjQWxHaHFwbEZJbkpPQy1CRUdvS1dKN0EyR0FROTA3ZEsxLVFjUFF1MC02Z2E3YTFUSEFwSWMtY3o0TGlTRVFHNUlmbnlRSTNEc1NzTkJmMkJiV2RkWGotNUsyMUdnaGtkQTY1dnp2UHBGMUhCUkRSN2sxTFlta29sZDdrZXIwd1B2dnlhZnc4M3M0WU5IUGdtNVpFNGF1ekdhWnBuOFhndkE1UUE0akVSNXQ1amxlOFU3aTE1ZXc4T3E2QlJtajBuZGhDX0FkUHQzQ0JNYVBfbjNKQnU?oc=5",
-   "source": "International Banker",
-   "published": "2026-11-16T06:00:01+00:00",
-   "tone": -1,
-   "political": true
-  },
-  {
    "title": "Chile central bank holds bank capital requirement at 1%",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNjVCcFBoZ1NVMHB6bVVPcVN5YWJ3dVdtT19WMHl2TVczNWhxaEVqQjFRNFdqcWNWdG9JdmV5ZDNTZXlxQk1PWG5sTk1WY3ZtUHl5WGt0N1FOMlYxNjktMWp2MDRtMDY5Zl9kNmE3RVZkdXJHVlRsNy1XQzI1ck93RU5Vb3phMVphX0ZvZXc4UzFXQmlYcWhFdkt3?oc=5",
    "source": "Yahoo Finance",
    "published": "2026-11-16T23:03:53+00:00",
    "tone": 0,
-   "political": false
-  },
-  {
-   "title": "Analysis: Nvidia\u2019s leadership crisis tests the chipmaker\u2019s role as the \u2018central bank of AI\u2019",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSXhKWElWbF84SlAwVHhHTjBZQ044MTBtVFZJVjFqR3czZFB4RVRGZ1lmcGJjWGZfZTl3T3lUNk5Ucy1CRDhmREpBN1E4OGpHWlhHN2ZEZFhSV0E1ekZubEtEVmVMTjRZamRtREdPeDhtWHNmaUU2d3YyaGxqa19HSERTVERTV3Nr0gGOAUFVX3lxTE1tUzJvZlVHRUVzOVpIamFOWjNRaDNKSGNGZ2hNSHplSnlJTGs5Y0w5bDBkcW81U01DbVpJaExjRWh3elVLbFNGUWxLaHdBVmhnZEw3THdVOThyakk2OVZvNGJnZG1vNGRMWTEtV2J3c2dOeEZlSlMyQVZMS3BkTVllYlZLaDVXMVhDU3d5Ymc?oc=5",
-   "source": "CNBC",
-   "published": "2026-11-11T08:00:00+00:00",
-   "tone": -1,
    "political": false
   },
   {
@@ -25050,18 +25010,34 @@
    "political": false
   },
   {
-   "title": "China's central bank vows to step up policy support for the economy",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNncxU3NCdkhlZnJiY0psUGxYalpGa1FLS1BlNkpoYWpQSlg0T3A3VEFMN1RHbVBMaDROSUpSNFpoUktITUxBemhjSVNSR2dRWV9IamNIcHdfc3FxLTlQZnB4T3kzbTIxVnJpYUJWbnlKXzVSVGtJck92RDZHdlV0YnVreGlDWmI3OXU1RGo2LUdpZE9kd1kyVDdLQ0I0X3drN0V0UlFBbmxxbTBIY1JJ?oc=5",
+   "title": "New Zealand central bank warns of rising global risks, growing private credit exposure",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObGsyYWg2QTJlR3F6d1MxMWdPNjN1X24teFVVVURsdnNIUVVDTEZqREZOcmhCVF9WMnZLdUdsOEsxMllRMXhGMXVQMHhIb2JFdjRHUmpEZ3g4WHVlWlV6MTFvRDkxcDVRNjZVLXYxUzhWTXpWbWF1eC1PRHFNRlVrRy1fV3Q2WTZyajJtZXh3em5WNDFFT2tGZGJraDh1MXpWMjFzbTREUXVDOHJHdnY1eFpWT29oQnhVRGxoTkpsbXAtc1hxUlFLSDBISQ?oc=5",
    "source": "Reuters",
-   "published": "2026-11-11T08:00:00+00:00",
-   "tone": 0,
-   "political": true
+   "published": "2026-11-16T21:26:00+00:00",
+   "tone": -1,
+   "political": false
   },
   {
-   "title": "Paraguay Bank Collapse Tests LatAm\u2019s Credibility",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUXFyZGpscUg0NjZpWWd1dDJCSGptZG1seVJ6WjNBVXhNckg2MWd3UFNnVWZ1Nzl3Rm5uUWJBVUt1VEd5SlBaQ1JkRWs1ZnYxNlFvd0JtSmkzeGNsanJjc1RCdVA2aTRmVzc5TnVQTkl5NVFuZmg0cmFzSGlPLXBFekIwQllhZHlYXzVfUENBa29iS1pOSHhyMnRB?oc=5",
-   "source": "Global Finance Magazine",
-   "published": "2026-11-10T08:00:00+00:00",
+   "title": "Global Markets Hold Breath as Central Banks Take the Stage: A Week of Critical Decisions",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSUxwbXhzZ2ktTnlGOVFDNm9EMEZTNWx3bXBlZ3NmT1Eydkk3M1JPZGEyd2duZUs4MDY2N1ZMMl8zYjFNcWR1TkdpTEp3Y25IRTRPOU5pazdfbEYwalI1V0NhUE9SY21JZldfYTNrN1ZLVkIzMWNSd0NndENVdVpFWWVMUnY1eldPNWZCOWk0ZGFIa18wb3YzSjdqYURtalBCMXkyS19vQl91STMyd1dCWXZSYTdBUQ?oc=5",
+   "source": "Vocal",
+   "published": "2026-11-10T09:12:17+00:00",
+   "tone": 0,
+   "political": false
+  },
+  {
+   "title": "No fiscal dominance while Central Bank stays active, Guillen says",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVmxPbnZTbDNDdVd6YXA0c3YydnpmVE94djNPUmNxeVJRUTh5aEhla3ZpdElkSnZ3TWRwWUhucVF4QVQwQWRKNnlKemhDRDM3ZG40dzk4dUVDUXVYSWZ4TkZESEU2Rlh6MjJIYmFxaDRqWWp0SmVYc0Fla0FiM21scVphTDhLTGpQUGJrSjRTdE91ZGxIMDBjYlg1WWE4enFIR2JtX3JWZTVhdE1fYTNDSURPcDJsSnRmVGpZQnpPTC1ZMkVmT05TWVNRQdIB2gFBVV95cUxOM3dkd0RtU0s5dVM3MHZZYWJHeGZlZ0hfVHBlNEhTSDBZYllOeVhXSjhwc3FZdlk4RW1OSVNZYUJyTVVsYlJtc1hFWWxfUUQ5azlPdE9KOEh6YWdGbEJfWTdid1RlZjJkcHlMN1dYSWJTX19weGl3dWx0eXdfdjJrdkpkS2JUR1VBalpNbjRTVUNnelBOWDlLV1hnemtuVmM4WEpLeWRVWjRpck5nYWtLWlFkbDgxcTU3eTcteG1GbnNsdzd6Sm1vM0dhU1ZDejlxWWlkclRqXzFVUQ?oc=5",
+   "source": "Valor International",
+   "published": "2026-11-18T11:43:20+00:00",
+   "tone": 0,
+   "political": false
+  },
+  {
+   "title": "Gold in a changing world: What central bank transfers are telling investors about 2027",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDZ1RHlQUUV5RkdnaVMyQVpoajR2TVlKczgwTGpNck82dV8tckdzdmR0Rk54WXZHb2FBQWVITzBkSmdPMzAtdzNSNzhfSUw3dUk0dGhKWDRDeW94Njk0ckRMWm0wUV9mSGxVWFlpZjVwZXVZdXRRSzhqelZOOUtrX1k2Z1N1dzEtN3ltRi1RMjlCMXJoN1E0cmgyTElsMWVQM1Z6VzNJMlJuUHRtcGttNGVGc1NuUURwcThkcTZ2aEVnZw?oc=5",
+   "source": "Trustnet",
+   "published": "2026-11-12T08:00:00+00:00",
    "tone": 0,
    "political": false
   },
@@ -25070,6 +25046,14 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb0t4Z3NsbklEMEV6UWVEcnVHMnpIamliQ2FoRzlMdE5faFNfVHJZZVR6b2hCdWNkUm03c1JoaS1uTUdQN2dQbkFkMW80SHpDS2VMMF9Gdm5Cd0JFbDhFa0h6ZHRZcnRKdUdQNHYwaDVCWHdhLU90WU5MNE5YZjRYZGpHbi1KQW1TbmdHNHphV19PV2ZrWTRYV3R3X240T3BRS0tXSA?oc=5",
    "source": "Reuters",
    "published": "2026-11-16T23:05:43+00:00",
+   "tone": 0,
+   "political": false
+  },
+  {
+   "title": "Bank of Japan governor says central bank should keep raising rates",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXVIT0VoOTAtWnNpWjBvTlRGS0o1aEp1RklzQjZLTVFOb1pha3FPSUJJaFJrMjIzQzZ5WGtOUG5OUl9VM2paLTZ3aEY4d3ZLMFN5NUdkSU5aT09EOWs1MFp1eUVSbzh6VVkyaEFuTWo0cS1Tb1RGVlJKdWdoSXlsbkZJRFJnT2tDMHNINXhGSDlDVzZnWTVkV2pYWGcwZnhjMEk1RHZQSWlsQkJCNW5KbGJR?oc=5",
+   "source": "Reuters",
+   "published": "2026-11-18T02:39:00+00:00",
    "tone": 0,
    "political": false
   },
@@ -25092,6 +25076,36 @@
  ],
  "news_feed": [
   {
+   "title": "Sector Update: Financial Stocks Lower in Afternoon Trading",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSjBSN0U3blVIbzZYTzBwdldKRmpIeHRJbXNVd2hFLTZCc3R2WlZWeFZfUzMzNHlGZWNhM09QNlMtVFJCNGk1V2xNT0IwQlRIbDcyc21ZQnUtV1BTME9VQjhUbmpWVFR4YWNvTG44aVpnSTBRNV9WVVZJTkhldWJrTS1HRFh1R2RYRTI4S2VLd3ZFZFlSWXh4Y0dnaUNoNkpmLXFR?oc=5",
+   "source": "Moomoo",
+   "published": "2026-11-19T23:35:22+00:00",
+   "tone": 0,
+   "political": false,
+   "ticker": "XLF",
+   "name": "Financials"
+  },
+  {
+   "title": "Healthcare Stocks Slid As Biotech Headlines Spooked Traders",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ1hfLU1kdjd0WWRTbmRGTXNzc1pCU0lvSWptaUgxRS1JQjhqajVMMjJaQ0M5VXFZWTJ6eUVlQ3p3TDRxQzlseWVuM0plcE9walNQeGhBT3JxWWE4MDdEY1pEVUh6eDZ4cFlOVTNIOEZfTWdpMDlxUUVZUkdVbGpWSV9rdTdIN09BcmRtVlktU2xpQQ?oc=5",
+   "source": "Finimize",
+   "published": "2026-11-19T21:03:00+00:00",
+   "tone": 0,
+   "political": false,
+   "ticker": "XLV",
+   "name": "Health Care"
+  },
+  {
+   "title": "Healthcare ETFs Shine as Investors Rotate Out of Tech",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2tQSGx3S2tPZVBCSGNBZjVBSzl4WkZtOEpsVkljTnQ4YV9wckVZZTFDcnZYM0I4MnhxUUs3ZTM1RXdkOWlqYUgzSTc0QV9PaHlNOUhQQ1U5OGwwbkZIQVA0RDVIdU4yMHBPcDlldnpXTXJrSnZjaHE1aEdPRGR0eDg4V0p3Mk1qTDNwNkhKWFBwRE44Zk9aVTFTeHk4WE9WdUhyLTVjWTE0MEU3Z0E?oc=5",
+   "source": "TradingView",
+   "published": "2026-11-19T20:47:00+00:00",
+   "tone": 0,
+   "political": false,
+   "ticker": "XLV",
+   "name": "Health Care"
+  },
+  {
    "title": "VEN ETF Price and Chart \u2014 AMEX:VEN",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0zRG9wUXhuZnFYdERhVFI0Vy1fM3BZbmVGUU1LaXR4ZlhLdHJOMk0zRVFGWndFQ1J3dWFJTjJCSnNBU2dZQng5VUZyOVlzOExydngwQlRkZGQ?oc=5",
    "source": "TradingView",
@@ -25102,9 +25116,9 @@
    "name": "Developed ex-US"
   },
   {
-   "title": "Ask India: Deutsche Bank says AI adoption outweighs model race",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNEJRT2VsMmx2eGF6QncxR0U4djhXZl9PSzBRZzNYUDNDVDlzVTdyUnU2b0g5ZXRTb29saUQ3djIxdlc0cW9YWUFsSmNFYTVsN3Y4MmpDSkE3NlVCa0NkNFNabF9VN0tiYWRuU2RVRjVIWEkyaUVoXzRRUTROUEpNbElVdk9YMDhJWFlDQnlfVUtOTkN5UUVqNk5qZVdmNXJZNFN0Q0c5ZWl1cUxrRm9ENUJFSEdMeVltZ1BMd19YNGhvdw?oc=5",
-   "source": "TradingView",
+   "title": "Ask India: Deutsche Bank says AI adoption outweighs model race (INDA:BATS)",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdHRWVFA0M1hhTDE1OUUxWUd3dXNxQlJPc0NILWhvRmN2ZzgyalFtR3g1SFdkcHZ1ZFVTa3M3X0hYV0VuMnVnRnJqcURTLWhqOGZra01vNlNXMEpmY2hYY3YyRjJCQ1hwbjBxV1J4X094UTJ3WXhSeEZBQ2Faa1g5SzlEbkpKYld1dHZTTXJhVjVxQ2lCdk9ycFc4M0hTY3Zs?oc=5",
+   "source": "Seeking Alpha",
    "published": "2026-11-19T17:17:39+00:00",
    "tone": 0,
    "political": false,
@@ -25122,16 +25136,6 @@
    "name": "Copper miners"
   },
   {
-   "title": "What Is Going on With Alphabet Stock on Thursday?",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMzhJZS01TjVTR1hTOUs5TTVxYzcwT1hOZ2xvV1ZMczBtTGpyRHVVaFFadG9mLUxPN1NGSW9sSl8xNHZDeWdUVFdheVZiQktxMXQ0bThsU2lpSjdUU0VUM1lHTTl0ZGFEVGp1LU1RcUtuTkZBcWR5SERfR2pIMUxCSWVScnc2cXZ6el9uQWdXaG4wdC1mUUluUmxGdmt4R0JTOTVhMlVR?oc=5",
-   "source": "Benzinga",
-   "published": "2026-11-19T16:30:54+00:00",
-   "tone": 0,
-   "political": false,
-   "ticker": "XLC",
-   "name": "Communication"
-  },
-  {
    "title": "XLU vs VPU: Which Utility ETF Gets More From the AI Power Rush?",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZXZGSmY5SUlFNXZRcXZiTThXUFdfMkliSzRQU2wtS2M0OU9iZFh3OTFnZXVobzhPczJlV3dOVzliMHdfdEdHcHp2MENISFpfbC1hc1JNVHZGMFRlWGlWUnVfazE0YTQyN2NKS1JlWVloUldyb3lnOFRlUnd4WlZDcC1qTGNPdFhXWVR6bjhrQS1lX2hFV0dyaEpWNFFOa1E1SHVwNDg4MjJJeUh2X3c?oc=5",
    "source": "24/7 Wall St.",
@@ -25140,6 +25144,16 @@
    "political": false,
    "ticker": "XLU",
    "name": "Utilities"
+  },
+  {
+   "title": "Technology Only Sector Higher Thursday As Defensives Fall",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc2FiS1hkVzdUdnpLX2RpTFFaWGVYOGJ3cHZvbS04bGVyZkR4OXA4TkJpV1ZMZGtzdURjZFo1bDNzTS1acDU1UlIyTHBIdHpBSlRzdWhxbk16elVmcnBySVhIOU1zZVZKN0hRN19mSGJGMENtZUlvLXZiOUNGb3BPMUJ2NW1Wa0pQLURVSExSMGg5U0lFM3JqYWVfMUp0WURMdENRUUpValJpdFFlamI2VnN5cHU?oc=5",
+   "source": "Benzinga",
+   "published": "2026-11-19T16:00:20+00:00",
+   "tone": -1,
+   "political": false,
+   "ticker": "XLC",
+   "name": "Communication"
   },
   {
    "title": "Copper Just Crashed 5% a Day After Druckenmiller Said He\u2019s Short",
@@ -25153,7 +25167,7 @@
   },
   {
    "title": "EWT: Anthropic Sucking Up The AI Air, Taiwan's P/E Improves (NYSEARCA:EWT)",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMEhRRTlmOENEWktBT0RDQTZkQWx5bFJ6NGloMzl3Q3hzdFYzQ05SVHRCa29kMlZLd2h6WVdnTjh0QWVDbF9vTDJoTU4xWlNDakFJNWlueVF0d05sN2hvNi02YjkzT3l3OHdfRGp2TW1QaFU5cnNESlo0SWhHV1laMTJ4VzJnQUhWRi13eXI2ZHdMb0tBc0VrSkxxS1JOcjlzLTdLZUsyQm9ZalV4SURwRlZCajMtUQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbUxUUl9WUE9McUFxNWNfZjJIcUpaaWNEeFRhcW9md1hiQ1h2eWVkdW1xRVRScVZBTEFkWHRPSkJnMTBta21pSWNzMGtyWVh5TmJENV9YNW5VWC1sYjdSeWQzWEdlMzZ3bDRJMGt0T0xhNkNvT0ptajdPNTgxX0ZPQ1ptaVh5NjRuYVlTRkx1UUIyaDdkWHRSVWtoUWw?oc=5",
    "source": "Seeking Alpha",
    "published": "2026-11-19T15:40:54+00:00",
    "tone": 0,
@@ -25230,6 +25244,16 @@
    "political": false,
    "ticker": "EIDO",
    "name": "Indonesia"
+  },
+  {
+   "title": "What Moved Take-Two Stock?",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcWYwdWxDM2VmUXNNdkZqaWtucnU2ZkVTMEkxczlLOTZPYjNLcG1fRUNpVzEwQ1Z2NlVQZEtQZ216VndPSDNqeXpRU0NNSWczcEhCVGlWRTEtdXhrMHhMSktMSU1uOEF5SzZaTWZDQTJlaFUzNFBGd0pRS2czWnM0eXJxYUFDZXRHbks4S1Nadw?oc=5",
+   "source": "Trefis",
+   "published": "2026-11-19T12:20:16+00:00",
+   "tone": 0,
+   "political": false,
+   "ticker": "XLC",
+   "name": "Communication"
   },
   {
    "title": "XLY seen benefiting from stronger U.S. holiday consumer spending",
@@ -25310,6 +25334,16 @@
    "political": false,
    "ticker": "KSA",
    "name": "Saudi Arabia"
+  },
+  {
+   "title": "iShares MSCI South Korea ETF (EWY) Stock Price, News, Quote & History",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zTjA1MWZiNmk0d0NuUmZqd0NlNDJFMHdMd0F2ZDJJOHZvaGRidnFsLXpTd29wM0M3WjRqcHV5Ny13VUQyWFJqeXNTYllUb1ZC?oc=5",
+   "source": "Yahoo! Finance Canada",
+   "published": "2026-11-19T04:03:35+00:00",
+   "tone": 0,
+   "political": false,
+   "ticker": "EWZ",
+   "name": "Brazil"
   },
   {
    "title": "State Street Utilities Select Sector SPDR ETF (XLU) Stock Price, News, Quote & History",
@@ -25542,16 +25576,6 @@
    "name": "Health Care"
   },
   {
-   "title": "FLJP: Reasonable Low-Fee ETF Trading At A Discount To Developed Markets (NYSEARCA:FLJP)",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV1Rqd3AxaktlM0Nna0pYZTUtLVBRUTZLU2pvUkJXZlB6cGltNkgwcmgxamNUQ0RUMEFBaVhLRDAyaV9WVVdqdVpyYUJZUU01a2FzSXRwbHA2bkVHSThBZVVhRU1JdGo3SnRubm8tbERGcUFlN0E3b2tQYm1vNHVMY19mNVVaTXlPZzBlcGhaMzEwMWdZY19lZWFmeVNPZDd5Q1hrTDRMTEU3a1c0bUJmUQ?oc=5",
-   "source": "Seeking Alpha",
-   "published": "2026-11-18T06:39:53+00:00",
-   "tone": 0,
-   "political": false,
-   "ticker": "EWJ",
-   "name": "Japan"
-  },
-  {
    "title": "Asian markets trade mixed as Nvidia earnings lift Kospi and Nikkei; Hong Kong slips on US chip curbs",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeks0ZHB3M2hqRjVRWmJqeU9QRXpCTnN5b0F0VHhCTTNUcjhKNUVneGpWaGpOS1dJcDhNbEV0ZldfajRZVDJmcmRxYmVUUzZQcDNDN3Y3UDlRUlQ5c0lNWkFyS0J6c3lkLUl4dXZuTmZkLWMzaHhwRnpLM0dSRkk0NWhKWng4LVJkdVZtcmtpMXpGV2NVLUd6TmMxaHV5VFN5YmVqcVRETVZWQklkQkZVd2ozOXJyRkVSb2tyd3lFc2tvc2N5TmwzRDBKQm9FM2tMeFBF?oc=5",
    "source": "Seeking Alpha",
@@ -25582,24 +25606,14 @@
    "name": "Consumer Discr."
   },
   {
-   "title": "The Southern Company (SO) stock price, news, quote and history",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTNVNMNGhnQWVRdUdVdWpBYmhxZ2JBVGVDVFFBTUJCVk5FenNxMEpPRUxSNE55YWF2b3lOYldoQW43d3pUUnZTeDZmaklzOVE?oc=5",
-   "source": "Yahoo Finance UK",
-   "published": "2026-11-18T01:52:02+00:00",
+   "title": "The Southern Company (SO) Stock Price, News, Quote & History",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9md1RFbjUxQmJYRnY4YWozMjhiNkFXb1ljNmd4N0t5SHZfOTBqS2dFeWZ2dlUxclYzdFh1OUFkdDdQQmZ6SktBT3dJWkVyYmM?oc=5",
+   "source": "Yahoo! Finance Canada",
+   "published": "2026-11-17T22:54:22+00:00",
    "tone": 0,
    "political": false,
    "ticker": "XLU",
    "name": "Utilities"
-  },
-  {
-   "title": "SMH News | VANECK SEMICONDUCTOR ETF (NASDAQ:SMH)",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84a2Q0RHNkR1BiTXVqLWZtakFxY285NTA4emZzQkNhZjVnTjFjRFRmcE94bW45cVBPbEdZczIxT1lmcHoxblJLSWtCS0hwY0ZWdlJyNUNoYzFlQQ?oc=5",
-   "source": "ChartMill",
-   "published": "2026-11-18T01:05:23+00:00",
-   "tone": 0,
-   "political": false,
-   "ticker": "SMH",
-   "name": "Semiconductors / AI"
   },
   {
    "title": "Nvidia Is Only 17% of SMH. After Its Beat, the Chip ETF Jumped Almost as Much as Nvidia Did",
@@ -25652,16 +25666,6 @@
    "name": "Industrials"
   },
   {
-   "title": "What Lies Behind Japan's 0.1% Q3 Economic Contraction, and How Does It Affect iShares MSCI Japan ETF (NYSEARCA:EWJ)?",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYlVYY1ZJMy11UzBjZVo5NU1ad3NDdktTNmpndHR3d2h2SzJKaDBnQUxrdVZMQllsa242cC10azFFaG1BMHNtTnBWZWNFWm9jR1ptZEFTc212aEM3MzJFUDU5TENxcTN1X2F3WjhSTkdqQXYtWTJZUWxtWGJfLS1VbW9CUHBJM080UDNTLVZwbmdOdFdxdWY5N3FnX1k2NEhzMGpaUVFZbHdIRjJfZm9QemVrSm1KX0tycUFTb2VORjkzU3k4YmNLaVl3dEcxUFlscEdEV2RvWkczQnhET0pF?oc=5",
-   "source": "kalkine.ca",
-   "published": "2026-11-17T18:21:00+00:00",
-   "tone": 0,
-   "political": false,
-   "ticker": "EWJ",
-   "name": "Japan"
-  },
-  {
    "title": "What Is Behind the Real's 19-Month Low and the Pressure on the iShares MSCI Brazil ETF (NYSEARCA:EWZ)?",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdWxOVWZEVjBiNXJhME1fa1hKZjI3ZWp2VTJBRjVZUjd4MHMwU2V3RXU0LW93VFFqRjBXSnE5azdmNW80ellHVk1mN2tWVWdMX3B2eGhyeThoYk9CdFVreFhkeTVqYU9ycW9PSldNTUY2Y0Z3YzRFYTA2TEhxVi1WVFVxd2VYV2x3NlBxUmdXOFd5TndWenBlRlpPdlFiUzUzNXJuY0xIVWtVVWY3QjYwblF4eWlLTU5UdDFZNG5lVXM2eXo3b0pzMVMxbnA1TXZa?oc=5",
    "source": "kalkine.ca",
@@ -25670,26 +25674,6 @@
    "political": false,
    "ticker": "EWZ",
    "name": "Brazil"
-  },
-  {
-   "title": "What Explains the Empire State Factory Index Dropping 18 Points to 7.8, and Why Might It Matter for Industrial Select Sector SPDR Fund (NYSEARCA:XLI)?",
-   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNZVN6VGxJVmdfWTNLWUpJTlMxbWxmUlZFTU1xN0NCOTR4OFphZkdLOUl6TUpQTWl2TFR6cUo5eFE0elFUQUR1TjVUVmFVZktsbUtPa3d3WFZ5LXh0OS1zS052cXIwUUZuNzVKT1ZCYlZaOGJkM3o4bUFBOWZfOFhETTlvT3NYZk9XT0ZyazdteEI1YlVERHhTelZBc0JSbGRFbzVPaEE2X2VOR1FHU054aXlIWFRYa3UwdzFsXzlQMDBabjlobXZxc1ZSVVpmamdMR1NWa1o1VFdJNFkzbFdlVGtSazczQndUZGZWREZiN0NHNTlOMDV4VFBSOE93bW5YSDJrUXBpOVlKNDJGcldn?oc=5",
-   "source": "kalkine.ca",
-   "published": "2026-11-17T18:21:00+00:00",
-   "tone": 0,
-   "political": false,
-   "ticker": "XLI",
-   "name": "Industrials"
-  },
-  {
-   "title": "Celestica Inc. (CLS) Stock Price, News, Quote & History",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBkbUkzUkpIeC0xRU5Hbk1INWxQaXZ5WkhJLU1rdmJtTDltVVFkQWxOYndQcXBUSkdHVUlKRFRZai12cVI3SHBhVHV5RUQ1MGlX?oc=5",
-   "source": "Yahoo! Finance Canada",
-   "published": "2026-11-17T18:00:32+00:00",
-   "tone": 0,
-   "political": false,
-   "ticker": "EFA",
-   "name": "Developed ex-US"
   }
  ],
  "events": [
@@ -26244,7 +26228,7 @@
        ],
        [
         18,
-        86.57
+        86.51
        ]
       ],
       "run_up": 0.12,
@@ -29148,7 +29132,7 @@
        ],
        [
         18,
-        87.21
+        87.06
        ]
       ],
       "run_up": -1.73,
@@ -32052,7 +32036,7 @@
        ],
        [
         18,
-        82.96
+        82.77
        ]
       ],
       "run_up": -9.83,
@@ -33367,7 +33351,7 @@
         ],
         [
          -72,
-         102.32
+         102.31
         ],
         [
          -71,
@@ -33379,7 +33363,7 @@
         ],
         [
          -69,
-         102.32
+         102.31
         ],
         [
          -68,
@@ -34033,7 +34017,7 @@
         ],
         [
          -59,
-         108.55
+         108.54
         ],
         [
          -58,
@@ -34369,7 +34353,7 @@
         ],
         [
          25,
-         120.19
+         120.2
         ],
         [
          26,
@@ -34671,9 +34655,9 @@
    "news": [
     {
      "title": "Brazil elections: Germany's Merz and other world leaders have congratulated Lula on his victory",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNWF2UHJObFVBZE9LdUl1OTdNMXBDaVNSTnlhUUlDTWNlQ1NYcnZ4SGJsVEh3LXBveDRXMWVIQVVIMVJJX1hSN1JHSW0xU1pzSU9jUG1TMGNCUVFSRGJ1R2FTVVFWbWhBZlpaczlmODVucGV1ZTdTOEJjNzBSaDB3Sl9JXzNaZHNhNlNTNnZ3WU9QN2VVcmxsSjhnc2U3bll3Y3ZmNGFKZ3ZrOHpJc3JV?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUFkxcFJSZUMxeXlOSmJmWDJmVm1FaVpZRXNOSmRRS2xrcFFMeFNaeXEyWlh0U3BOLS04WUxuTjhWVjMyRVFqeEs4UV9lM21iUjJiZTVyRXhmejlVNFVyTl90UEVtTFR6U2ZOamFUejZ1ek0zZ2ZDdnFGY0FJVVNJdzZjbUNweTZBbGlWNDFaQ0ZUbkluaEU4d1FITEliWm5femc?oc=5",
      "source": "DW.com",
-     "published": "2026-11-16T08:00:00+00:00",
+     "published": "2026-11-19T01:51:09+00:00",
      "tone": 0,
      "political": true
     },
@@ -35161,7 +35145,7 @@
        ],
        [
         17,
-        84.75
+        84.41
        ]
       ],
       "run_up": 1.11,
@@ -37655,12 +37639,12 @@
      "political": false
     },
     {
-     "title": "Knesset panel appoints 9 temporary deputy speakers, including Arab MKs, over right-wing opposition",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUjNRazh4NFVidFlTZm0yZ0RQdVJXVTFRYm5YdUIzM1pVRjM4aVBQazNwVkgwaXByN3dreVdhRlYxMTRNMUtHSEYxRXVwckozbmlzNjA5d05Ma0ZPSE4yM1RGb1VjSXdnY2hMRTNsN0xYNVhxZEhZYmtIc2JfYzhaeEVEcm5mWFpPU1ZGRmxUXzBGNFExZmJIZFJOV2NsZFdBeE9iTFptaUFFNk4yb0FzYXUtOXFPOGdkZU5hYUhTaDhIclVsQndpUDZId0h4bWNxdE5vWUhTalBVZw?oc=5",
+     "title": "Police launch internal probe of Election Day arrests after reports they were sparked by PM\u2019s office",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWkZ0RDY0REhQUFNuYTJ3c0l1cFlDcDdZeFdJNE1JNWE2UGpkdldOTjN5bGo4akJNSno0ejkyOHF4VXMyM0ZfTV9OVlV5b0F4cjNuUTFHZXlsYkRJSjBjR19EVEJnYzhwdkp2RVJ0dnJreXBpb2VVWnZfdTBseHlSQzRtbDN5WVk3eUVVbmVacEVSd0RkM1d3c0h6VW05MEtydmFLckpCTk1oOF9OZzFUMnFQWVVXR2sxLUREVTNUcTRTNFlud3NqetIBzgFBVV95cUxNUFNNNHFrcEhKS1hyNnhPVG9FR0QxRXJydWVJeW81bFozcjAwWFhpdmo3OFdaM0piajlhSUU5WTR6Z0dveldySHNxbnljOFpDYkhKZTZtTWllTVZ2MHloSjJMRE9oUFJKM3pQdk9mek5Qb3NKdlJwMk5pQ0dWZjVkMDRzVUZhNERGVUdHSFBkWW54R0VDWFlQaEgtQ2lNNjN5MHUyMW90NzJPLXJ6dDJ3anR3Q28yVXM3QjVnUUVCUzNJbVVuZ0lGN0tlcHd0Zw?oc=5",
      "source": "The Times of Israel",
-     "published": "2026-11-16T11:20:06+00:00",
-     "tone": 0,
-     "political": false
+     "published": "2026-11-16T13:06:00+00:00",
+     "tone": -1,
+     "political": true
     },
     {
      "title": "Thirty years after Rabin's assassination, Israel is again flirting with political violence",
@@ -37695,20 +37679,20 @@
      "political": false
     },
     {
-     "title": "Police launch internal probe of Election Day arrests after reports they were sparked by PM\u2019s office",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWkZ0RDY0REhQUFNuYTJ3c0l1cFlDcDdZeFdJNE1JNWE2UGpkdldOTjN5bGo4akJNSno0ejkyOHF4VXMyM0ZfTV9OVlV5b0F4cjNuUTFHZXlsYkRJSjBjR19EVEJnYzhwdkp2RVJ0dnJreXBpb2VVWnZfdTBseHlSQzRtbDN5WVk3eUVVbmVacEVSd0RkM1d3c0h6VW05MEtydmFLckpCTk1oOF9OZzFUMnFQWVVXR2sxLUREVTNUcTRTNFlud3NqetIBzgFBVV95cUxNUFNNNHFrcEhKS1hyNnhPVG9FR0QxRXJydWVJeW81bFozcjAwWFhpdmo3OFdaM0piajlhSUU5WTR6Z0dveldySHNxbnljOFpDYkhKZTZtTWllTVZ2MHloSjJMRE9oUFJKM3pQdk9mek5Qb3NKdlJwMk5pQ0dWZjVkMDRzVUZhNERGVUdHSFBkWW54R0VDWFlQaEgtQ2lNNjN5MHUyMW90NzJPLXJ6dDJ3anR3Q28yVXM3QjVnUUVCUzNJbVVuZ0lGN0tlcHd0Zw?oc=5",
+     "title": "Knesset panel appoints 9 temporary deputy speakers, including Arab MKs, over right-wing opposition",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUjNRazh4NFVidFlTZm0yZ0RQdVJXVTFRYm5YdUIzM1pVRjM4aVBQazNwVkgwaXByN3dreVdhRlYxMTRNMUtHSEYxRXVwckozbmlzNjA5d05Ma0ZPSE4yM1RGb1VjSXdnY2hMRTNsN0xYNVhxZEhZYmtIc2JfYzhaeEVEcm5mWFpPU1ZGRmxUXzBGNFExZmJIZFJOV2NsZFdBeE9iTFptaUFFNk4yb0FzYXUtOXFPOGdkZU5hYUhTaDhIclVsQndpUDZId0h4bWNxdE5vWUhTalBVZw?oc=5",
      "source": "The Times of Israel",
-     "published": "2026-11-16T13:06:00+00:00",
-     "tone": -1,
-     "political": true
+     "published": "2026-11-16T11:20:06+00:00",
+     "tone": 0,
+     "political": false
     },
     {
-     "title": "Israel's Watergate? How Stolen Election Claims Lead Back to Netanyahu's Office",
-     "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQV2Z0VkpVeGN4Nll1Nml0NVU2eHYzWGgwUk1JS05FSy00WE9hblJqck5kVmJXT1dFTkVQbk9MOEZRdjctMFgxajJ6NTNCZVY3c3FScVliMVlSRE5vd2d1OVNuUFluV253RW01SGtqd09oNDRxOVJjcXRERkdINlhxZ3BldUxMc1hpSkZTNHlqZGowSXZ6N0U2NW94TlRlaVV5SGJRNThIcXlqUXJuVG5jMkFIZldGZWlpSFZxV0xJbjdPTndvY2pGQk1GbDJGNDh1eHQ2ZmlxTFFqUnZwMWRLMkxUcnoyVUFKd0NKbEFKTmVnenhRWVQ4TG1wZTM3TG9MLXFTR3RsYjY1YTVWZkxlVXBIOEg3Nmo4SzZ3?oc=5",
-     "source": "Haaretz",
-     "published": "2026-11-17T20:26:00+00:00",
+     "title": "Bennett vows to shift 30 billion shekels from draft dodgers; Winter proposes 25% Haredi exemption",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ILVk3cW4yNmR3SFFIZzZCdUM5RU1pRFZOdE5lS1IycDUxbE1hSzQ2dEF4S2hfaEMyYmFaa2FhemFyM29pWDNZTDNPQkVtWUpJYXJPYzh3?oc=5",
+     "source": "Ynetnews",
+     "published": "2026-11-10T08:13:00+00:00",
      "tone": 0,
-     "political": true
+     "political": false
     }
    ]
   },
@@ -38155,7 +38139,7 @@
        ],
        [
         12,
-        111.28
+        111.1
        ]
       ],
       "run_up": 15.21,
@@ -38390,7 +38374,7 @@
         ],
         [
          -35,
-         96.61
+         96.6
         ],
         [
          -34,
@@ -39304,7 +39288,7 @@
         ],
         [
          40,
-         104.26
+         104.27
         ],
         [
          41,
@@ -40256,7 +40240,7 @@
         ],
         [
          -29,
-         105.36
+         105.37
         ],
         [
          -28,
@@ -40356,7 +40340,7 @@
         ],
         [
          -4,
-         107.83
+         107.82
         ],
         [
          -3,
@@ -40504,7 +40488,7 @@
         ],
         [
          33,
-         110.26
+         110.27
         ],
         [
          34,
@@ -41035,7 +41019,7 @@
        ],
        [
         12,
-        113.9
+        113.77
        ]
       ],
       "run_up": 24.58,
@@ -41638,7 +41622,7 @@
         ],
         [
          57,
-         124.05
+         124.06
         ],
         [
          58,
@@ -42598,7 +42582,7 @@
         ],
         [
          -10,
-         86.39
+         86.38
         ],
         [
          -9,
@@ -43915,7 +43899,7 @@
        ],
        [
         12,
-        104.19
+        104.12
        ]
       ],
       "run_up": 7.14,
@@ -44398,7 +44382,7 @@
         ],
         [
          27,
-         106.27
+         106.26
         ],
         [
          28,
@@ -45734,7 +45718,7 @@
         ],
         [
          54,
-         105.4
+         105.41
         ],
         [
          55,
@@ -46795,7 +46779,7 @@
        ],
        [
         12,
-        89.52
+        89.29
        ]
       ],
       "run_up": -5.2,
@@ -49675,7 +49659,7 @@
        ],
        [
         12,
-        89.13
+        88.83
        ]
       ],
       "run_up": -2.43,
@@ -52145,18 +52129,18 @@
    },
    "news": [
     {
-     "title": "Democrats Sweep Congress: What History Says Comes Next for Stocks",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORHF2ZUR3UzdTODNEbTVrNEJoODhqa3gzRzFXdFpib3JGeUMwUUI1cnZhT3pGbnRsTFJpZHBqWVZjQ0lUOXF1QjlQc0tZbElvOFF2Ukp6dThGLWdtYVJFeVR0WGxVTWJyU3habzh4azdfSjFCd1J1cWs5NTBvMmluUk1zX250X1JIa21TV3BYRlVsd2RBeXBxNkJMQ1llVXlLSms5dw?oc=5",
-     "source": "Yahoo Finance",
-     "published": "2026-11-13T15:21:02+00:00",
-     "tone": 0,
-     "political": true
-    },
-    {
      "title": "Why the Market Implications of the Midterm Elections Aren\u2019t As Clear As They Seem",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaGlmSWJZd2dDcnpRdldPRnRWNXJLNTJEV3lnV0M4ekwwQkw3aXBJYnFFZXJKTWtTY2F4eC1IOU1sYlV0R2FodTVEcm9aWWxoMDFmNHNFRzJoTnZkcFNGeV9aWWI3c3RmWkRqQWh0WVJzdUo3SGNUYU1iQk8wMVVTcjc0QVZhZTBTSW1BUDJUclQwV0FDZE9XZmYwc2JITmM?oc=5",
      "source": "Morningstar",
      "published": "2026-11-10T08:00:00+00:00",
+     "tone": 0,
+     "political": true
+    },
+    {
+     "title": "Democrats Sweep Congress: What History Says Comes Next for Stocks",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORHF2ZUR3UzdTODNEbTVrNEJoODhqa3gzRzFXdFpib3JGeUMwUUI1cnZhT3pGbnRsTFJpZHBqWVZjQ0lUOXF1QjlQc0tZbElvOFF2Ukp6dThGLWdtYVJFeVR0WGxVTWJyU3habzh4azdfSjFCd1J1cWs5NTBvMmluUk1zX250X1JIa21TV3BYRlVsd2RBeXBxNkJMQ1llVXlLSms5dw?oc=5",
+     "source": "Yahoo Finance",
+     "published": "2026-11-13T15:21:02+00:00",
      "tone": 0,
      "political": true
     },
@@ -52172,7 +52156,7 @@
      "title": "Dow closes up 1,500 points as Democrats take control of Congress",
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPanFEUE5kaEgtUXVlb3Voc1JfbHIzVDRkR3RNXzVZc1RiLUhTelpvWFFLRzVCekJIc1k4bDhMQVlOTDJFRUJJY0NOMm91M2JEbzdRTVNDd0FWM0VzX3g4SUZ5Q19hZGhtQjFCMmY0djVjbTNPcG5QVVA5bENpVlZCRjhKSmpmS3hJR3pJcy1fOXZIVlg3ZV9PcVg5MTFrQdIBowFBVV95cUxQSEdzMU01ODFna1Qya1RpcG1qNUlXd2Q3MHFIVXEwdlFUMmhEUDZKWGVsUldLTnZULVJPVWJJZGR6S1NtTkdIbmtucWczcVdtNzRPR0RGd2hidDR5bVBHeHE5X3VIb1FfdlhqNWJzZXZUQVBPVlBUdzFFeGlDYi13UmxfRDJnXzNkcGlFa3ZnM0tyaGx4M205WXRIc1BsTFdsSkJz?oc=5",
      "source": "ABC News - Breaking News, Latest News and Videos",
-     "published": "2026-11-19T11:51:36+00:00",
+     "published": "2026-11-17T19:51:16+00:00",
      "tone": 0,
      "political": true
     },
@@ -52661,7 +52645,7 @@
        ],
        [
         11,
-        91.48
+        91.39
        ]
       ],
       "run_up": 3.37,
@@ -54565,14 +54549,6 @@
      "political": false
     },
     {
-     "title": "ANC-DA coalition talks could threaten stability of South Africa's GNU, analyst warns",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcnJnREJRMGVMVHRHano0RjE5V0JmbEh5RVZsaUM2WEZVVmI2VXhhbUI0VTNTNF9PR3JEOWN0NFRYY0lDVmlfYzlnVUdrWXcxUURpbm1uSWE2V3pKTnRxdG96cVl2NUo3Y0o4TXFYZXZMUG1XU0tjNDcwUVVIcWtUTE1Pbkl4SzdxbjFvM2dQNTFDLS1pYnJNeThuOUx4MzJjbVhzZEF1cElYY0VtUlY0N0EtbGlldw?oc=5",
-     "source": "EWN",
-     "published": "2026-11-17T06:22:16+00:00",
-     "tone": 0,
-     "political": false
-    },
-    {
      "title": "Rand nears R17/$ on mounting US rate hike fears, \u2018loud political noise\u2019 in SA",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdmpZYnpmQVJOQ2V4VFpzMGdLM090WE9uRklwZG1HRm9HTXh1NGtGZXB5c3JTQ0JXelpwRHBhV3p5VjVaY1VqZ1c3QUxaZU9rWXdaWkV2N0lWOWl6Qmw1bFN5Z2RPNjNSZnQxR29pWk5DcFVCcXN3cERmUnR0NjZYYmFQa0R1WjJBWFVUT1pYZ1ZOM0ZHVV9na01heVQ1eTVidFlkc296aml0YkZrSUF5Z0dHTlJ3eWxzeG5nZzE0LVJMUUI3?oc=5",
      "source": "News24",
@@ -54593,6 +54569,14 @@
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QN3BBTU9JVVFUZVpvYkV5N0lubHR5ODd2cGhqZnNpTnF3QVdXdGRvamVjdXlfZ3ZtcDduR21wak5GcHBuYkxabGtkaWtoRWR6SUFKWk5n?oc=5",
      "source": "IOL",
      "published": "2026-11-17T23:05:01+00:00",
+     "tone": 0,
+     "political": false
+    },
+    {
+     "title": "Plan to kick the DA out of Joburg, Tshwane and Ekurhuleni as coalition lines are drawn",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbS0tQ0ZnbWxCWWZ5N3owSG1CSTFOZUFJa0c0R2dyeG1tUTVxU1Q0UU1JUmk1dVhyNmlCVUxLS3p6dE4xNjlXRVo5NTlkMF9SUVRrNWVsQmYyR3JDaWVrRUFjUktKN1p0RjJ0b1JhMnpJVlg0UWJPZ1c3S2dxQ210R1EwbUdUYWl4VW1LdERGZXRROHdKTWtEWVRYSHJkdkhxWngzLWxPdTJjVGk3NjFRV1ZKSGg?oc=5",
+     "source": "BusinessTech",
+     "published": "2026-11-10T08:00:00+00:00",
      "tone": 0,
      "political": false
     }
@@ -54960,10 +54944,10 @@
        ],
        [
         -7,
-        85.98
+        85.66
        ]
       ],
-      "run_up": -14.02,
+      "run_up": -14.34,
       "reaction": null,
       "week_after": null,
       "after": null
@@ -57150,10 +57134,10 @@
        ],
        [
         -7,
-        80.22
+        79.74
        ]
       ],
-      "run_up": -19.78,
+      "run_up": -20.26,
       "reaction": null,
       "week_after": null,
       "after": null
@@ -59675,7 +59659,7 @@
         ],
         [
          -89,
-         99.3
+         99.31
         ],
         [
          -88,
@@ -62339,7 +62323,7 @@
         ],
         [
          -39,
-         110.65
+         110.64
         ],
         [
          -38,
@@ -62764,14 +62748,6 @@
      "political": false
     },
     {
-     "title": "France's Le Pen promises earlier retirement for many if she wins election",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWkN0NnE0cXZsUXJXaXppSVduRjY3c3A2YTNBazJqN1FvVS0wODZNRUJ1bklZTFlhV3ItZHlnMlRKVjNhRnBBX001VWQ5MDVRdkdWQ3BGWUYxY1pfSFVsNDBpNE11bHlCYzl6RDcwSXE0UVZld2ROU0hVZ3FxcUJxd3VtZw?oc=5",
-     "source": "Yahoo",
-     "published": "2026-11-17T15:36:10+00:00",
-     "tone": 0,
-     "political": true
-    },
-    {
      "title": "France Elections",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT0dxbjdOQm9uaWVpWlAzT01GS2h2NVk4RjZRM0NOc0FVc0hwdEV3RmZKdi1VTGx0UnpLcGNkVExaTHNsQkV0VHFGWU8xeFJidkRoVk1tVThPN1RibFRwdGNTMkQzUXFJR3IxcVhjcVBOYXl1ZmFhVEI2VElzU2w0STZHLUwwU0VmanQ5VFFiUEhkMGlFQlA3aEQ3OEVkakhacUh0MmkyTDFRdEdzcERzd25R?oc=5",
      "source": "Bluefield Daily Telegraph",
@@ -62938,10 +62914,10 @@
     "news_query": "Strait of Hormuz oil tankers ceasefire",
     "news": [
      {
-      "title": "Trump Says Iran Should not Charge Fees to Tankers Going Through Strait of Hormuz",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdE9PVTJoYUdEODU4a1F3OWFFRVFsNXZlRGIwZEZ6UmppMHQ0djBQUkM3QXdWV0M2VWUtLWtQcnZUdlNVaGpZVTBHeGhPbmdSYy1WTUctZ1hTNTFuOEVULVdpbktYbS1xRTRsQjdEMDBDWUp6dEhmTTJvMXVsS0otN3d6ZFFVMndUcVhfZWprTk5YZzY0LUlBZDFfVmNyQWd6a0lGYWZtSDBhWnctMEZFcQ?oc=5",
+      "title": "Oil Tankers Steer Clear of Hormuz Ahead of US Blockade",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNU9IeGx0OVc2ODAzSWhONFFRTE5BYUZyX0NFZERkWUcyem1pTTNnVTNIeTVVTENCYlcxT0lQaTZMR3RRb1M5SnlFZ2R3ZlB6dDlWUHBoeF92bWpQNlpSSkloVlRjY24tYzJnYmxjS0tGNGNZS2lqT1c4QzdZUl81TGZuc1N2aXkyWEdKZjRn?oc=5",
       "source": "EnergyNow.com",
-      "published": "2026-11-15T13:11:21+00:00",
+      "published": "2026-11-19T19:38:26+00:00",
       "tone": 0,
       "political": false
      },
@@ -62978,12 +62954,12 @@
       "political": false
      },
      {
-      "title": "Iran War: Latest News, Live Coverage and Video",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?oc=5",
-      "source": "NBC News",
-      "published": "2026-11-17T18:36:46+00:00",
-      "tone": -1,
-      "political": true
+      "title": "U.S. launches strikes on Iran's Qeshm Island in Strait of Hormuz",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbEJURjBQYXVkNTJSWEMyUlRrbFJ3NjJETGptNjYxX1JSS3lob1NOekp3WkZYcDdWVUtEaFRHYlpzUGg5d1FlNDE0QWdhMmtoUzBJb2piaWZFZWF3OFBaNjY1dTJMMldkdTVtNE1lWFJadlhpRFdFeWZYam5zN3RwWmFiSUw?oc=5",
+      "source": "CBS News",
+      "published": "2026-11-17T23:59:00+00:00",
+      "tone": 0,
+      "political": false
      }
     ],
     "catalysts": []
@@ -63050,14 +63026,6 @@
       "political": false
      },
      {
-      "title": "Stable Growth in 2027 Economic Outlook",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQR18tLWpEQUhEVXNjR2VRZ2xrc180R0hvclR2QjBqRXRmenBhb0QzVG9SQzgwNlY5Y3ltbkEyc2Q1X3REZGFudWZMSHBmcDBYTDZzS04xWl9aV0lsUkNPa3lld3UydVJqWDN1RnN5ZEEtbllXdWluYmlXa1pqVFh2emZ3?oc=5",
-      "source": "Morgan Stanley",
-      "published": "2026-11-18T18:35:14+00:00",
-      "tone": 1,
-      "political": false
-     },
-     {
       "title": "Weekly market commentary",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
       "source": "BlackRock",
@@ -63074,11 +63042,19 @@
       "political": false
      },
      {
-      "title": "What\u2019s happening this week in economics?",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-      "source": "Deloitte",
-      "published": "2026-11-10T08:00:00+00:00",
-      "tone": 0,
+      "title": "Bessent, Fed's Goolsbee divided on role of energy shock in inflation",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWGl4M3I4cEx4Q1pteUwtd3I3OFBYWWFUU096V1Y3X2oxdl9KOFprODJXTEoxallGdk8tXzNuMzlWSXdjTTBFNjUxUHFwWmdVZTFHeTh0TEVYcWtNSXI2aUJkRFdKVFgtNmpWS01zTlhMS21ndThYQjY2bDhXSFpnV2c0Sl8wSzdBWnJzNmZVR05iUGdxU3BCUnBIYlcteEQtRkNMbDBQRF82QXVESmZSRGNvZG9yaGtfbm5QNHBTUE1jNjA?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-13T15:40:04+00:00",
+      "tone": -1,
+      "political": false
+     },
+     {
+      "title": "EM Stocks Eye First Weekly Gain Since September as Tech Rebounds",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ3JJeC1SRFpYQi1TT05xcUFFV21BU0paaGU4Sk9jZlg2VFc3VUhWRkY3aTVrVUkzQXhabXhFNS1aajhTb1JoMS0yOHNHYlBDUWl5QVRYT3RCcDkyS2dqZmQ0cnFQZU1ocXdpRXdtSE9UQW1qMHVCMVdia0xvMWZDYXhFRDBRckR0eHBBS21nRWhtbE4xZ0EyOURrRWRyQVMzMWlzN3N1VG9vMnpPVzBNOGdqSGZnQQ?oc=5",
+      "source": "Bloomberg.com",
+      "published": "2026-11-13T21:42:28+00:00",
+      "tone": 1,
       "political": false
      }
     ]
@@ -63135,6 +63111,14 @@
       "political": false
      },
      {
+      "title": "TSMC October Sales Surge Nearly 60% as AI Chip Demand Fuels Growth - Taiwan Semiconductor (NYSE:TSM)",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcE51bFY0WVl4R3Myb29NMDJIeUdlbDJUSUZhTU82YUVPNmtlbXpwaGRqNWZKXzZhZTFwVFRVMEQzcUQwSTlwUDRRSzhLNi1BNHhsUEhuOXFiRlBTd3dObHJ2QWdYTzczVmNYSnBuX245SDF3VjN6NEUwSVZnN2tvUGlvYXdwcjhEdUlXV3Zja2FLZUl3Z3h4QkZYQQ?oc=5",
+      "source": "Benzinga",
+      "published": "2026-11-10T08:00:00+00:00",
+      "tone": 2,
+      "political": false
+     },
+     {
       "title": "TSMC October revenue jumps nearly 60% on strong AI chip demand (TSM:NYSE)",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdkhXYTM1OS15NE5LVUNObGF4Z0xsbmlEVmljenFfbXVlYkZibFRndmEwcF80OGN6d2pIeUhvS2RBdWE5aTEySy1hTERHUzlnMllzWTZqZXJDMndVbWRFaUo4WlpnUmVCNHNHLTJMU2NJOVRoc3ZVYlFvcWE3X1dkbF9BOGRTQThTQ1g3aEwwZWxOT3R2azJPNHE4U0VieU9t?oc=5",
       "source": "Seeking Alpha",
@@ -63143,19 +63127,11 @@
       "political": false
      },
      {
-      "title": "TSMC October Sales Surge Nearly 60% as AI Chip Demand Fuels Growth - Taiwan Semiconductor (NYSE:TSM)",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcE51bFY0WVl4R3Myb29NMDJIeUdlbDJUSUZhTU82YUVPNmtlbXpwaGRqNWZKXzZhZTFwVFRVMEQzcUQwSTlwUDRRSzhLNi1BNHhsUEhuOXFiRlBTd3dObHJ2QWdYTzczVmNYSnBuX245SDF3VjN6NEUwSVZnN2tvUGlvYXdwcjhEdUlXV3Zja2FLZUl3Z3h4QkZYQQ?oc=5",
-      "source": "Benzinga",
-      "published": "2026-11-10T11:35:53+00:00",
-      "tone": 2,
-      "political": false
-     },
-     {
-      "title": "Taiwan Semiconductor Slipped 14% This Month Amidst Tech Contraction: 175% Gains to Materialize According to One Wall Street Desk",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxONkVnS1NSNi1QX2VIRXlLbW1NY0h4Z1JUVkV1eDFwdzVUTnlWaWgxeXVFa1U5UVduV2tuLW5QV0NvMXB2bHF1MXltemNzUlFwQ1I1WlZKbHZGYUxaUmpqYzEteVRxRzM3U0cwN25pZDlMUEFSM0I4dExXZnh2ekJLU245bXRMWkV4VzAxYzNRckVsRFF1NEp4Q3JWN0RGdjhuTVkyQTBabDBsa1d0ZGpHZnpSeUdyRFFFcmkwLWdXeHRfV2plbV81T25jcG5uVTI2ZHZMYXVkVFBxWjc0ZHdJNUxXZ0lLaUQ0eUJsQk9FUnlEQnpPbGwtX1BFNGVaQQ?oc=5",
+      "title": "Taiwan Semiconductor Falls 4% as U.S. Tightens AI Chip Curbs on China; Intel Drops 3%, AMD Slides 2%",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbTYxU1FmUU5YaC1IY0pVU2FNWHVqZkpud3MybzRhZW9MR3RYNDdwUGFzSkJWTEJELWVWcFNIWU1GcU94QnRJRDl0OUYtTXVyeFlacWxLQnVWRTh0ZmVKaEwyNHd1MUtNdWZ6X1diRW5IZVJOeHVWQS1pRndMQTdUbGw0ODNZTmdYUjRCRUx0VHFtZDdvT3k0clRGdTRDYS1tek1hcEFGLVVjaUZ2bzdRdDJfOXh3RGdVMTg5S0ZFS0txdm8xWmJJaWQ3RFItZ2hNRkw2ZA?oc=5",
       "source": "24/7 Wall St.",
-      "published": "2026-11-19T17:45:00+00:00",
-      "tone": 1,
+      "published": "2026-11-17T17:02:00+00:00",
+      "tone": -2,
       "political": false
      },
      {
@@ -63210,26 +63186,26 @@
     "news_query": "emerging markets Turkey Indonesia South Africa stocks",
     "news": [
      {
-      "title": "AI Rout Has Investors Scouring Emerging Markets for Bargains",
+      "title": "Weekly market commentary",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkJPa3I0ekJyVEI0RFJhY210TmplVHJZQ0xJNy1qenNkc0lMMHk0TmZwdDV1TEVZNmJoV3dfVlNTT3UyZHE5Q01SdmQ4eDd4WjAzZVhFMFB3VUd5QjlYXzZ5MWFRYzdIQVRVM1JMZXNyQ05aTExrejM4cHdBSktKSlJOOWxkY0V4YkNRRDZZTzlDZUYzZHlUWXdhTFUxNXJSNXc?oc=5",
+      "source": "BlackRock",
+      "published": "2026-11-15T08:00:00+00:00",
+      "tone": 0,
+      "political": false
+     },
+     {
+      "title": "AI Slump Sends Investors Scouring Emerging Markets for Bargains",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMzRKV1B2N2hHSkduM2htVmNQdUFqRVBNMWpHdThEdVU4YVk1UU5yNHdCN3VxbkhGLUJ2bC1vOFAxMWZKMzYyY0dxZVdQMzZ6ZHFWN0ZRbm5tbnhzakNNUnNnSV9Rb2NqZ3N5NGo0aHZ1eERxMzd2eXR2aFNPOGJydkQwTFBvZEdMMzNGOWNqbFJYMmlpbDJTSDRDWEZFUXlaVjRqZkF5eGVoMVFDSnlMMkxReTY?oc=5",
       "source": "Bloomberg.com",
       "published": "2026-11-10T08:00:00+00:00",
-      "tone": 0,
+      "tone": -1,
       "political": false
      },
      {
       "title": "Lazard Emerging Markets Core Equity Portfolio Q3 2026 Commentary",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeUJsWHVPYU1lQUdzMkJfSFI3SGx4OGdELVh5WlhTaTJacnlzR3ZsbkZqaG5DNWJaS2pKbFR3Y0pPTjRKYmFCTGdFTjJJQVRMb3ZQQVBkQmlCd0QtcExRS3pwTTE1blBsVFl2TTR6Mzd1dHh0UkdXUm0tVEhtaktoM2RXSERjaXo5a21LN01KV3ZJYWJlMXB0Z09CNEdKOUVCd2plNVBmc2pHSVVwTGJWbjVyTFBKbkFHajJ1RFdPcHFWLTYwYnl4WHNR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOTE2dFppcEpGc2FUR2xGcnZLdVNMam5xY2o0QVdzN3c0Q3FOcnROYzVKbEtDMjl6Yk94amtsYXhweEktMWxoNHFKODdRZU5henEyUXVDbGd6R0lBcjBSeDlneVU5SXFFUFNkSENzUUg1dUFMWDFtUndCbWlqX3JTMVg4MDRBSzRfSy1HLXJ4MmhTQ1lhcEs2RHpYaGpOaEdLYm9uaHZoaHQ?oc=5",
       "source": "Seeking Alpha",
       "published": "2026-11-15T18:18:00+00:00",
-      "tone": 0,
-      "political": false
-     },
-     {
-      "title": "Indonesia hikes to 6% to prop up rupiah, with two more rises to come - Capital Economics",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU0NLVnlGNG1uUF9lVFU2UURnNWwtZmJMR0lwTlVNVzV3dGgyTmdHVlZmZHBGR3JuQTdHbnRfM1BqeDF6U0VNRDRKNjdMa2RSNjBQZmUzZG5RRmNycnFWaEQ0MEpyUGtuMk50UHJ4SGNCbHhNSHZVelJ2a2xtMmdNZWI3aDIyTm1GSnRTUnZtaEVUUWZXaUFKUVBjUnRSdnBPRU5JQ1o1b2psRFk1STJYbzF4TndjNjVEVVd2Rg?oc=5",
-      "source": "IntelliNews",
-      "published": "2026-11-18T13:52:57+00:00",
       "tone": 0,
       "political": false
      },
@@ -63298,10 +63274,10 @@
       "political": false
      },
      {
-      "title": "Weekly market commentary",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-      "source": "BlackRock",
-      "published": "2026-11-16T08:00:00+00:00",
+      "title": "Market Movers blog: US markets open higher after bumper Nvidia results despite volatility",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "source": "Investment Week",
+      "published": "2026-11-18T08:00:00+00:00",
       "tone": 0,
       "political": false
      },
